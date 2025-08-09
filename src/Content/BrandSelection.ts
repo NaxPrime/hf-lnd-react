@@ -8,7 +8,7 @@ export const brandSelectionContent = {
   overviewText:
     "Selecting the right brand is a pivotal decision that shapes positioning, performance, and long-term asset value. HotelFirst supports owners and developers in identifying, evaluating, and securing brand affiliations that align with strategic and commercial objectives.",
   bannerImage: "/Images/Services/Brand Selection/10.jpg",
-  resortImage: "/images/Services/Brand Selection/11.jpg",
+  resortImage: "/Images/Services/Brand Selection/11.jpg",
 
   whatWeDo: [
     {
