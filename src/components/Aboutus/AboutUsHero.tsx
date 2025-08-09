@@ -7,7 +7,7 @@ export default function AboutUsHero() {
     <section className="flex flex-col md:flex-row items-center mt-[5rem] justify-center gap-10 px-6 md:px-16 py-12">
       <div className="w-full md:w-1/2">
         <Image
-          src="/Images/Aboutus.png"
+          src="/Images/aboutus.png"
           alt="Hotel Lobby"
           width={1200}
           height={800}
