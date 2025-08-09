@@ -9,8 +9,8 @@ export default function AboutUsHero() {
         <Image
           src="/Images/aboutus.png"
           alt="Hotel Lobby"
-          width={1200}
-          height={800}
+          width={600}
+          height={400}
           className="rounded-2xl w-full object-cover"
           priority
         />
