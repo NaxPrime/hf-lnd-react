@@ -41,7 +41,7 @@ export default function CallToAction() {
       <div className="relative h-[25rem] bg-black/60 text-white flex items-center justify-center bg-cover bg-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/cta.png"
+            src="/Images/cta.png"
             alt="Hero background"
             fill
             className=""
