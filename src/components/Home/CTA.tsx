@@ -50,7 +50,7 @@ export default function CallToAction() {
     <div className="relative h-[25rem] bg-black/60 text-white flex items-center justify-center bg-cover bg-center">
       {/* Use an absolutely positioned Image component as the background */}
       <div className="absolute inset-0 z-0">
-        <Image src="/images/cta.png" alt="Hero background" fill className="" />
+        <Image src="/Images/cta.png" alt="Hero background" fill className="" />
         <div className="absolute inset-0 hidden" />
       </div>
       <div className="text-center px-4 z-10">
