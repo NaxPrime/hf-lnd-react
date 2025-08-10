@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AboutUsHero() {
   return (
     <section className="flex flex-col md:flex-row items-center mt-[5rem] justify-center gap-10 px-6 md:px-16 py-12">
-      <div className="w-full md:w-1/2">
+      <div className="w-[15rem] md:w-[25rem]">
         <Image
           src="/Images/aboutus.png"
           alt="Hotel Lobby"
