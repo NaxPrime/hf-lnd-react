@@ -77,10 +77,11 @@ export default function CallToAction() {
   }
 
   return (
-    <div
-      className="relative h-[25rem] bg-black/60 text-white flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/cta.png')" }}
-    >
+    <div className="relative h-[25rem] bg-black/60 text-white flex items-center justify-center bg-cover bg-center">
+ <div className="absolute inset-0 z-0">
+         <Image src="/Images/cta.png" alt="Hero background" fill className="" />
+          <div className="absolute inset-0 hidden" />
+        </div>
       <div className="text-center px-4">
         <h2 className="text-4xl md:text-5xl font-serif mb-2 leading-[2]">
           Begin your journey
