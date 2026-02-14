@@ -6,7 +6,7 @@ import Footer from "@/components/Footer/footer";
 import "@fontsource/montaga";
 import GlobalLoader from "@/components/GlobalLoader";
 
-const lora = Lora({
+const lora = Lora({ 
   variable: "--font-geist-sans",
   subsets: ["latin"],
   weight: ["400", "700"],
