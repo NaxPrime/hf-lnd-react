@@ -14,7 +14,7 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: "Hotel First",
-  description: "Hotel First Services",
+  description: "HotelFirst Services",
 };
 
 export default function RootLayout({
