@@ -26,8 +26,7 @@ export default function AnalyticsProvider() {
       {/* Google Tag Manager */}
       {GTM_ID && <GoogleTagManager gtmId={GTM_ID} />}
 
-      {/* Google Analytics 4 (If not using GTM to inject GA4) */}
-      {GA_MEASUREMENT_ID && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
+      {/* Google Analytics 4 (Injected directly in layout.tsx head per instructions) */}
 
       {/* Meta Pixel */}
       {META_PIXEL_ID && (
