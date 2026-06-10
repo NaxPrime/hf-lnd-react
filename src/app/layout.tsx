@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar/navbar";
 import Footer from "@/components/Footer/footer";
 import "@fontsource/montaga";
 import GlobalLoader from "@/components/GlobalLoader";
+import AnalyticsProvider from "@/components/Analytics/AnalyticsProvider";
+import { Suspense } from "react";
 
 const lora = Lora({ 
   variable: "--font-geist-sans",
@@ -28,6 +30,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className={`${lora.variable} antialiased`}>
+        <Suspense fallback={null}>
+          <AnalyticsProvider />
+        </Suspense>
         <GlobalLoader /> <Navbar />
         {children}
         <Footer />

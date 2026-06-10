@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { trackButtonClick } from "@/lib/analytics";
 
 export default function Hero() {
   return (
@@ -27,6 +28,7 @@ export default function Hero() {
         </p>
         <Link
           href="/Contact"
+          onClick={() => trackButtonClick("request_consultation_hero")}
           className="w-fit bg-[#F96430] text-white text-center py-2 px-6 mt-4 rounded-sm font-medium text-xl hover:bg-[#e15525] transition duration-300 rounded-full"
         >
           Request Consultation

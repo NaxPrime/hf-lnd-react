@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { trackFormSubmit, trackCustomEvent } from "@/lib/analytics";
 
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,6 +18,10 @@ export default function ContactPage() {
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
+    if (!hasStarted) {
+      setHasStarted(true);
+      trackCustomEvent("contact_form_started");
+    }
     const { name, value, type } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -38,6 +44,8 @@ export default function ContactPage() {
       });
 
       if (response.ok) {
+        trackFormSubmit("contact_form");
+        trackCustomEvent("contact_form_submitted");
         setIsSubmitted(true);
         setFormData({
           name: "",
@@ -115,7 +123,11 @@ export default function ContactPage() {
           <div className="mb-6">
             <h3 className="font-semibold text-lg mb-1">Email Address</h3>
             <div className="border-t w-10 border-white mb-2" />
-            <p className="text-xl font-bold">begin@hotelfirst.one</p>
+            <p className="text-xl font-bold">
+              <a href="mailto:begin@hotelfirst.one" onClick={() => trackCustomEvent("email_clicked")}>
+                begin@hotelfirst.one
+              </a>
+            </p>
             <p className="text-sm">
               Assistance hours:
               <br />
@@ -126,7 +138,11 @@ export default function ContactPage() {
           <div>
             <h3 className="font-semibold text-lg mb-1">Number</h3>
             <div className="border-t w-10 border-white mb-2" />
-            <p className="text-xl font-bold">+91 90528 88789</p>
+            <p className="text-xl font-bold">
+              <a href="tel:+919052888789" onClick={() => trackCustomEvent("phone_clicked")}>
+                +91 90528 88789
+              </a>
+            </p>
             <p className="text-sm">
               Assistance hours:
               <br />

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import ServicesDropdown from "./ServicesDropdown";
 import Image from "next/image";
+import { trackButtonClick } from "@/lib/analytics";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -81,6 +82,7 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <Link
             href="/Contact"
+            onClick={() => trackButtonClick("request_consultation_desktop")}
             className="bg-[#F96430] text-white px-5 py-2 rounded-sm font-medium hover:bg-[#e15525] transition"
           >
             Request Consultation
@@ -128,6 +130,7 @@ export default function Navbar() {
 
           <Link
             href="/Contact"
+            onClick={() => trackButtonClick("request_consultation_mobile")}
             className="block bg-[#F96430] text-white text-center py-2 rounded-sm font-medium hover:bg-[#e15525] transition"
           >
             Request Consultation

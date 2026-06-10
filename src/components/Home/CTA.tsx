@@ -3,12 +3,21 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Mail } from "lucide-react";
+import { trackFormSubmit, trackCustomEvent } from "@/lib/analytics";
 
 export default function CallToAction() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<
     "idle" | "submitting" | "success" | "error"
   >("idle");
+  const [hasStarted, setHasStarted] = useState(false);
+
+  const handleFocus = () => {
+    if (!hasStarted) {
+      setHasStarted(true);
+      trackCustomEvent("contact_form_started");
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,6 +38,8 @@ export default function CallToAction() {
       const result = await response.json();
 
       if (response.ok) {
+        trackFormSubmit("newsletter_signup");
+        trackCustomEvent("contact_form_submitted");
         setStatus("success");
         setEmail("");
       } else {
@@ -104,6 +115,7 @@ export default function CallToAction() {
                   placeholder="Enter Email Address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  onFocus={handleFocus}
                   className="w-full pl-12 pr-4 py-3 rounded-l-lg text-black outline-none"
                   required
                 />
