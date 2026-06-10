@@ -137,18 +137,18 @@ export default function Footer() {
             >
               Legal Notice
             </a> */}
-            <a
+            <Link
               href="/privacy-policy"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Privacy Policy
-            </a>
-            <a
+            </Link>
+            <Link
               href="/terms-and-conditions"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Terms of Use
-            </a>
+            </Link>
           </div>
         </div>
       </div>
