@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
 import "./globals.css";
