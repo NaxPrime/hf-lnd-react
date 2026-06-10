@@ -15,8 +15,15 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Hotel First",
-  description: "HotelFirst Services",
+  metadataBase: new URL("https://www.hotelfirst.one"),
+  title: {
+    template: "%s | HotelFirst",
+    default: "HotelFirst | Hotel Revenue Management & Hospitality Solutions",
+  },
+  description: "HotelFirst helps hotels increase revenue, occupancy and profitability through revenue management, OTA optimization and hospitality consulting.",
+  alternates: {
+    canonical: "./",
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +35,17 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "HotelFirst",
+              "url": "https://www.hotelfirst.one"
+            })
+          }}
+        />
       </head>
       <body className={`${lora.variable} antialiased`}>
         <Suspense fallback={null}>
