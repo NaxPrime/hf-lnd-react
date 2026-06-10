@@ -7,7 +7,7 @@ import { trackPageView } from '@/lib/analytics';
 import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-4TXDJ8D50N';
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 
 export default function AnalyticsProvider() {
