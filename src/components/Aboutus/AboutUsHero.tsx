@@ -16,7 +16,7 @@ export default function AboutUsHero() {
         />
       </div>
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h2 className="text-5xl md:text-6xl font-serif text-black">About us</h2>
+        <h1 className="text-5xl md:text-6xl font-serif text-black">About us</h1>
       </div>
     </section>
   );

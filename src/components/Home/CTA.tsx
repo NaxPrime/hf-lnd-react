@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Mail } from "lucide-react";
-import { trackFormSubmit, trackCustomEvent } from "@/lib/analytics";
+import { trackCustomEvent } from "@/lib/analytics";
 
 export default function CallToAction() {
   const [email, setEmail] = useState("");
@@ -24,30 +24,9 @@ export default function CallToAction() {
     setStatus("submitting");
 
     try {
-      const formData = new FormData();
-      formData.append("email", email);
-
-      const response = await fetch("https://formspree.io/f/xnnzpeoy", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-        },
-        body: formData,
-      });
-
-      const result = await response.json();
-
-      if (response.ok) {
-        trackFormSubmit("newsletter_signup");
-        trackCustomEvent("contact_form_submitted");
-        setStatus("success");
-        setEmail("");
-      } else {
-        console.error("Formspree error:", result);
-        setStatus("error");
-      }
-    } catch (error) {
-      console.error("Submission failed:", error);
+      sessionStorage.setItem("hotelfirst_contact_email", email.trim());
+      window.location.assign("/Contact");
+    } catch {
       setStatus("error");
     }
   };

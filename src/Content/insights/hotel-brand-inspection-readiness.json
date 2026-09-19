@@ -1,0 +1,67 @@
+{
+  "id": "OWN-MA-05",
+  "slug": "hotel-brand-inspection-readiness",
+  "title": "Prepare for a hotel brand inspection with a readiness register",
+  "description": "Build a brand-inspection readiness register with current requirements, applicable evidence, dependencies and closure tests so unresolved work remains visible to ownership.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Owner or resort leadership approaching an operator’s quality inspection",
+  "answer": "Start inspection preparation with the current authorized requirements and a register of the property's actual gaps. For each applicable item, identify the evidence needed, responsible manager, dependencies, funding decision and closure test. Separate completed work from verified readiness, and keep disputed applicability or pending exceptions visible. A readiness review helps the owner direct effort; it cannot promise the outcome of the operator's inspection.",
+  "sections": [
+    {
+      "heading": "Establish the correct requirements before making a checklist",
+      "paragraphs": [
+        "Request the authorized standard set, its effective version, the planned inspection scope and any property-specific requirements or documented exceptions. Compare these with the previous inspection and open actions. An old checklist may miss a changed requirement, while a generic checklist may include something that does not apply to the property. Do not assume that a local practice or a manager's recollection establishes an approved exception.",
+        "Record the requirement reference and who confirmed applicability. Where the wording, deadline or property treatment is unclear, list a specific clarification for the authorized brand contact. Mark the item as awaiting clarification until there is a documented response. Keep proprietary standards in the approved internal system; an owner register can use references and evidence locations without republishing the standard text."
+      ]
+    },
+    {
+      "heading": "Build a register that exposes the remaining work",
+      "paragraphs": [
+        "Use a stable item reference so the requirement, finding, action and evidence remain connected. Describe the current gap precisely enough for a manager to act: a missing record, defective item, unavailable process or inconsistent guest delivery. Assign a responsible role and a due date derived from the actual inspection plan. Identify whether closure depends on procurement, maintenance access, training, a budget decision or another team.",
+        "Prioritize according to the property's agreed severity method and actual consequences, including guest impact and obligations that require specialist attention. Do not invent the brand's scoring weights or allow an attractive completion percentage to hide unresolved material items. Show both the verified items and the open items that still need an owner decision."
+      ],
+      "bullets": [
+        "Requirement reference, version and applicability status.",
+        "Observed gap and supporting evidence reference.",
+        "Accountable manager, action and target date.",
+        "Dependencies, resource decision and delivery risk.",
+        "Closure criterion, verifier and evidence location.",
+        "Open clarification or exception request with its current status."
+      ]
+    },
+    {
+      "heading": "Match the closure evidence to the type of requirement",
+      "paragraphs": [
+        "A purchase order shows that something was ordered; it does not show that it was installed, works or meets the applicable requirement. For a physical item, inspect the delivered result against the requirement and retain the agreed evidence. For a document requirement, verify that the current record is complete and available where it is needed. Use appropriately qualified reviewers where the item needs technical assessment.",
+        "For a service requirement, observe the behavior under relevant operating conditions. A revised procedure or attendance sheet may support preparation but cannot establish that guests receive the intended service. Use a guest scenario when the outcome must be experienced, and an internal check when access to records or systems is necessary. Keep areas not sampled clearly identified."
+      ]
+    },
+    {
+      "heading": "Make unresolved items a decision rather than a surprise",
+      "paragraphs": [
+        "Before the inspection window, review material open items with ownership and management. Distinguish work that can be completed and verified, work requiring an authorized exception, and work that will remain unresolved. An exception request is not an approval. Record the practical consequences and the decision needed without presenting a pending response as clearance.",
+        "Avoid temporary staging that leaves everyday delivery unchanged. Where a gap is closed, ensure the team can sustain the condition after the review visit. Retain the register for inspection responses and subsequent checks, including reopened items. A readiness score should never replace the underlying evidence or be represented as the operator's predicted inspection result."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Confirm the applicable standard set", "detail": "Obtain current authorized requirements, inspection scope and documented exceptions, and list unresolved applicability questions." },
+    { "title": "Register and prioritize the gaps", "detail": "Tie each observed gap to its requirement, accountable role, severity rationale and dependency so ownership can resolve the actual constraints." },
+    { "title": "Verify the completed work", "detail": "Use physical checks, document review or service observations suited to the requirement, keeping ordered or reported-complete items open until verified." },
+    { "title": "Review residual readiness", "detail": "Escalate material unfinished items and pending exceptions, then retain the evidence and follow-up obligations through and after the inspection." }
+  ],
+  "checklist": [
+    "Authorized requirements and effective versions have been confirmed.",
+    "Applicability questions and approved exceptions have distinct statuses.",
+    "Previous unresolved findings are included in the current register.",
+    "Each gap has an accountable manager and a practical closure criterion.",
+    "Procurement, access, funding and cross-team dependencies are visible.",
+    "Reported completion is distinguished from verified readiness.",
+    "Technical requirements are referred to suitable reviewers.",
+    "Ownership can see remaining material gaps without relying on an average score."
+  ],
+  "limitations": "Editorial draft describing a readiness process. No brand's proprietary standards, scoring rules or exception decisions are reproduced or verified here. Applicable requirements and assessment authority must be confirmed for the property. This guide does not certify compliance or predict an inspection result.",
+  "relatedIds": ["OWN-MA-01", "OWN-MA-02", "OWN-MA-07"],
+  "reviewStatus": "editorial-draft"
+}

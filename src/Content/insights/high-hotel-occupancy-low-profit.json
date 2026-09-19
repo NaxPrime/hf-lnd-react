@@ -1,0 +1,79 @@
+{
+  "id": "OWN-PT-01",
+  "slug": "high-hotel-occupancy-low-profit",
+  "title": "High hotel occupancy, weak profit: trace where the margin goes",
+  "description": "Trace high occupancy through realized room revenue, acquisition costs and operating expenses to identify the next useful profit investigation.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner with strong occupancy but disappointing profitability",
+  "answer": "High occupancy establishes that rooms are being used; it does not establish that the business mix or cost structure produces enough operating contribution. Start with the room inventory and realized revenue, then follow acquisition costs, the cost of serving the occupied rooms and the rest of the hotel’s operating result. Compare like periods and isolate the point at which stronger activity stops converting into profit.",
+  "sections": [
+    {
+      "heading": "Confirm what the occupancy figure represents",
+      "paragraphs": [
+        "Reconcile occupied or sold room nights with the inventory definition used in the report. Check complimentary rooms, extended stays, rooms unavailable for sale and temporary closures. A percentage can rise when the denominator falls, even without selling more room nights. Retain the underlying counts beside the percentage.",
+        "Match the occupancy period to the profit-and-loss report and inspect daily or weekly patterns hidden by a monthly average. A busy weekend may coexist with weak weekdays. An event can fill the hotel while discounted shoulder nights or service costs weaken the combined result."
+      ]
+    },
+    {
+      "heading": "Follow realized room revenue into contribution",
+      "paragraphs": [
+        "Separate the effect of rate, room nights and booking mix. Use realized room revenue rather than the publicly advertised rate. Check discounts, package allocations, refunds and accounting treatment before assuming that a rise in average rate represents better room economics.",
+        "Then identify the relevant commissions, payment charges, promotional costs and service costs. Use a consistent definition of contribution and avoid deducting a cost already netted from revenue. Compare booking sources and guest segments separately: the channel describes how a booking arrived, while the segment describes the business need and pattern."
+      ],
+      "bullets": [
+        "Which dates gained room nights, and at what realized revenue?",
+        "Did the mix move toward bookings with different acquisition or service costs?",
+        "Are breakfast, transport or other inclusions charged to the same revenue stream in both periods?"
+      ]
+    },
+    {
+      "heading": "Find where the operating result diverges",
+      "paragraphs": [
+        "Ask finance for a bridge from the prior comparable period or approved budget to the current result. Separate rooms, food and beverage, other departments and shared operating costs. Investigate whether extra activity required overtime, outsourced services, more consumables or incremental opening hours.",
+        "Do not label every unfavorable variance as waste. A catch-up repair, wage revision or change in accounting allocation needs a different response from recurring inefficiency. Preserve these explanations rather than removing inconvenient costs from an adjusted result."
+      ]
+    },
+    {
+      "heading": "Choose a focused next investigation",
+      "paragraphs": [
+        "If the gap sits in acquisition costs, review channel contribution. If it sits in guest mix, examine segment economics and constrained dates. If departmental productivity changed, review workload and service evidence. If operating profit is healthy but owner cash is weak, move to a separate cash reconciliation.",
+        "Give the chosen investigation a data request, responsible manager and decision date. Avoid launching unrelated cuts across every department before the profit bridge identifies the likely mechanism. The first deliverable should be a supported question, not a promised improvement percentage."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Reconcile volume",
+      "detail": "Confirm room-night counts, inventory definitions and comparable reporting periods."
+    },
+    {
+      "title": "Trace net economics",
+      "detail": "Explain realized room revenue and relevant acquisition and service costs without duplicate deductions."
+    },
+    {
+      "title": "Locate the variance",
+      "detail": "Build a department and shared-cost bridge to identify where contribution changed."
+    },
+    {
+      "title": "Assign the next decision",
+      "detail": "Commission the specific mix, channel, cost or cash review supported by the evidence."
+    }
+  ],
+  "checklist": [
+    "Occupancy is supported by room-night and inventory counts.",
+    "Revenue and expense periods match.",
+    "Package and complimentary-room treatment is understood.",
+    "Acquisition costs are not counted twice.",
+    "Departmental and shared-cost movements are separated.",
+    "One-off effects are identified without hiding their owner impact.",
+    "Operating profit and available owner cash are not treated as the same measure."
+  ],
+  "limitations": "This diagnostic does not identify the cause of an individual hotel’s performance without its records. Contribution definitions and account classifications must be agreed with finance. High occupancy, low margin and weak cash flow can have different causes; none establishes operator failure by itself.",
+  "relatedIds": [
+    "OWN-PT-03",
+    "OWN-PT-04",
+    "OWN-AM-05"
+  ],
+  "reviewStatus": "editorial-draft"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "OWN-AM-08",
+  "slug": "hotel-portfolio-performance-comparison",
+  "title": "Compare performance across a hotel portfolio fairly",
+  "description": "Compare hotel assets using consistent definitions, weighted measures and context before deciding where ownership attention or capital is needed.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Family office or investment team overseeing multiple hotel assets",
+  "answer": "Compare a hotel portfolio by standardizing the accounts and reporting periods first, then separating property-level trends from differences in market, scale, facilities and asset condition. Preserve both the reported result and a transparent comparable view. Rank a decision such as urgency of investigation or need for capital only after understanding why performance differs; one raw margin table cannot explain the portfolio.",
+  "sections": [
+    {
+      "heading": "Agree a portfolio data dictionary",
+      "paragraphs": [
+        "Use one definition for each measure and document the account mapping used at each hotel. Revenue categories, shared-service allocations, management charges and ownership costs must be understood before results are combined. Retain the original property report so adjustments can be traced rather than silently replacing the reported result.",
+        "Align periods, currencies and units. A month with a different event calendar or a property reopening after closure may need contextual analysis. State the treatment of rooms unavailable for sale and temporary operating changes before interpreting per-room figures."
+      ]
+    },
+    {
+      "heading": "Separate operating context from execution",
+      "paragraphs": [
+        "Show market, segment, operating model, size, facilities and lifecycle beside the financial measures. An opening hotel, stabilized business hotel and seasonal resort face different demand and cost patterns. Compare each asset against a relevant local benchmark or its own approved plan before drawing cross-portfolio conclusions.",
+        "Create an exception log for renovation disruption, exceptional events and material accounting changes. Present both unadjusted and adjusted views with the rationale. Removing every unfavorable event from the comparison would hide real owner exposure rather than improve comparability."
+      ]
+    },
+    {
+      "heading": "Use denominators that match the question",
+      "paragraphs": [
+        "For a portfolio ratio, combine the underlying numerator and denominator on a consistent basis. An arithmetic average of property percentages can give a small hotel the same influence as a large one. Likewise, a percentage margin and the absolute amount of contribution answer different questions.",
+        "Keep room-based indicators separate from total hotel economics. A property with significant banqueting or other non-room business cannot be assessed from room revenue alone. Add measures only when the data definition and the owner decision are clear; a wider dashboard is not automatically a better one."
+      ],
+      "bullets": [
+        "Show absolute contribution as well as the percentage margin.",
+        "Label aggregate ratios and simple property averages differently.",
+        "Track results against plan, prior comparable periods and relevant market context.",
+        "Avoid treating missing information as a zero."
+      ]
+    },
+    {
+      "heading": "Turn the comparison into a review queue",
+      "paragraphs": [
+        "Use the comparable view to identify specific questions: which asset has a recurring cost variance, which needs better market evidence, and which has a capital constraint? Assign an investigation with an owner and due date rather than declaring a manager successful or unsuccessful from a single ranking.",
+        "Separate a portfolio capital decision from an operating-performance comparison. The asset needing attention is not necessarily the one that should receive the next discretionary investment. Risk, obligations, liquidity and feasible options need their own review."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Normalize the inputs",
+      "detail": "Agree definitions, periods, account mapping and treatment of missing data across hotels."
+    },
+    {
+      "title": "Annotate the context",
+      "detail": "Record local demand, facilities, lifecycle and exceptional trading conditions."
+    },
+    {
+      "title": "Build fair comparisons",
+      "detail": "Use matched denominators, weighted aggregates and transparent adjustments."
+    },
+    {
+      "title": "Assign asset questions",
+      "detail": "Turn exceptions into evidence requests and review priorities before considering capital allocation."
+    }
+  ],
+  "checklist": [
+    "A common metric dictionary exists.",
+    "Original property reports remain traceable.",
+    "Currencies and reporting periods align.",
+    "Unavailable inventory and closures are explained.",
+    "Aggregate ratios use underlying totals.",
+    "Exceptional adjustments are shown separately.",
+    "Missing data is marked as missing.",
+    "Each flagged asset has a specific investigation rather than a generic rank."
+  ],
+  "limitations": "Comparable reporting improves the questions ownership can ask; it does not establish asset value or an investment ranking. Accounting differences, market data coverage, property characteristics and unobserved risks can limit comparisons. Financial and investment conclusions require appropriate review.",
+  "relatedIds": [
+    "OWN-AM-02",
+    "OWN-AM-03",
+    "OWN-MA-08"
+  ],
+  "reviewStatus": "editorial-draft"
+}

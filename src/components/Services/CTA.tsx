@@ -15,20 +15,8 @@ export default function CallToAction() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/xnnzpeoy", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        setEmail("");
-      } else {
-        alert("There was an error submitting your email. Please try again.");
-      }
+      sessionStorage.setItem("hotelfirst_contact_email", email.trim());
+      window.location.assign("/Contact");
     } catch {
       alert("There was an error submitting your email. Please try again.");
     } finally {

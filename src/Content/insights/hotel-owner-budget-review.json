@@ -1,0 +1,65 @@
+{
+  "id": "OWN-AM-04",
+  "slug": "hotel-owner-budget-review",
+  "title": "Review a hotel operator’s annual budget before approval",
+  "description": "Challenge a hotel operating budget through its demand, rate, staffing and cost assumptions, then connect the plan to cash requirements and documented owner decisions.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Hotel owner reviewing the annual operating plan",
+  "answer": "Review the budget as a set of linked operating assumptions rather than a requested increase over last year. Reconcile the starting forecast, challenge monthly demand and rate by business segment, test the resources needed to deliver the plan, and examine the cash effect of a weaker outcome. Record approval or unresolved points through the process and authority set out in the agreement.",
+  "sections": [
+    {
+      "heading": "Build a reliable starting point",
+      "paragraphs": [
+        "Request the proposed monthly budget, closed actuals, the latest forecast for the current year and a bridge between the forecast and next year's plan. Align the account mapping and operating scope. Identify one-off events, deferred expenses, closures and changes in available rooms so they are not quietly embedded in the baseline.",
+        "Keep the approved current budget visible alongside the forecast. A forecast is the operator's revised expectation, not a replacement for the original commitment. Ask finance to separate a change in accounting presentation from a change in business performance before discussing the size of a variance."
+      ]
+    },
+    {
+      "heading": "Challenge the commercial plan by month and segment",
+      "paragraphs": [
+        "For each material rooms segment, ask for planned room nights, rate, booking evidence, expected booking pace and the cost of acquiring the business. Separate confirmed business from tentative bookings and unsourced expectations. Check planned room nights against available capacity and explain how the mix changes between strong and weak dates.",
+        "Ask what must happen for the rate and occupancy assumptions to coexist. A plan that relies on both a higher rate and substantially different demand needs evidence of the buying audience and route to market. Connect banquet and food-and-beverage assumptions to the expected events, covers, spend and capacity rather than applying the same growth rate to every department."
+      ],
+      "bullets": [
+        "What demand is already visible and what still needs to be won?",
+        "Which calendar or supply changes affect the comparison?",
+        "What commercial activity and spending support the plan?",
+        "What business may be displaced when capacity is constrained?"
+      ]
+    },
+    {
+      "heading": "Check whether resources match the promised operation",
+      "paragraphs": [
+        "Review staffing by department, role and required coverage alongside expected workload. Separate changes in headcount, pay rates, overtime, contract labour and vacancies. A saving based on an unfilled role should be tested against the work that still has to be delivered and the effect on service.",
+        "Ask department heads to identify the basis of material purchasing, utility, maintenance and service-contract assumptions. Distinguish fixed commitments, costs that change with activity and steps that occur when capacity is added. Coordinate the operating plan with capital works so disruption, temporary operating costs and reopened capacity appear in the correct months; finance should confirm expense and capital treatment."
+      ]
+    },
+    {
+      "heading": "Test the downside and document the approval decision",
+      "paragraphs": [
+        "Run a small set of coherent downside cases based on identifiable uncertainties, such as delayed group business or a later return of rooms after renovation. Change the linked revenue and cost assumptions together. Ask which actions management can take, when they would be triggered and which costs remain committed even if revenue falls.",
+        "Review the resulting cash requirement with finance, including collection and payment timing, capital commitments and relevant owner obligations. Present unresolved assumptions in a decision register with a proposed resolution and response date. Counsel should confirm any formal objection or approval process; silence or a meeting discussion should not be treated as a chosen approval mechanism without that review."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Reconcile the baseline", "detail": "Connect actuals, current forecast and the proposed plan, explaining scope changes, one-offs and account mapping." },
+    { "title": "Test demand and pricing evidence", "detail": "Challenge monthly room nights, rates and departmental business assumptions against capacity and documented demand." },
+    { "title": "Match costs to delivery", "detail": "Review staffing, purchasing, contracts and capital disruption against the operation the budget promises." },
+    { "title": "Resolve the owner decision", "detail": "Examine coherent downside cases and cash needs, then record approval or objections through the agreement's authorized process." }
+  ],
+  "checklist": [
+    "The proposed budget reconciles to a reviewed current-year forecast.",
+    "One-offs, closures and scope changes have been separated from recurring trade.",
+    "Monthly segment assumptions distinguish confirmed, tentative and unproven business.",
+    "Planned volumes fit rooms, outlet and event capacity.",
+    "Staffing and cost changes have an operational explanation.",
+    "Capital timing and disruption are reflected in the operating months.",
+    "Downside cases connect revenue, cost responses and cash requirements.",
+    "Approval authority, deadlines and unresolved points are documented."
+  ],
+  "limitations": "A budget is a plan based on assumptions, not a guaranteed operating result. Review depth depends on the quality of source data and the owner's contractual rights. Finance and relevant advisers must review accounting treatment, funding implications and any formal approval or objection procedure.",
+  "relatedIds": ["OWN-AM-02", "OWN-AM-05", "OWN-AM-06", "OWN-BI-05"],
+  "reviewStatus": "editorial-draft"
+}

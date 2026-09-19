@@ -1,0 +1,84 @@
+{
+  "id": "OWN-AM-06",
+  "slug": "hotel-renovation-capex-investment-case",
+  "title": "Hotel renovation capex: build the owner’s investment case",
+  "description": "Assess hotel renovation options using condition evidence, incremental cash flows, disruption and alternatives before approving capital expenditure.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Hotel owner deciding whether to approve renovation spending",
+  "answer": "Evaluate hotel renovation spending by separating required work from optional commercial improvements, then compare each realistic option with the cost and consequences of continuing without it. Include lost trading during the works, operating changes after reopening and the timing of payments. A credible investment case makes assumptions visible and shows what must be true for the preferred scope to outperform its alternatives.",
+  "sections": [
+    {
+      "heading": "Classify the reason for the work",
+      "paragraphs": [
+        "Create separate lines for safety or compliance requirements, asset condition, contractual commitments and discretionary commercial improvements. Have the appropriate technical or legal specialist verify any claimed requirement. Required work may be justified by maintaining safe operation or avoiding failure rather than by an incremental room-rate uplift.",
+        "For optional changes, describe the guest or commercial problem before specifying a design solution. A redesigned lobby, additional room category or new outlet should connect to evidence of demand, service constraints or lost contribution. Attractive finishes alone are not a financial assumption."
+      ],
+      "bullets": [
+        "State the defect or opportunity and the evidence behind it.",
+        "Identify what happens if the work is delayed.",
+        "Separate the minimum viable scope from enhancements."
+      ]
+    },
+    {
+      "heading": "Compare feasible alternatives",
+      "paragraphs": [
+        "Place repair, phased renovation and full replacement beside the preferred proposal where technically feasible. Compare total delivered scope rather than headline construction cost. Include design, procurement, equipment, enabling works, contingency assumptions and any costs retained by ownership outside the contractor’s price.",
+        "Record exclusions and dependencies before drawing a conclusion. A cheaper option may omit essential systems work; a faster option may require closing more rooms at once. The choice should reflect the owner’s operating constraints as well as the budget."
+      ]
+    },
+    {
+      "heading": "Model the incremental cash flows",
+      "paragraphs": [
+        "Use a documented baseline and model how each option changes cash flows relative to it. Identify the source of additional rate, room nights or departmental contribution and the cost of delivering them. Include temporary closures, displaced business, reopening costs and the time needed to establish the revised product.",
+        "Ask finance to review cash-flow timing and the owner’s chosen appraisal method. Simple payback can show when an assumed investment is recovered, but it does not capture all timing, risk or later-life effects. A discounted analysis is only as credible as its cash flows, discount assumptions and treatment of the remaining asset value."
+      ]
+    },
+    {
+      "heading": "Approve in stages and test the result",
+      "paragraphs": [
+        "A staged decision can authorize investigation or design before releasing the full construction budget. Set a cost and scope checkpoint once technical conditions and supplier quotations are clearer. Define who can approve changes and which changes require the owner to reconsider the case.",
+        "After completion, compare the actual scope, spend, downtime and operating effects with the original assumptions. Separate market movement from the effect of the renovation. Use that review to improve future capital decisions rather than present all post-renovation revenue growth as caused by the work."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Document the need",
+      "detail": "Confirm condition, obligations and the commercial issue with the relevant specialists."
+    },
+    {
+      "title": "Define comparable options",
+      "detail": "Include feasible repair, phased work and replacement options with matching scope boundaries."
+    },
+    {
+      "title": "Model the difference",
+      "detail": "Compare incremental cash flows, disruption and downside assumptions against a documented baseline."
+    },
+    {
+      "title": "Set release conditions",
+      "detail": "Link capital approval to cost certainty, technical readiness and agreed change controls."
+    },
+    {
+      "title": "Review delivery",
+      "detail": "Track actual spend and trading effects against the original investment assumptions."
+    }
+  ],
+  "checklist": [
+    "Mandatory and discretionary work are distinguished.",
+    "Technical requirements are confirmed by qualified specialists.",
+    "Scope exclusions and owner-retained costs are documented.",
+    "Closure and reopening effects are included.",
+    "Revenue improvement assumptions have a demand-based rationale.",
+    "At least one feasible alternative has been compared.",
+    "Finance has checked timing, sensitivity and appraisal assumptions.",
+    "Post-completion review criteria are defined before approval."
+  ],
+  "limitations": "This framework does not estimate the return of a particular renovation or prescribe an investment decision. Technical condition, contractual obligations, financing, demand evidence and project risks require asset-specific professional review. Forecast improvements are assumptions, not promised results.",
+  "relatedIds": [
+    "OWN-BI-05",
+    "OWN-AM-04",
+    "OWN-PT-07"
+  ],
+  "reviewStatus": "editorial-draft"
+}

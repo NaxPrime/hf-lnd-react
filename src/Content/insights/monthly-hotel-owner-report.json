@@ -1,0 +1,72 @@
+{
+  "id": "OWN-AM-02",
+  "slug": "monthly-hotel-owner-report",
+  "title": "The monthly hotel owner report: what to ask the operator for",
+  "description": "Build a monthly owner pack that reconciles source data, explains performance and cash movements, and ends with accountable decisions and open actions.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Owner representative monitoring a managed or branded hotel",
+  "answer": "Ask for a monthly pack that answers what happened, why it happened, what it means for the outlook and what needs an owner decision. It should combine reconciled financial and operating results, relevant market context, cash and capital visibility, and an action register. The front page should identify the material exceptions and decisions; detailed source reports should support those conclusions rather than replace them.",
+  "sections": [
+    {
+      "heading": "Agree the reporting boundary and source controls",
+      "paragraphs": [
+        "State the entity, hotel scope, reporting period, currency and close status on the pack. Identify which figures come from the ledger, property-management system, payroll, purchasing records and market provider. The preparer should explain reconciliation differences and distinguish preliminary numbers from closed results.",
+        "Include room availability and a note on closures or inventory changes. Agree metric definitions with finance and the operator so the same label has the same meaning each month. Keep a revision log when the prior pack changes; otherwise owners may mistake a restatement for a new movement in performance."
+      ]
+    },
+    {
+      "heading": "Explain the result through its drivers",
+      "paragraphs": [
+        "Show the month and year to date against the approved plan and comparable prior period. Keep the latest forecast in a separate column so a revised outlook does not replace the original budget benchmark. For each material variance, require an explanation supported by source evidence and an assessment of whether it is temporary or recurring.",
+        "Connect rooms performance to rate, occupied room nights, segment mix and channel costs. Connect departmental contribution to business volume, staffing, purchasing and service scope. Break a vague comment such as higher costs into the specific movement and its cause. If the cause is not known, assign an investigation instead of inserting a confident explanation."
+      ],
+      "bullets": [
+        "What changed in demand or capacity?",
+        "What changed in price, mix or cost per unit of activity?",
+        "Which differences reflect timing, account mapping or a one-off item?",
+        "Which explanation has evidence, and which still needs testing?"
+      ]
+    },
+    {
+      "heading": "Add market context without overstating it",
+      "paragraphs": [
+        "Where permission-cleared benchmark data is available, compare like periods and explain the competitive-set definition. Show the hotel's own growth and its relative performance as different measures. Record data gaps and changes in reporting hotels or room supply that may affect interpretation.",
+        "Do not infer actual revenue share from a RevPAR index alone. If there is no suitable market series, state that limitation and use the available operating evidence. An unsupported market explanation should not become the reason for accepting or rejecting an operator's account of results."
+      ]
+    },
+    {
+      "heading": "Make cash and capital requirements visible",
+      "paragraphs": [
+        "Include a finance-reviewed bridge from the agreed operating result to cash movement, with receivables, payables, deposits and relevant ownership items explained. Show restricted balances and upcoming funding requirements separately. The detailed cash reconciliation can sit in an appendix, but the owner should see the reasons for a funding request on the decision page.",
+        "For capital projects, distinguish approved budget, committed orders, payments, expected remaining cost and completion status. Record scope changes and operational disruption. A project that has spent little may still have significant commitments, so payments alone are an incomplete view of the owner's exposure."
+      ]
+    },
+    {
+      "heading": "End with decisions and carry-forward actions",
+      "paragraphs": [
+        "Each requested decision should state the issue, alternatives, recommendation, relevant authority and date needed. Each agreed action should have one accountable role, a due date and the evidence required to close it. Bring unresolved items forward, showing what changed since the previous meeting.",
+        "Keep guest, employee and commercial data in appropriately controlled supporting records; the owner pack should contain only what is needed for its decisions. After the review, issue an agreed action record so the next meeting can test delivery rather than repeat the same discussion."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Set the reporting specification", "detail": "Agree scope, definitions, source reports, close status and responsibility for reconciliation." },
+    { "title": "Challenge the main variances", "detail": "Connect results to evidenced volume, price, mix and cost changes while keeping budget and forecast distinct." },
+    { "title": "Assess cash and capital implications", "detail": "Review the reconciled cash movement, commitments and upcoming owner funding decisions." },
+    { "title": "Record decisions and follow through", "detail": "Confirm authority, assign accountable actions and require closure evidence in the next pack." }
+  ],
+  "checklist": [
+    "The pack identifies the reporting period and whether the accounts are closed.",
+    "Financial and operational totals reconcile or have explained differences.",
+    "Budget, prior actuals and latest forecast remain distinguishable.",
+    "Material variances have evidence or an assigned investigation.",
+    "Benchmark scope and any gaps are disclosed.",
+    "Cash restrictions, capital commitments and funding needs are visible.",
+    "Decisions name the authorized approver and required date.",
+    "Open actions have accountable roles and closure evidence."
+  ],
+  "limitations": "The reporting specification must fit the hotel's agreements, accounting framework and available systems. This is a management-review structure, not an audit opinion. Missing or unreconciled data limits the conclusions that can be drawn from the pack.",
+  "relatedIds": ["OWN-AM-01", "OWN-AM-03", "OWN-AM-05", "OWN-AM-07"],
+  "reviewStatus": "editorial-draft"
+}

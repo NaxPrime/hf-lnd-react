@@ -1,0 +1,64 @@
+{
+  "id": "OWN-MA-01",
+  "slug": "hotel-mystery-audit-brand-inspection",
+  "title": "Mystery guest audit or brand inspection: what does each reveal?",
+  "description": "Compare the coverage of a mystery guest audit, brand inspection and internal quality review, then commission the assessment that answers the owner's unresolved service question.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Hotel owner questioning whether existing inspections cover everyday service",
+  "answer": "Choose the assessment by the question it can answer. A mystery guest audit can document what a guest encounters during specified scenarios. A brand inspection tests the requirements within its authorized inspection scope. An internal quality review can examine the procedures, records and operational causes behind a service gap. Compare their actual protocols before commissioning work: their coverage may overlap, and an assessment's name does not establish whether it is announced, independent or comprehensive.",
+  "sections": [
+    {
+      "heading": "Start with the owner question and the evidence it requires",
+      "paragraphs": [
+        "Write the unresolved question as a specific uncertainty. Whether an arrival promise was delivered requires a reservation record and observation of arrival. Whether a property meets a particular product standard requires the current authorized standard and an appropriate inspection. Whether a repeated delay comes from staffing, room status or a system handoff needs an operational investigation beyond a guest's view.",
+        "Ask for the latest inspection scope, report, internal QA schedule and open action log. A previous passing result does not answer every current service question. Equally, a poor experience in one encounter does not invalidate every part of an inspection. Map each document to what was actually examined, when it was examined and what remains unknown."
+      ]
+    },
+    {
+      "heading": "Build a coverage comparison before selecting the method",
+      "paragraphs": [
+        "Use rows for the guest touchpoints and operational requirements relevant to the decision. Across each proposed method, record whether the item is observed directly, checked through records, reported by management or excluded. Mark the applicable standard and the intended sample. This exposes gaps more clearly than comparing headline audit scores.",
+        "Record notice arrangements separately. A brand assessment may contain announced or unannounced elements; an internal review may also observe routine delivery. A mystery stay loses part of its purpose if the visit is identified and staff alter their behavior. Ask who knows the visit window, how the booking will be handled and how potential identification will be reported."
+      ],
+      "bullets": [
+        "Guest delivery: inquiry, booking promises, arrival, room use, service requests, dining and departure.",
+        "Standards: only the current brand or property requirements the assessor is authorized to use.",
+        "Operational explanation: procedures, training records, systems and manager interviews within the agreed scope.",
+        "Coverage limits: shifts, room types, outlets and scenarios that will remain unobserved."
+      ]
+    },
+    {
+      "heading": "Combine methods only where the evidence has a clear handoff",
+      "paragraphs": [
+        "For an everyday service concern, use the guest observation to establish what happened and ask the operations team to investigate the mechanism afterward. For inspection readiness, start with the applicable requirements and closure evidence, then use guest scenarios where delivery needs to be observed. Give each assessment a distinct output so the owner is not paying twice for the same checklist.",
+        "Agree how conflicts will be resolved. If a procedure record says a request was completed but the guest observation says the outcome was missing, retain both records, check timestamps and definitions, and investigate the handoff. Do not remove an observation solely because the relevant procedure exists. A documented process and an experienced outcome are different forms of evidence."
+      ]
+    },
+    {
+      "heading": "Set the boundaries of the commissioning decision",
+      "paragraphs": [
+        "The brief should state the decision to be supported, included touchpoints, sampling rationale, permitted evidence, assessor access, review process and follow-up deliverables. Require the report to distinguish direct observation from explanation and to state where the sample cannot support a property-wide conclusion.",
+        "Keep required brand inspections and specialist assessments on their own schedule. A guest experience audit cannot establish compliance with every brand, engineering, food-safety or legal requirement. If it reveals an urgent concern, route that concern to the responsible manager through the agreed escalation process rather than waiting for a comparative score."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Name the unresolved question", "detail": "Specify the guest outcome, standard or operational uncertainty that the assessment must resolve." },
+    { "title": "Map existing coverage", "detail": "Compare actual inspection and QA protocols, their dates and their exclusions against that question." },
+    { "title": "Commission the missing evidence", "detail": "Select guest observations, standards checks or operational investigation according to the evidence gap, with clear responsibilities where methods combine." },
+    { "title": "Agree interpretation and follow-up", "detail": "Require sample limits, treatment of conflicting records, an urgent escalation route and accountable next actions before the visit occurs." }
+  ],
+  "checklist": [
+    "The brief contains a specific owner decision rather than a general request for a quality score.",
+    "Current authorized inspection requirements and previous open findings have been reviewed.",
+    "Included and excluded touchpoints are visible for each assessment method.",
+    "Notice arrangements and possible auditor identification are addressed.",
+    "Observation, document review and management explanation remain separate in the report.",
+    "Specialist and required inspections remain outside any unsupported substitution claim.",
+    "The owner knows what evidence would justify further investigation or a retest."
+  ],
+  "limitations": "Editorial draft for comparing assessment coverage. No HotelFirst protocol or brand inspection document has been reproduced or assessed here. Actual requirements, access and sampling must be agreed for the property; a mystery stay describes observed encounters and does not certify the whole operation.",
+  "relatedIds": ["OWN-MA-02", "OWN-MA-05", "OWN-MA-06"],
+  "reviewStatus": "editorial-draft"
+}

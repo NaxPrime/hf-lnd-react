@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-06",
+  "slug": "hotel-feasibility-seasonality",
+  "title": "Hotel seasonality: test monthly demand and working-capital needs",
+  "description": "Build a monthly hotel trading and cash calendar that separates seasonal demand, opening ramp-up and payment timing, exposing funding pressure hidden by annual averages.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Resort developer or investor evaluating seasonal trading risk",
+  "answer": "Account for seasonality by forecasting demand, rate and operating capacity by month, then translating trading into the dates cash is collected and paid. Overlay opening ramp-up and dated commitments rather than spreading annual totals evenly. The owner needs to see the lowest projected cash balance, the obligations around it and which funding is actually available. An acceptable annual operating result can still contain a period when the hotel cannot meet its scheduled payments without additional funding.",
+  "sections": [
+    {
+      "heading": "Build a calendar from demand patterns and capacity",
+      "paragraphs": [
+        "Start with monthly evidence for the relevant guest segments and competing supply. Mark holidays, weather-sensitive periods, recurring events, access constraints and known disruptions. Retain the source periods and distinguish regular patterns from exceptional years. An annual destination total cannot reveal whether several segments concentrate on the same short peak.",
+        "Use the actual number of days and planned saleable rooms in each month. Record any seasonal closure, phased room opening or renovation explicitly. Test important peak dates more closely when a monthly average would conceal capacity limits. Check whether event dates move between months, rather than copying last year's monthly shape without adjustment."
+      ]
+    },
+    {
+      "heading": "Separate seasonal demand from a new hotel's ramp-up",
+      "paragraphs": [
+        "Show the expected seasonal pattern and the additional assumptions associated with launching a new hotel. Distribution setup, account acquisition, service readiness and facility opening can affect when the product is available to each segment. A mature hotel's peak season should not automatically become the new property's peak performance from its first month.",
+        "Test the proposed opening date against the guest buying cycle and readiness plan. If the opening slips past a demand period, move the associated business realistically; it may not simply appear in the following month. Include pre-opening payments and the possibility of operating through a low-demand period before reaching the next peak."
+      ]
+    },
+    {
+      "heading": "Translate trading into a separate receipts-and-payments schedule",
+      "paragraphs": [
+        "Map guest receipts, event deposits, corporate collections and channel settlements to their expected cash dates. Then schedule payroll, suppliers, maintenance, applicable taxes, capital payments and financing obligations. Keep assumptions about collection delays and payment terms explicit. Revenue earned in a month and cash received in that month need not be the same amount.",
+        "Carry the prior month's closing cash into the next month's opening balance. Show operating cash movements separately from owner contributions and borrowing. Treat customer deposits according to their actual terms and commitments: receiving cash early does not make the associated future service cost disappear. Identify restricted or otherwise unavailable balances before concluding that funding is sufficient."
+      ],
+      "bullets": [
+        "Trading calendar: when stays and services are delivered.",
+        "Cash calendar: when money is collected, paid or restricted.",
+        "Funding calendar: when usable capital becomes available and under what conditions."
+      ]
+    },
+    {
+      "heading": "Test the low-cash period before choosing a response",
+      "paragraphs": [
+        "Identify the lowest projected available cash balance and the payments around it. Test delayed collections, a missed event period or a later opening as explicit alternatives. A potential funding facility should remain separate from confirmed available funds until its conditions and timing are established. The output should show both the size and date of an uncovered need.",
+        "Compare responses using their full consequences. Seasonal closure may avoid some expenses but introduce closure, reopening, maintenance and staffing costs. Discounting may generate room nights without enough contribution, while delaying maintenance can create later disruption. Record when a decision must be taken for it to affect the difficult period, then set a review trigger tied to forward bookings, collections or project progress."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Establish the demand calendar", "detail": "Map monthly segment patterns, event timing and saleable capacity using dated evidence and stated exceptions." },
+    { "title": "Overlay the launch plan", "detail": "Model opening readiness and ramp-up separately, testing the effect of missing a key demand period." },
+    { "title": "Schedule actual cash timing", "detail": "Convert trading into receipts and payments, distinguish financing, and identify unavailable balances and future commitments." },
+    { "title": "Act before the low point", "detail": "Locate the funding gap and compare responses by cost, timing and service effect, with a trigger for revisiting the plan." }
+  ],
+  "checklist": [
+    "Monthly patterns have a dated source and exceptional periods are labeled.",
+    "Days, saleable rooms and closures are modeled explicitly.",
+    "Opening ramp-up is separate from mature seasonal demand.",
+    "Receipts and payments use stated timing assumptions.",
+    "Deposits and restricted cash are not treated as freely distributable funds.",
+    "The lowest available cash balance and any uncovered need are visible.",
+    "Proposed responses include costs, lead times and decision triggers."
+  ],
+  "limitations": "This is a planning method rather than a calculated working-capital requirement. Actual cash availability depends on collection behavior, payment obligations, customer terms, financing arrangements and project timing. Finance and the relevant advisers should review the monthly model before funding decisions are made.",
+  "relatedIds": ["OWN-BI-02", "OWN-BI-05", "OWN-AM-05", "OWN-PT-04"],
+  "reviewStatus": "editorial-draft"
+}

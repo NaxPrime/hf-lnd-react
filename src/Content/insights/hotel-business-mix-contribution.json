@@ -1,0 +1,81 @@
+{
+  "id": "OWN-PT-04",
+  "slug": "hotel-business-mix-contribution",
+  "title": "Choose hotel business mix by contribution and displacement",
+  "description": "Assess hotel business segments using total contribution, stay patterns and capacity constraints before accepting volume that may displace more valuable demand.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner or commercial leader rebuilding segment strategy",
+  "answer": "Choose business mix by asking what each segment contributes across the stay and which scarce capacity it uses. Compare the contribution expected from a proposed booking or group with the contribution likely to be lost if other demand cannot be accepted. Make that comparison date by date where necessary; a monthly average can conceal a costly conflict on the peak night.",
+  "sections": [
+    {
+      "heading": "Separate the guest segment from its booking channel",
+      "paragraphs": [
+        "Define segments by the commercial behavior relevant to the hotel: purpose of stay, booking pattern, negotiated commitments and service needs. A corporate guest can arrive through several channels; treating corporate and online travel agency bookings as mutually exclusive categories can double-count or misclassify business.",
+        "Create a segment profile with room nights, realized rate, length of stay, day-of-week pattern, lead time, cancellation or release behavior and relevant ancillary activity. Keep definitions stable long enough to compare periods, and document changes rather than interpreting recoding as demand growth."
+      ]
+    },
+    {
+      "heading": "Estimate contribution across the whole stay",
+      "paragraphs": [
+        "Include the revenues and costs that the booking is expected to create across rooms and relevant departments. A group’s dining or event income is not all profit; include the costs of delivery and any additional resources it requires. Check package allocations to avoid counting the same revenue in rooms and banqueting.",
+        "Distinguish historical average contribution from the expected contribution of the specific offer. A familiar customer may request a different rate, service package or space commitment this time. Use the actual proposed terms and identify uncertain take-up or spending assumptions."
+      ],
+      "bullets": [
+        "List expected room nights and other revenue by stay date.",
+        "Record inclusions, complimentary provisions and special delivery requirements.",
+        "Separate fixed commitments from variable or uncertain demand.",
+        "Show assumptions for block pickup, release and cancellation."
+      ]
+    },
+    {
+      "heading": "Test displacement on constrained dates",
+      "paragraphs": [
+        "Identify which room types, dates and event spaces could become unavailable to other demand if the proposal is accepted. Estimate the alternative demand the hotel may turn away and its relevant contribution. This requires an unconstrained view of demand, not simply the bookings already on the books.",
+        "A group spanning weak and strong dates may fill useful shoulder nights while occupying scarce capacity on a peak date. Assess the complete stay pattern and realistic alternatives, such as different arrival dates, a smaller block or adjusted space commitments. Do not assume every unbooked room will sell or every displaced request would have materialized."
+      ]
+    },
+    {
+      "heading": "Translate the analysis into commercial terms",
+      "paragraphs": [
+        "Use the comparison to identify the terms that would change the decision: room block, rate, release date, inclusions, payment schedule or event-space use. Evaluate material contractual terms with the appropriate commercial and legal reviewers. The aim is an offer the hotel can deliver profitably, not a single universal rate floor.",
+        "After the stay, compare expected and actual pickup, contribution and use of capacity. Track whether the proposed alternative demand appeared. This review improves future assumptions and exposes repeated overestimation of either group value or displaced demand."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Profile the business",
+      "detail": "Define the segment, actual terms, stay pattern and capacity required."
+    },
+    {
+      "title": "Estimate relevant contribution",
+      "detail": "Combine the expected revenue and delivery costs without double-counting packages."
+    },
+    {
+      "title": "Test constrained capacity",
+      "detail": "Compare accepted business with plausible displaced demand by date and resource."
+    },
+    {
+      "title": "Negotiate and learn",
+      "detail": "Adjust the terms where appropriate, then reconcile actual delivery with the original assumptions."
+    }
+  ],
+  "checklist": [
+    "Segments and channels use separate definitions.",
+    "The full stay pattern is visible.",
+    "Ancillary revenue is paired with delivery costs.",
+    "Package revenue is counted once.",
+    "Pickup, release and cancellation assumptions are explicit.",
+    "Displacement is assessed on constrained dates and resources.",
+    "Alternative demand is estimated with uncertainty.",
+    "The decision record supports a post-stay review."
+  ],
+  "limitations": "Displacement and contribution estimates depend on uncertain future demand and consistent cost definitions. The result is decision support, not a guaranteed forecast or a substitute for reviewing the actual commercial agreement. No standard segment mix is appropriate for every asset.",
+  "relatedIds": [
+    "OWN-PT-03",
+    "OWN-BI-04",
+    "OWN-AM-04"
+  ],
+  "reviewStatus": "editorial-draft"
+}

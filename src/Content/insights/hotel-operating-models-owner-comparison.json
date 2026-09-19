@@ -1,0 +1,65 @@
+{
+  "id": "OWN-BS-02",
+  "slug": "hotel-operating-models-owner-comparison",
+  "title": "Managed, franchised or independent hotel: compare the owner’s obligations",
+  "description": "Compare managed, franchised and independent hotel options by assigning operating tasks, funding needs, approval rights and support costs before choosing a model.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel promoter choosing a commercial operating model",
+  "answer": "Choose an operating model by identifying who will run the hotel, who supplies its commercial systems and who funds and approves the work. Assess a managed proposal against its actual management scope; assess a franchise proposal together with the team or third-party manager that would operate the hotel; assess independence together with the systems and skills you would procure. Compare complete operating arrangements rather than the label or headline fee alone.",
+  "sections": [
+    {
+      "heading": "Draw three complete operating arrangements",
+      "paragraphs": [
+        "For the managed option, name the proposed manager and list the activities it would perform under the offered agreement. For the franchise option, identify the separate operating team or management arrangement, then list the brand services offered. For the independent option, name the people and suppliers responsible for operations, distribution, technology and quality control. A model with an unnamed delivery team is incomplete.",
+        "Keep ownership of the asset separate from responsibility for day-to-day operation. Write down the contracting parties and ask advisers to check the relationships between their agreements. Do not assume that an appointment, licence or brand label answers who employs staff, holds a system account, approves expenditure or has access to guest data."
+      ]
+    },
+    {
+      "heading": "Compare responsibilities one task at a time",
+      "paragraphs": [
+        "Create a matrix with one column for each complete arrangement. For every row, name the party that performs the task, the party that pays, the person approving it and the evidence used to verify delivery. Include recruitment, financial reporting, pricing, channel management, purchasing, maintenance, training and capital planning.",
+        "Mark overlaps and gaps. If both the brand and a third-party manager offer revenue support, specify which decisions each controls and whether both charge for them. If neither party owns a task, the owner needs to provide it or revise the scope. Ask counsel to check proposed authority and approval arrangements against the actual documents."
+      ],
+      "bullets": [
+        "People: recruitment, employer identity, payroll administration, training and leadership succession.",
+        "Commercial work: pricing authority, sales coverage, distribution access and campaign approval.",
+        "Systems: procurement, account ownership, reporting access, support and migration responsibilities.",
+        "Governance: budget submission, spending approvals, reporting deadlines and issue escalation."
+      ]
+    },
+    {
+      "heading": "Price the missing capability and the retained work",
+      "paragraphs": [
+        "Build a cost schedule for each arrangement using the same hotel concept and operating assumptions. Include the quoted brand or management charges, additional support contracts, on-property leadership, owner oversight and setup or transition work. Keep working capital and capital expenditure visible as funding needs rather than disguising them as operating fees.",
+        "Time also belongs in the comparison. Estimate the owner team’s required involvement in recruiting leaders, reviewing performance and coordinating suppliers. Test whether the proposed arrangement can be mobilized by the intended opening date. An apparently lower-cost option may require capabilities that the owner has neither appointed nor budgeted; a broader scope may duplicate capability already available within the ownership group."
+      ]
+    },
+    {
+      "heading": "Choose a model with an executable handover and oversight plan",
+      "paragraphs": [
+        "Use capability gaps as decision triggers. Where the owner cannot supply daily operating leadership, require a credible operating appointment before advancing the option. Where differentiated positioning matters, document how product, pricing and marketing decisions would be made under each proposed arrangement. Where supplier dependence is material, ask how access, data and service continuity would be handled at a future transition.",
+        "The decision record should identify the chosen arrangement, rejected alternatives, unfilled roles and agreements still to review. Attach a mobilization plan showing appointments, system setup, training, reporting and owner review points. Selecting a model does not remove the need to monitor the performance of the parties appointed."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Name each complete arrangement", "detail": "Identify the operating team, commercial systems and support providers behind each managed, franchise or independent option." },
+    { "title": "Allocate tasks and authority", "detail": "Document who delivers, pays, approves and reports for each recurring responsibility, leaving unresolved terms visible." },
+    { "title": "Cost the capability gaps", "detail": "Add missing people, oversight, technology and mobilization work to the quoted commercial charges under common assumptions." },
+    { "title": "Test delivery readiness", "detail": "Check that the owner can appoint the required roles and establish systems within the actual project sequence." },
+    { "title": "Approve the operating plan", "detail": "Record the selected arrangement and commission the required agreement reviews before making commitments." }
+  ],
+  "checklist": [
+    "Every option identifies who would operate the hotel.",
+    "The responsibility matrix names the performing, funding and approving parties.",
+    "Employment, data access and system-account questions are assigned for review.",
+    "Duplicated support services and unowned tasks are visible.",
+    "Owner oversight and missing leadership are included in the resource plan.",
+    "Capital and working-capital requirements are separated from fees.",
+    "The selected option has a practical mobilization and reporting plan."
+  ],
+  "limitations": "Editorial draft presenting a comparison method, not a determination of duties under any particular model. Actual management, franchise, employment and supplier documents and the applicable jurisdiction govern the arrangement. Qualified commercial, accounting and legal review is needed for a specific transaction.",
+  "relatedIds": ["OWN-BS-01", "OWN-BS-04", "OWN-BS-05"],
+  "reviewStatus": "editorial-draft"
+}

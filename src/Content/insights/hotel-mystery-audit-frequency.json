@@ -1,0 +1,66 @@
+{
+  "id": "OWN-MA-06",
+  "slug": "hotel-mystery-audit-frequency",
+  "title": "How often should an owner commission hotel mystery audits?",
+  "description": "Set hotel mystery-audit frequency from service exposure, operational change, unresolved findings and retest needs instead of using an unsupported universal schedule.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Hotel owner designing a recurring service-quality program",
+  "answer": "Choose frequency by the service risks and operating conditions the owner needs to observe. Build a baseline of the important guest journeys, rotate coverage across relevant seasons and shifts, and add targeted checks after material changes or corrective actions. Stable delivery may justify wider spacing for a particular scenario; unresolved or recurring failures may justify closer follow-up. Every visit should have a decision purpose and time for management to act on the evidence.",
+  "sections": [
+    {
+      "heading": "Plan coverage before choosing dates",
+      "paragraphs": [
+        "List the guest journeys, products and operating conditions that matter to the property. Include material booking channels, room types, outlets and service situations, but do not assume a single stay can cover them all. Use the operating calendar to identify meaningful changes in the guest mix, seasonal facilities, event activity and staffing. The purpose is to select informative observations, not to fill every possible combination.",
+        "Create a coverage matrix with rows for the important scenarios and columns for the relevant conditions. Mark what has been observed recently, what remains untested and what has changed since the last observation. A series of similar weekday stays can leave a weekend or seasonal operation unexplored even if the total visit count looks substantial. Record why a condition is included or omitted."
+      ]
+    },
+    {
+      "heading": "Use risk and change to allocate the next observation",
+      "paragraphs": [
+        "For each scenario, assess the consequence of failure, its exposure to guests, the confidence in existing evidence and the degree of recent operational change. Consider repeated findings, unresolved handoffs, new systems, leadership changes, large staffing changes or the reopening of an outlet. These are reasons to reconsider coverage; they are not proof that service has deteriorated.",
+        "Group the plan by the action needed. An unobserved material journey needs a baseline. A corrected failure needs a defined retest. A newly changed process needs a check once it is operating in normal conditions. A stable process needs periodic coverage sufficient to notice drift. Keep this rationale visible so the owner can change the plan when circumstances change instead of treating the calendar as a fixed purchase commitment."
+      ],
+      "bullets": [
+        "Baseline check: resolve a material gap in what the owner knows about guest delivery.",
+        "Change check: observe the service after a relevant team, process, system or product change.",
+        "Closure retest: test a specific previously failed outcome after the correction is ready.",
+        "Recurring coverage: revisit important journeys under varied, relevant operating conditions.",
+        "Exception trigger: bring forward a targeted review when a credible new concern requires evidence."
+      ]
+    },
+    {
+      "heading": "Balance observation with the capacity to improve",
+      "paragraphs": [
+        "Review the open action register before commissioning another broad visit. If management is still investigating the last report, a repeat of the same scope may add little unless it tests whether the issue persists or creates new exposure. Conversely, postponing every check until all actions are closed can leave a persistent problem unexamined. Select the narrowest useful follow-up and state what decision its result will change.",
+        "Separate a full journey assessment from a targeted retest in scope, effort and reporting. A focused check may verify one handoff without refreshing the assessment of all outlets. Reserve resources for both initial observation and closure verification. More reports do not demonstrate a stronger quality program if no one can investigate findings, make decisions or verify the correction."
+      ]
+    },
+    {
+      "heading": "Keep the schedule useful without making visits predictable",
+      "paragraphs": [
+        "Agree operating windows and permitted scenarios with the commissioning owner while limiting visit-detail access to the people who need it. Avoid repeating an identifiable booking pattern. Record suspected assessor recognition and decide whether the affected observation remains useful. Confidentiality of the visit should not prevent an agreed urgent escalation when a serious concern is encountered.",
+        "At each planning review, compare the coverage matrix, open findings and forthcoming operating changes. Explain any decision to extend or shorten the interval for a scenario. Keep required brand and specialist inspections on their own schedules; a mystery-audit program is designed around guest experience and does not substitute for those obligations. The planning output should identify the next question, the relevant observation window and the condition that would bring it forward."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Map the evidence gaps", "detail": "List material guest journeys and operating conditions, then mark recent observations, exclusions and changes since the last visit." },
+    { "title": "Choose risk-based purposes", "detail": "Assign baseline, change, closure or recurring checks according to consequence, exposure, evidence confidence and operational change." },
+    { "title": "Set scope and observation windows", "detail": "Match each check to a useful operating condition and management's action capacity, with clear triggers for extra targeted work." },
+    { "title": "Reassess after findings and changes", "detail": "Update the plan using the action register and operating calendar, documenting why particular scenarios need earlier or later coverage." }
+  ],
+  "checklist": [
+    "The program has a coverage matrix rather than only a visit count.",
+    "Important seasonal, shift and guest-mix differences are considered.",
+    "Each proposed visit has a specific owner decision purpose.",
+    "Material changes and recurring findings can trigger targeted checks.",
+    "Full assessments and closure retests have distinct scopes.",
+    "Management has time and resources to investigate and act.",
+    "Suspected assessor recognition and unobserved scenarios are disclosed.",
+    "Required brand and specialist assessments retain their own schedules."
+  ],
+  "limitations": "Editorial draft for designing a property-specific observation program. No universal frequency or HotelFirst service schedule is asserted. The appropriate cadence depends on actual risk, operating variation, available evidence and resources; a sampled program cannot guarantee that every failure will be detected.",
+  "relatedIds": ["OWN-MA-01", "OWN-MA-04", "OWN-MA-07", "OWN-MA-08"],
+  "reviewStatus": "editorial-draft"
+}

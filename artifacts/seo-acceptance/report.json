@@ -1,0 +1,4528 @@
+{
+  "baseUrl": "http://127.0.0.1:3100",
+  "checkedAt": "2026-09-19T20:26:06.695Z",
+  "checks": [
+    {
+      "ok": true,
+      "message": "Browser CTA forms do not bypass the validated enquiry endpoint"
+    },
+    {
+      "ok": true,
+      "message": "Exactly 40 owner guides exist (found 40)"
+    },
+    {
+      "ok": true,
+      "message": "Owner guide IDs are unique"
+    },
+    {
+      "ok": true,
+      "message": "Owner guide slugs are unique"
+    },
+    {
+      "ok": true,
+      "message": "Owner guide titles are unique"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-01 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-02 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-03 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-04 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-05 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-06 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-07 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-AM-08 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-01 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-02 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-03 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-04 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-05 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-06 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-07 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BI-08 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-01 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-02 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-03 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-04 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-05 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-06 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-07 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-BS-08 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-01 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-02 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-03 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-04 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-05 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-06 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-07 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-MA-08 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-01 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-02 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-03 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-04 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-05 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-06 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-07 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has a valid slug"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has complete editorial fields"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has 3-5 useful sections"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has 3-5 decision steps"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has an actionable checklist"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 states its limitations"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has 2-4 related decisions"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has valid related IDs"
+    },
+    {
+      "ok": true,
+      "message": "Guide OWN-PT-08 has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Six owner worksheets exist"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet slugs are unique"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet turnaround-decision-register route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet turnaround-decision-register uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet turnaround-decision-register contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet turnaround-decision-register table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet turnaround-decision-register has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet brand-fit-scorecard route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet brand-fit-scorecard uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet brand-fit-scorecard contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet brand-fit-scorecard table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet brand-fit-scorecard has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hma-review-register route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hma-review-register uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hma-review-register contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hma-review-register table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hma-review-register has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet feasibility-assumption-register route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet feasibility-assumption-register uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet feasibility-assumption-register contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet feasibility-assumption-register table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet feasibility-assumption-register has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet owner-performance-pack route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet owner-performance-pack uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet owner-performance-pack contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet owner-performance-pack table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet owner-performance-pack has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet mystery-audit-action-register route matches its slug"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet mystery-audit-action-register uses a canonical service path"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet mystery-audit-action-register contains a decision method and working register"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet mystery-audit-action-register table is rectangular"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet mystery-audit-action-register has a valid review status"
+    },
+    {
+      "ok": true,
+      "message": "/ returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/ has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/ has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/ has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/ remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/ does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/ has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/Aboutus has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/Contact returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/Contact has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/Contact has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/Contact has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/Contact remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/Contact does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/Contact has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/services/BrandSelection has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/services/BusinessIntelligence has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/services/AssetManagement has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/services/MysteryAudit has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/services/AdhocConsultation has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/privacy-policy has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions has the expected unique title"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions has a useful description"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions remains indexable"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions does not rely on obsolete meta-keywords"
+    },
+    {
+      "ok": true,
+      "message": "/terms-and-conditions has exactly one H1"
+    },
+    {
+      "ok": true,
+      "message": "Homepage exposes Organization structured data"
+    },
+    {
+      "ok": true,
+      "message": "Homepage exposes WebSite structured data"
+    },
+    {
+      "ok": true,
+      "message": "Organization schema uses the approved LinkedIn identity"
+    },
+    {
+      "ok": true,
+      "message": "Draft-preview owner guide hub returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "Draft-preview owner guide hub is noindex"
+    },
+    {
+      "ok": true,
+      "message": "Owner guide hub visibly identifies draft status"
+    },
+    {
+      "ok": true,
+      "message": "Owner guide hub links to all 40 preview guides"
+    },
+    {
+      "ok": true,
+      "message": "Draft-preview worksheet hub returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "Draft-preview worksheet hub is noindex"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hub visibly identifies draft status"
+    },
+    {
+      "ok": true,
+      "message": "Worksheet hub links to all six preview worksheets"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-asset-manager-operator-roles links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/monthly-hotel-owner-report links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-growth-versus-market-share links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-owner-budget-review links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-gop-owner-cash-flow links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-renovation-capex-investment-case links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-commitment-scorecard links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-performance-comparison links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-study-scope links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-demand-validation links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/proposed-hotel-competitive-set links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-room-mix-concept-decisions links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-model-sensitivity links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-seasonality links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-repositioning-market-study links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-feasibility-lender-evidence links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-fit-scorecard links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operating-models-owner-comparison links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-operator-proposal-comparison links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-commercial-review-owner-checklist links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-management-fee-cost-model links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hma-performance-test-questions links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-territorial-protection links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-hma-renewal-review-pack links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-brand-inspection links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-report-scope links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-silent-service-gaps links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-service-training-verification links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-brand-inspection-readiness links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-frequency links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-mystery-audit-action-closure links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-portfolio-service-quality links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/high-hotel-occupancy-low-profit links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-performance-diagnostic-scope links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-channel-net-contribution links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-business-mix-contribution links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-cost-reduction-service-impact links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-fb-banquet-contribution links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-rebrand-versus-operational-turnaround links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan renders the direct answer as visible text"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan renders the substantive sections"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan renders the decision diagram"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/insights/hotel-turnaround-implementation-plan links its related owner decisions"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-turnaround-decision-register worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-brand-fit-scorecard worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hma-commercial-review-register worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-feasibility-assumption-register worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-owner-performance-pack worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register returns HTTP 200 in editorial preview"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register has the production canonical"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register is noindex before release"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register has the intended H1"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register renders its direct answer"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register renders its decision sequence"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register links its worksheet download"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register links to its canonical advisory service"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register worksheet returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register worksheet uses a CSV content type"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register worksheet is an attachment"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register worksheet is excluded from indexing"
+    },
+    {
+      "ok": true,
+      "message": "/resources/hotel-mystery-audit-action-register worksheet has the expected rows"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /ota-optimization-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-marketing-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-consulting-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /hotel-profitability-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-resorts-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-business-hotels-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-boutique-hotels-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-3-star-hotels-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-4-star-hotels-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-hyderabad permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-hyderabad consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-bangalore permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-bangalore consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-goa permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-goa consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-chennai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-chennai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-mumbai permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy route /revenue-management-for-5-star-hotels-mumbai consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/ota-optimization permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/ota-optimization consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-marketing permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-marketing consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-consulting permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-consulting consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-profitability permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/hotel-profitability consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-resorts permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-resorts consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-business-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-business-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-boutique-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-boutique-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-3-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-3-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-4-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-4-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-5-star-hotels permanently redirects"
+    },
+    {
+      "ok": true,
+      "message": "Legacy FAQ /faqs/revenue-management-for-5-star-hotels consolidates to its canonical service"
+    },
+    {
+      "ok": true,
+      "message": "/seo-route-that-does-not-exist returns a real HTTP 404"
+    },
+    {
+      "ok": true,
+      "message": "/faqs/not-a-real-topic returns a real HTTP 404"
+    },
+    {
+      "ok": true,
+      "message": "/insights/not-a-real-guide returns a real HTTP 404"
+    },
+    {
+      "ok": true,
+      "message": "/resources/not-a-real-resource returns a real HTTP 404"
+    },
+    {
+      "ok": true,
+      "message": "/resources/not-a-real-resource/worksheet.csv returns a real HTTP 404"
+    },
+    {
+      "ok": true,
+      "message": "robots.txt returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "robots.txt excludes API routes"
+    },
+    {
+      "ok": true,
+      "message": "robots.txt declares the production sitemap"
+    },
+    {
+      "ok": true,
+      "message": "sitemap.xml returns HTTP 200"
+    },
+    {
+      "ok": true,
+      "message": "Sitemap contains only approved canonical pages"
+    },
+    {
+      "ok": true,
+      "message": "API responses carry X-Robots-Tag"
+    },
+    {
+      "ok": true,
+      "message": "Sitemap excludes legacy and FAQ routes"
+    },
+    {
+      "ok": true,
+      "message": "Owner-library internal links are reachable"
+    },
+    {
+      "ok": true,
+      "message": "Rendered same-origin images are reachable"
+    },
+    {
+      "ok": true,
+      "message": "Owner-library search filters the 40-guide list"
+    },
+    {
+      "ok": true,
+      "message": "Homepage has no desktop horizontal overflow after styles and hydration"
+    },
+    {
+      "ok": true,
+      "message": "Representative mobile guide has no horizontal overflow"
+    },
+    {
+      "ok": true,
+      "message": "Homepage has no mobile horizontal overflow"
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\Manish\\Desktop\\development\\HotelFirst Advisory\\Website Revamp\\Main\\artifacts\\seo-acceptance\\insights-desktop.png",
+    "C:\\Users\\Manish\\Desktop\\development\\HotelFirst Advisory\\Website Revamp\\Main\\artifacts\\seo-acceptance\\homepage-desktop.png",
+    "C:\\Users\\Manish\\Desktop\\development\\HotelFirst Advisory\\Website Revamp\\Main\\artifacts\\seo-acceptance\\guide-mobile.png",
+    "C:\\Users\\Manish\\Desktop\\development\\HotelFirst Advisory\\Website Revamp\\Main\\artifacts\\seo-acceptance\\homepage-mobile.png"
+  ],
+  "summary": {
+    "passed": 1128,
+    "failed": 0
+  }
+}

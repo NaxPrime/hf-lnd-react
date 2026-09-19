@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-02",
+  "slug": "hotel-demand-validation",
+  "title": "Validate hotel demand before committing to a site or concept",
+  "description": "Build a hotel demand evidence matrix that separates observed stays, interview estimates and future assumptions, and tests whether the proposed property can win the business.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Developer or landowner testing the case for a new hotel",
+  "answer": "Validate demand by identifying who needs overnight accommodation, when they travel, how they choose a hotel and what evidence supports their room-night requirement. Then test the proposed site's ability to capture that business against existing and future alternatives. Keep observed activity, buyer estimates and assumed future growth separate. Airport traffic, attraction visits and nearby office space do not by themselves establish demand for rooms at the proposed hotel.",
+  "sections": [
+    {
+      "heading": "Start with the reason for an overnight stay",
+      "paragraphs": [
+        "Create one evidence row for each identifiable source of business: a corporate travel account, an event organizer, a hospital visitor segment, a tour itinerary or another relevant generator. Record the traveler, booking decision-maker, destination, stay pattern and current accommodation choices. Test actual journey time from the site during the periods guests would travel, rather than assuming a small map distance means convenient access.",
+        "Separate overnight visitors from residents and day visitors. For a group or event, establish whether participants stay locally, share rooms or travel home. If people rather than rooms are counted, state the conversion assumptions. Do not turn footfall directly into room nights without evidence for overnight propensity, room sharing and length of stay."
+      ]
+    },
+    {
+      "heading": "Record what each source can actually establish",
+      "paragraphs": [
+        "For each row, retain the source, contact role where appropriate, date, period covered and method. Distinguish a buyer's historical usage record from an interview recollection, an expression of interest and an assumed future requirement. Ask about preferred locations, budget constraints, booking channels, cancellation patterns and reasons for rejecting current hotels; a broad statement that a new hotel would be welcome is insufficient.",
+        "Cross-check important claims using a different type of evidence where available. An employer's expected visiting staff, a travel buyer's records and a local accommodation review may describe overlapping activity. A press announcement establishes what was announced, not that an industrial facility is operating or already generating stays."
+      ],
+      "bullets": [
+        "Observed: a dated record with a defined coverage period.",
+        "Estimated: an attributable estimate with its method and range.",
+        "Conditional: demand depending on a future opening, contract or behavior change."
+      ]
+    },
+    {
+      "heading": "Remove overlap before estimating capture",
+      "paragraphs": [
+        "Give related sources a common reference so the same traveler is not counted through an employer, travel agent and event organizer. Reconcile demand already accommodated in the market with additional demand that may emerge. Business transferred from an existing hotel can be relevant to the proposal, but it is not automatically new demand for the destination.",
+        "Estimate capture by segment using a stated reason to choose the new property: access, room configuration, service capability or a documented unmet requirement. Check the available nights and competing hotels for that segment. An annual room-night total can conceal several sources all seeking the same peak dates, while leaving ordinary weekdays or low-season periods unsupported."
+      ]
+    },
+    {
+      "heading": "Use uncertainty to decide the next research action",
+      "paragraphs": [
+        "Rank gaps by whether resolving them could change the concept or site decision. If the hotel depends on one unconfirmed corporate account, verify the buyer's conditions before spending further on detailed design. If demand exists but only at a different price or in another location, revise the product or capture assumption instead of retaining the original conclusion.",
+        "Keep a case that excludes unconfirmed demand generators and delayed infrastructure. Compare that result with the conditional case. The final evidence matrix should state which segments support the concept today, which remain assumptions and what event or document would allow those assumptions to be upgraded."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Map overnight demand", "detail": "Identify guests, buyers, trip purposes and stay patterns within the site's realistic travel catchment." },
+    { "title": "Classify the evidence", "detail": "Record the source and period, marking each claim as observed, estimated or conditional rather than blending them into one total." },
+    { "title": "Reconcile room nights", "detail": "Remove duplicate sources, distinguish transferred from additional demand, and check date concentration and room-sharing assumptions." },
+    { "title": "Test the hotel choice", "detail": "Document why each segment would select the proposed hotel and investigate assumptions whose failure would change the decision." }
+  ],
+  "checklist": [
+    "Visitor counts are separated from overnight stays and room nights.",
+    "The buyer's selection criteria and current alternatives are recorded.",
+    "Sources include dates, coverage and collection method.",
+    "Related employer, agent and event estimates are checked for overlap.",
+    "Peak-date collisions and low-demand periods are visible.",
+    "Future infrastructure and projects are marked conditional.",
+    "The concept has been tested without its most uncertain demand source."
+  ],
+  "limitations": "This guide describes an evidence-gathering method and contains no measured demand estimate. Interviews are not booking commitments. Any capture forecast needs current local research, an explicit supply assessment and review of the proposed hotel's product, pricing and access assumptions.",
+  "relatedIds": ["OWN-BI-01", "OWN-BI-03", "OWN-BI-04", "OWN-BI-06"],
+  "reviewStatus": "editorial-draft"
+}

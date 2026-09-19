@@ -1,0 +1,81 @@
+{
+  "id": "OWN-PT-03",
+  "slug": "hotel-channel-net-contribution",
+  "title": "Compare hotel distribution channels on net contribution",
+  "description": "Compare hotel booking channels using realized revenue, attributable costs and a consistent stay period rather than commission rates alone.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner or revenue leader investigating costly bookings",
+  "answer": "Compare booking channels using the revenue and relevant costs of completed stays on a consistent basis. Include costs incurred outside the booking invoice, such as attributable advertising, payment charges and channel-specific servicing. Keep an incremental booking decision separate from a fully allocated channel review: closing a channel does not necessarily remove every cost assigned to it.",
+  "sections": [
+    {
+      "heading": "Choose the unit and period of comparison",
+      "paragraphs": [
+        "Start with completed stays or another explicitly defined cohort. Booking-date reports and stay-date accounts can tell different stories when cancellations, refunds and advance bookings are material. Reconcile the selected cohort to the accounts and state how taxes, packages and pass-through items are treated.",
+        "Use both total contribution and a suitable unit measure, such as contribution per stayed room night. A low-volume channel with a high unit contribution may not replace the volume another channel supplies. Record booking lead time, length of stay and cancellation behavior where they affect the owner’s decision."
+      ]
+    },
+    {
+      "heading": "Build the cost waterfall",
+      "paragraphs": [
+        "Begin with the revenue actually recognized for the stay under the hotel’s reporting basis. Identify commissions, transaction fees, payment costs, promotions funded by the hotel and any channel-specific service costs. Check whether charges are already deducted in a net revenue figure before subtracting them again.",
+        "For direct bookings, identify the relevant booking-engine, media, agency, call-handling or loyalty costs rather than treating the absence of a commission as zero acquisition cost. Allocate shared costs only with a documented method. Where attribution is uncertain, show the uncertainty instead of assigning every booking to the last visible interaction."
+      ],
+      "bullets": [
+        "Worksheet columns: channel, stayed room nights, recognized revenue and direct charges.",
+        "Add attributable acquisition and servicing costs with their source.",
+        "Show the resulting contribution and the cost definition used.",
+        "Keep shared allocations and unallocated costs visible in separate columns."
+      ]
+    },
+    {
+      "heading": "Separate reporting from a change decision",
+      "paragraphs": [
+        "A fully allocated view can support the annual channel budget. A decision to accept one more booking requires the costs and revenue that would change because of that booking. Mixing these views can make a useful channel appear uneconomic or make an expensive expansion look profitable.",
+        "Before shifting volume, ask whether alternative demand actually exists and what additional spend would be needed to acquire it. Some bookings may move between channels without adding demand. Changing availability or promotions can also alter lead time and cancellation patterns, so a commission saving is not the entire business case."
+      ]
+    },
+    {
+      "heading": "Evaluate a controlled commercial change",
+      "paragraphs": [
+        "Write the proposed change precisely: a campaign allocation, promotion, channel availability rule or booking-process improvement. Define the observation period and the comparable dates or segments. Track net contribution alongside room nights, cancellation, conversion and any workload effect.",
+        "Have finance review the reconciliation and have the commercial team explain changes in demand and booking behavior. Avoid declaring success solely because direct-booking share rose; total contribution may still have fallen or the change may reflect seasonality. Use the evidence to retain, adjust or stop the initiative."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Define the booking cohort",
+      "detail": "Align completed stays, room nights, accounting periods and revenue treatment."
+    },
+    {
+      "title": "Reconcile the cost waterfall",
+      "detail": "Identify direct and attributable costs once, with transparent shared allocations."
+    },
+    {
+      "title": "Choose the decision lens",
+      "detail": "Use fully allocated costs for a channel budget and relevant incremental costs for a booking or change decision."
+    },
+    {
+      "title": "Test the proposed shift",
+      "detail": "Check replacement demand and observe contribution, volume and booking behavior together."
+    }
+  ],
+  "checklist": [
+    "Stay-date and booking-date views are not mixed without reconciliation.",
+    "Net revenue has not had the same commission deducted twice.",
+    "Direct-booking acquisition costs are included where relevant.",
+    "Shared cost allocation is explicit.",
+    "Contribution definitions are consistent across channels.",
+    "Replacement demand is supported rather than assumed.",
+    "Changes are evaluated against comparable trading conditions.",
+    "Total contribution is reviewed alongside channel share."
+  ],
+  "limitations": "The appropriate cost basis depends on the decision and accounting treatment. Channel attribution is often incomplete, and past averages do not prove the marginal cost of future bookings. This guide does not recommend a fixed channel mix or presume that any channel is always cheapest.",
+  "relatedIds": [
+    "OWN-PT-01",
+    "OWN-PT-04",
+    "OWN-AM-02"
+  ],
+  "reviewStatus": "editorial-draft"
+}

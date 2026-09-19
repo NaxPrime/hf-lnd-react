@@ -1,0 +1,66 @@
+{
+  "id": "OWN-MA-02",
+  "slug": "hotel-mystery-audit-report-scope",
+  "title": "What should a hotel owner receive in a mystery audit report?",
+  "description": "Specify a mystery audit report that connects each guest observation to its applicable standard, evidence, severity, accountable action and retest requirement.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Owner or operations leader commissioning an independent guest-experience audit",
+  "answer": "An owner should receive a traceable account of the guest journey, a clear statement of what was and was not tested, and an action register tied to the underlying observations. A useful report distinguishes what the assessor saw from the standard being applied, the impact inferred and the remedy proposed. Agree these fields, the scoring rules and the retest output before commissioning; a polished score alone cannot tell a manager what to fix or an owner whether the fix worked.",
+  "sections": [
+    {
+      "heading": "Make the scope page part of the deliverable",
+      "paragraphs": [
+        "The report should identify the visit window, booked product, guest scenario, outlets used, relevant operating conditions and any deviations from the agreed plan. If an outlet was closed, a room type unavailable or a scenario not attempted, the reader needs to know. Unobserved items must remain unobserved rather than receiving a default pass or fail.",
+        "Include the protocol version and the source of each standard. Property promises, authorized brand requirements and general reviewer preferences are different bases for assessment. The scope page should also explain how observations were recorded, how factual queries are resolved and whether the final report includes follow-up verification or only the initial visit."
+      ]
+    },
+    {
+      "heading": "Require an evidence chain for every material finding",
+      "paragraphs": [
+        "Give each finding a stable reference that links the narrative, evidence and action register. Record the guest request or situation, the observed response, the sequence and timing where relevant, and the outcome. Describe behavior rather than labeling a team as careless or unhelpful. The report should enable a reviewer who was not present to understand the basis of the finding.",
+        "Keep the explanation tentative until checked. An unfulfilled request may have been lost at intake, accepted without capacity, misrouted or marked complete prematurely. The initial report can name these investigation paths, but it should not present one as the root cause without supporting evidence. Evidence attachments should contain only what the agreed scope requires, with unnecessary guest and staff identifiers removed."
+      ],
+      "bullets": [
+        "Observation: what was requested, what occurred and the guest-facing outcome.",
+        "Requirement: applicable promise or standard, including its document version.",
+        "Support: timestamped notes or other authorized evidence and its reference.",
+        "Assessment: severity rationale, uncertainty and whether the finding was isolated or repeated within the sample.",
+        "Action: accountable role, proposed investigation or correction, target date and closure test."
+      ]
+    },
+    {
+      "heading": "Inspect the scoring rules before relying on the result",
+      "paragraphs": [
+        "Ask for scoring anchors that describe observable differences. Reviewers need a common interpretation of complete, partial and failed delivery, including when a service recovery changes the assessment. Timing criteria should come from an applicable commitment or an agreed protocol; an assessor's unstated preference should not become a standard after the visit.",
+        "Require the report to show applicable items, observed items, weighting and any exclusions. Keep significant findings visible even if their effect on the overall average is small. Ask how reviewers calibrate judgments and how score corrections are documented. If the scoring method changes, the report should identify the change before showing a comparison with earlier visits."
+      ]
+    },
+    {
+      "heading": "Specify an owner summary that leads to decisions",
+      "paragraphs": [
+        "The owner summary should separate urgent containment, operational investigation and planned improvement. For each material issue, show the guest consequence, evidence confidence, accountable role and the next decision needed from leadership. A proposed expenditure requires its own justification; the audit observation does not by itself prove that hiring, replacing a system or renovating a facility is the correct remedy.",
+        "Include a factual response window for management and retain unresolved differences with supporting evidence. The final package should contain an action register and a defined retest specification. Ask for permission-cleared sample pages when evaluating providers, but do not mistake an attractive sample report for evidence of the provider's consistency across visits."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Approve the report specification", "detail": "Define the scope page, finding fields, evidence rules and owner summary before accepting an audit proposal." },
+    { "title": "Review the assessment method", "detail": "Check standards, scoring anchors, excluded-item treatment and reviewer calibration so the resulting judgments can be interpreted." },
+    { "title": "Trace findings to evidence", "detail": "On delivery, sample material findings from the summary back to the original observation and confirm that explanations are supported or clearly unresolved." },
+    { "title": "Accept actionable outputs", "detail": "Confirm accountable actions, factual responses, closure criteria and the retest scope rather than accepting the report solely because it contains a score." }
+  ],
+  "checklist": [
+    "Visit conditions and deviations from the commissioned scope are disclosed.",
+    "Every material finding has a stable reference and an applicable requirement.",
+    "Observed behavior is separated from inferred impact and suspected cause.",
+    "Unobserved items and excluded items are treated explicitly.",
+    "Scoring anchors, weighting and calibration procedures are available for review.",
+    "Management can correct factual errors without silently deleting substantiated findings.",
+    "The action register includes owners, dates, closure evidence and retest requirements.",
+    "Evidence handling avoids unnecessary personal information."
+  ],
+  "limitations": "Editorial draft specifying a proposed report standard, not an approved HotelFirst report or a claim about completed audits. Report fields, severity rules and permitted evidence need property-specific agreement and subject-matter review. An audit cannot establish financial loss, staff intent or operational root cause from a guest observation alone.",
+  "relatedIds": ["OWN-MA-01", "OWN-MA-07", "OWN-MA-08"],
+  "reviewStatus": "editorial-draft"
+}

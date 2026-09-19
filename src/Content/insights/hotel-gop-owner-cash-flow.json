@@ -1,0 +1,79 @@
+{
+  "id": "OWN-AM-05",
+  "slug": "hotel-gop-owner-cash-flow",
+  "title": "Hotel GOP and owner cash flow: reconcile the difference",
+  "description": "Build a traceable bridge from hotel operating profit to owner cash, checking fees, working capital, reserves and financing without counting a deduction twice.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Hotel owner or investment team evaluating distributable cash",
+  "answer": "A hotel can report gross operating profit while having little cash available to ownership because operating profit and cash measure different things. Start with the exact profit line in the operator’s report, identify what it already includes, then reconcile the remaining income and expenses, timing movements, capital spending and financing cash flows. The useful output is a bridge tied to the accounts and bank position, with each adjustment explained.",
+  "sections": [
+    {
+      "heading": "Agree what the starting profit figure includes",
+      "paragraphs": [
+        "Ask finance for the report definition and accounting framework before comparing gross operating profit, or GOP, with a cash distribution. Mark which costs appear above the starting line and which appear below it. Management fees, property costs and other items can be presented differently across reports; subtracting an expense already included creates a false shortfall.",
+        "Build the bridge from the closed reporting period. If the owner report is a forecast or uses management adjustments, retain a separate reconciliation to the ledger. A label such as adjusted profit is insufficient without the underlying additions and exclusions."
+      ],
+      "bullets": [
+        "Identify the reporting entity and whether ownership has costs outside the hotel accounts.",
+        "Record the starting line, period, currency and account mapping.",
+        "Give every bridge adjustment an account reference and a named preparer."
+      ]
+    },
+    {
+      "heading": "Separate earnings from the timing of money",
+      "paragraphs": [
+        "Revenue recognized in the period may still be owed by customers. Supplier expenses may be recognized before payment. Deposits can increase cash before the associated stay or event is delivered. Ask for receivables, payables and deposit movements so these timing effects are visible rather than treated as unexplained performance changes.",
+        "Do not infer that a cash improvement is sustainable if it came from collecting old debts or delaying supplier payments. Show recurring trading movements separately from timing catch-up, financing receipts and one-off settlements. The bridge should reconcile a movement in cash, not manufacture a better operating margin."
+      ]
+    },
+    {
+      "heading": "Show ownership commitments after operations",
+      "paragraphs": [
+        "Add the actual cash impact of applicable capital expenditure, financing, taxes and other ownership obligations not captured in the starting measure. Distinguish an accounting charge from its cash payment. A reserve transfer can reduce freely available cash without being an additional operating expense; later spending from that reserve must not be deducted again from the same cash pool.",
+        "Keep restricted balances separate from money available to the owner. A bank balance does not itself prove a distribution is permitted. Finance and the relevant advisers should confirm the effects of financing agreements, entity obligations and required liquidity before the owner relies on a distribution estimate."
+      ]
+    },
+    {
+      "heading": "Turn the bridge into a decision",
+      "paragraphs": [
+        "Use columns for opening balance, operating movement, other cash movements, closing balance and unavailable or committed cash. Explain material differences against plan in plain language: weaker operating contribution, slower collection, earlier capital payments or additional funding requirements imply different actions.",
+        "Ask which movements should reverse, which recur and which require an owner decision. Carry the explanation into the next reporting cycle. Avoid an arbitrary target distribution until the accounts reconcile and upcoming obligations have been considered."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Define the measure",
+      "detail": "Confirm the exact profit line, entity, period and included accounts with finance."
+    },
+    {
+      "title": "Reconcile timing",
+      "detail": "Connect earned revenue and recognized expenses to collection, payment and deposit movements."
+    },
+    {
+      "title": "Add ownership cash flows",
+      "detail": "Include applicable capital, financing, tax and reserve movements once, in the correct cash pool."
+    },
+    {
+      "title": "Test available cash",
+      "detail": "Reconcile to balances, identify restrictions and upcoming commitments, then document the owner decision."
+    }
+  ],
+  "checklist": [
+    "The starting profit line ties to the closed accounts.",
+    "Every adjustment has a source and a clear sign.",
+    "Receivable, payable and deposit movements are explained.",
+    "Restricted balances and reserve transfers are visible.",
+    "Capital spending is not counted twice.",
+    "Financing and other owner-entity movements are included where relevant.",
+    "A qualified reviewer has checked the bridge and any distribution conclusion."
+  ],
+  "limitations": "This is a reporting method, not an accounting opinion or distribution recommendation. The applicable accounting framework, agreement definitions, financing obligations and entity structure determine the actual reconciliation. GOP alone cannot establish distributable cash.",
+  "relatedIds": [
+    "OWN-AM-02",
+    "OWN-AM-04",
+    "OWN-PT-01"
+  ],
+  "reviewStatus": "editorial-draft"
+}

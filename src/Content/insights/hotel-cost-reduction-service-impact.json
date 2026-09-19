@@ -1,0 +1,81 @@
+{
+  "id": "OWN-PT-05",
+  "slug": "hotel-cost-reduction-service-impact",
+  "title": "Reduce hotel operating costs while checking the service impact",
+  "description": "Evaluate hotel cost actions against workload, service requirements and the costs that can actually change before approving reductions.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner or operations leader responding to margin pressure",
+  "answer": "Start a cost review with the work the hotel must deliver, then identify spending that can change without undermining safety, contractual obligations or the service proposition. Link each proposed action to a measurable operating change and a way to detect harm. An across-the-board percentage reduction can remove essential capacity while leaving the underlying process problem intact.",
+  "sections": [
+    {
+      "heading": "Explain the cost movement before proposing a cut",
+      "paragraphs": [
+        "Separate changes in activity, input prices, mix, operating hours and productivity. Payroll may rise because more rooms were serviced, a department extended its hours or vacancies required temporary cover. Compare the workload and the service requirement before concluding that the headcount or expense ratio is excessive.",
+        "Check the account mapping and reporting period. A delayed invoice, annual charge or reclassification can create a variance without a change in the operating process. Ask finance to distinguish the run rate from timing and one-off effects, retaining the full owner impact in the reported accounts."
+      ]
+    },
+    {
+      "heading": "Map the work that consumes resources",
+      "paragraphs": [
+        "Observe the task, demand pattern, handoffs and bottlenecks. In housekeeping, departures and stayovers can require different work; in banqueting, setup and breakdown create workload outside the guest-facing event. An occupied-room ratio alone may miss these differences.",
+        "Ask whether the problem is unnecessary activity, rework, purchasing specification, equipment condition or scheduling. Removing a task, simplifying a handoff and reducing capacity are different interventions. Confirm that a proposed process change is operationally feasible before treating the resulting saving as available cash."
+      ],
+      "bullets": [
+        "Record workload, service expectation and current resources.",
+        "Identify the specific step or input that would change.",
+        "Check who has authority to change it.",
+        "Document any training, equipment or transition cost."
+      ]
+    },
+    {
+      "heading": "Pair the saving with a service check",
+      "paragraphs": [
+        "For each action, write the expected cash effect, timing, implementation cost and conditions under which the saving occurs. Distinguish reduced spending from a cost moved into another department or period. A deferred repair can improve this month’s expenditure while increasing the future problem.",
+        "Choose a relevant countermeasure: room readiness, response time, rework, complaints, stock availability or maintenance condition. Establish when management should pause or adjust the action. Employment, safety and technical requirements need qualified review before a change is implemented."
+      ]
+    },
+    {
+      "heading": "Verify what the action actually changed",
+      "paragraphs": [
+        "Compare spending and service evidence over equivalent operating conditions where possible. Record demand, wage, supplier-price and operating-hour changes that could explain the result. A lower expense does not establish better productivity if the hotel delivered less service or shifted work elsewhere.",
+        "Close the action only after finance and the operational owner agree what changed and whether it can persist. Retain an explanation of side effects and unresolved risks. Use this review to decide whether to extend the action rather than rolling out an untested reduction across the property."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Reconcile the variance",
+      "detail": "Separate volume, price, mix, timing and accounting effects in the cost movement."
+    },
+    {
+      "title": "Observe the workload",
+      "detail": "Identify the task or process causing resource use and the service requirement it supports."
+    },
+    {
+      "title": "Design a specific action",
+      "detail": "Estimate the avoidable cash cost, implementation cost and relevant constraints."
+    },
+    {
+      "title": "Monitor both outcomes",
+      "detail": "Review savings and service effects together, with a clear pause or adjustment condition."
+    }
+  ],
+  "checklist": [
+    "The expense movement reconciles to the accounts.",
+    "Workload and service standards are understood.",
+    "The action changes a specific task, input or schedule.",
+    "Savings are avoidable and not merely reallocated.",
+    "Transition and implementation costs are included.",
+    "Required employment, safety or technical review is complete before action.",
+    "Service countermeasures and pause conditions are defined.",
+    "The responsible manager and finance reviewer agree how results will be verified."
+  ],
+  "limitations": "This framework does not prescribe staffing reductions or override employment, safety, brand or service obligations. Feasibility and savings depend on the property’s workload, agreements and operating conditions. Proposed changes require the relevant qualified review and cannot be justified by a generic industry ratio alone.",
+  "relatedIds": [
+    "OWN-PT-01",
+    "OWN-MA-04",
+    "OWN-PT-08"
+  ],
+  "reviewStatus": "editorial-draft"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "OWN-MA-04",
+  "slug": "hotel-service-training-verification",
+  "title": "Did hotel staff training change the service guests receive?",
+  "description": "Design comparable observations before and after hotel training, distinguish attendance from delivered behavior, and identify barriers that another training session will not fix.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Owner or hotel leadership team evaluating a training investment",
+  "answer": "Verify training through the behavior it was intended to change and the guest outcome that behavior should support. Agree observable criteria before the follow-up, use comparable scenarios and record changes in staffing, workload and operating processes. Attendance confirms exposure to training; it does not confirm consistent service delivery. If there was no baseline, report present performance against the agreed criteria and avoid claiming that training caused an improvement.",
+  "sections": [
+    {
+      "heading": "Translate the training objective into observable behavior",
+      "paragraphs": [
+        "Begin with the training brief, relevant operating procedure, attendance records and the problem that prompted the investment. Replace broad objectives such as better communication with actions a guest or supervisor can observe. A service-request objective might require staff to clarify the request, give a feasible commitment, route it to the responsible team and confirm completion. The criteria should reflect the actual training and property promise rather than an evaluator's new preferences.",
+        "Record the outcome separately from the behavior. A staff member may follow the taught process while a downstream team cannot deliver; a request may also be fulfilled despite an unreliable process. Both observations matter. The first can reveal a capacity or handoff barrier, while the second warns against treating one successful outcome as evidence that the method is dependable."
+      ],
+      "bullets": [
+        "Training objective: the specific service problem the session intended to address.",
+        "Expected behavior: visible actions with clear complete, partial and absent descriptions.",
+        "Guest outcome: the promised result and how its delivery will be verified.",
+        "Enabling conditions: tools, information, authority and downstream capacity needed to perform the behavior."
+      ]
+    },
+    {
+      "heading": "Make the before-and-after comparison interpretable",
+      "paragraphs": [
+        "Choose scenarios that are comparable in request type, service setting and operating conditions. Record relevant context such as shift, workload, outlet availability and whether the staff involved had access to the training. Exact duplication may be impractical, but material differences must be visible. Keep the observation criteria stable; if a procedure changes, state which results remain comparable and which require a fresh baseline.",
+        "Use a change log covering training dates, team turnover, supervisor changes, system updates and revised staffing or authority. These changes may explain part of the observed difference. If comparable areas have different training timing for operational reasons, their observations can add context, but do not describe them as a controlled experiment without an appropriate design. Do not withhold needed service improvements merely to create a comparison group."
+      ]
+    },
+    {
+      "heading": "Diagnose why a taught behavior is missing",
+      "paragraphs": [
+        "After the observation, ask management to distinguish understanding from opportunity to perform. A person who cannot describe the required action may need clarification or practice. A person who knows the action but lacks system access, information or decision authority faces a different barrier. A team that performs well only when a particular supervisor is present may need stronger routine support rather than another general course.",
+        "Trace the relevant workflow without making a personnel judgment from one mystery encounter. Check whether the accepted request reached the next team and whether the system's completion status matched the guest outcome. Record mixed findings honestly: training may improve the initial interaction while the final delivery remains weak. The corrective action should address the stage that failed, not default to retraining everyone."
+      ]
+    },
+    {
+      "heading": "Test whether the change survives normal operations",
+      "paragraphs": [
+        "An immediate follow-up can show whether the behavior appears after training. A later check under another relevant shift or operating condition can show whether it persists and transfers. Set these checks according to the risk and frequency of the behavior rather than inventing a universal interval. Where the behavior was not encountered, record no observation and arrange a suitable opportunity.",
+        "Give the owner a concise result for each objective: observed consistently within the sample, observed inconsistently, not observed, or not testable under the visit conditions. Show the evidence and context behind the label. Decide whether to reinforce the training, fix an operational barrier, change the procedure or gather more evidence. Keep any financial-return claim separate unless a suitable cost and outcome analysis has actually been completed."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Specify the target behavior", "detail": "Connect the training objective to observable actions, a guest outcome and the conditions staff need to deliver it." },
+    { "title": "Agree the comparison", "detail": "Fix the observation criteria and record baseline quality, visit conditions and all relevant operational changes." },
+    { "title": "Observe and diagnose", "detail": "Check both the taught action and the final outcome, then investigate knowledge, authority, system or capacity barriers where delivery breaks down." },
+    { "title": "Check persistence and choose the next action", "detail": "Repeat relevant observations after normal operations have resumed and direct support to the specific weakness supported by the evidence." }
+  ],
+  "checklist": [
+    "The training brief identifies a specific service behavior.",
+    "Attendance and access to training are documented separately from performance.",
+    "Scoring descriptions were agreed before interpreting the follow-up.",
+    "Guest outcomes and staff actions are both recorded.",
+    "Staffing, workload, process and system changes are disclosed.",
+    "A missing baseline is clearly labeled rather than reconstructed from memory.",
+    "Operational barriers are investigated before prescribing more training.",
+    "Follow-up includes a relevant test of persistence or transfer to another condition."
+  ],
+  "limitations": "Editorial draft for evaluating service delivery after training, not an evaluation of a HotelFirst program. No training results or financial returns are claimed. Small observational samples cannot isolate causation or support individual performance conclusions without additional evidence and a suitable review process.",
+  "relatedIds": ["OWN-MA-03", "OWN-MA-06", "OWN-MA-07"],
+  "reviewStatus": "editorial-draft"
+}

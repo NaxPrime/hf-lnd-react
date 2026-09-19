@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BS-06",
+  "slug": "hma-performance-test-questions",
+  "title": "HMA performance tests: questions about measurement, cure and remedies",
+  "description": "Translate a hotel management agreement's performance test into a measurement and decision map, with evidence for counsel to assess timing, cure provisions and possible remedies.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Owner negotiating an operator’s performance obligations",
+  "answer": "Review a performance test as a sequence of conditions, not as a single target percentage. Establish when testing begins, how each measure is calculated, whether the measures operate together, which events change the assessment and what happens after a failure. Then ask counsel to connect that calculation to the agreement's notice, cure and remedy provisions. A weak trading result alone does not establish a right to end the agreement.",
+  "sections": [
+    {
+      "heading": "Convert the clause into a test that can be reproduced",
+      "paragraphs": [
+        "Make one worksheet row for each condition, recording the clause reference, definition, required evidence and responsible reviewer. Use the agreement's exact logic: a test requiring two conditions together is different from one triggered by either condition. Record the first eligible period, the number and sequence of periods required, and any condition that must remain satisfied throughout.",
+        "Before signing, ask the proposed operator and owner finance team to calculate the same hypothetical scenarios independently. Label these as drafting exercises. Differences in their answers reveal an ambiguous definition or missing data source before an actual performance dispute arises."
+      ],
+      "bullets": [
+        "What is the precise profit or revenue measure, including permitted adjustments?",
+        "Which budget version or competitive set controls the comparison?",
+        "Who resolves a disputed calculation, and what records must be retained?"
+      ]
+    },
+    {
+      "heading": "Keep measurement changes visible",
+      "paragraphs": [
+        "Build a period ledger containing reported results, the contract calculation and every adjustment between them. A management dashboard and a contractual test may use different definitions. Preserve the original figures so a later revision can be traced rather than silently replacing the evidence.",
+        "Flag closures, capital works, changes in room availability, competitive-set replacements and other events for contract review. Ask whether the agreement changes the calculation, delays a period or excludes an event; do not decide this from commercial intuition. Record both parties' positions where an adjustment remains disputed."
+      ]
+    },
+    {
+      "heading": "Separate a cure from recovery of the operation",
+      "paragraphs": [
+        "If the draft permits a cure, specify in the review sheet what action qualifies, how its amount or completion is assessed, the applicable deadline and any limit on repeated use. Counsel should confirm the effect on the current test and subsequent periods. Do not assume that a payment, a fee waiver and an operating improvement have the same contractual effect.",
+        "Maintain a separate commercial recovery plan. A cure may address the contractual consequence without resolving the underlying pricing, service, staffing or cost problem. Request actions, accountable roles and operating evidence that would demonstrate recovery beyond the cure itself."
+      ]
+    },
+    {
+      "heading": "Prepare the decision before any formal notice",
+      "paragraphs": [
+        "The decision pack should contain the executed agreement and amendments, calculations, supporting reports, correspondence and a calendar prepared from the actual wording. Have counsel assess the available options and any required process before the owner sends a notice or describes the agreement as breached.",
+        "Assess the practical consequences of each legally available option: continuing with corrective action, negotiating revised obligations or preparing for an operator transition. Include continuity of reservations, staffing, systems and funding in a transition assessment. Avoid treating a disputed termination route as a ready-to-use operating plan."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Extract the full condition chain", "detail": "Map definitions, logical connections, testing periods and exceptions to the actual clauses, with counsel checking the interpretation." },
+    { "title": "Reproduce the calculation", "detail": "Obtain the agreed reports and reconcile operational results to the contractual measure, retaining adjustment evidence." },
+    { "title": "Evaluate cure and operating recovery separately", "detail": "Record the contractual cure process and a distinct plan for correcting the hotel's underlying performance." },
+    { "title": "Take a documented options decision", "detail": "Use legal advice, the notice calendar and transition implications to choose the next action before issuing formal correspondence." }
+  ],
+  "checklist": [
+    "The executed agreement and every relevant amendment are available.",
+    "Each condition has a clause reference and an evidence source.",
+    "The relationship between multiple tests is explicit.",
+    "Testing periods, exclusions and disputed adjustments are recorded.",
+    "The cure method, timing and effect have been reviewed by counsel.",
+    "Operating recovery has its own actions and follow-up evidence.",
+    "Any proposed notice or remedy has been checked against the actual agreement."
+  ],
+  "limitations": "This is a commercial review framework, not a legal interpretation or a finding of breach. Contract wording, amendments, facts and applicable law determine testing, cure and remedy rights. No standard threshold or universal termination entitlement is assumed.",
+  "relatedIds": ["OWN-BS-04", "OWN-AM-03", "OWN-AM-07"],
+  "reviewStatus": "editorial-draft"
+}

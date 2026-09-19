@@ -1,0 +1,64 @@
+{
+  "id": "OWN-AM-01",
+  "slug": "hotel-asset-manager-operator-roles",
+  "title": "Hotel asset manager, operator and GM: who represents each decision?",
+  "description": "Define owner representation, operating responsibility and approval authority before appointing a hotel asset manager or changing the reporting relationship.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Hotel owner or family office assessing independent asset oversight",
+  "answer": "An owner can use an asset manager to review the investment and challenge operating proposals, while the operator and general manager run the hotel within their agreed responsibilities. The useful distinction is who prepares a decision, who reviews it, who has authority to approve it and who executes it. Put those roles in a written matrix checked against the management agreement; a new advisory appointment does not itself create new owner approval rights.",
+  "sections": [
+    {
+      "heading": "Map decisions instead of relying on job titles",
+      "paragraphs": [
+        "Start with the decisions the owner actually needs to govern: annual plans, capital projects, material contracts, commercial strategy and performance interventions. For each, record the proposal author, operational reviewer, owner adviser, approver and implementer. Use agreement references for approval rights and label proposed changes separately.",
+        "As a working model, the operating team prepares a budget and explains its assumptions; an owner adviser challenges the investment implications; the authorized party makes the approval decision; and the operating team executes the agreed plan. Confirm that model against the actual agreements and delegations instead of treating it as a universal allocation of authority."
+      ],
+      "bullets": [
+        "Budget: who supplies the assumptions, reviews them and resolves disagreement?",
+        "Capital work: who specifies the need, checks options, authorizes funds and accepts completion?",
+        "Trading action: what can the GM decide, and what requires escalation?",
+        "Reporting: who owns the source data, reconciles it and answers an owner challenge?"
+      ]
+    },
+    {
+      "heading": "Commission a specific oversight scope",
+      "paragraphs": [
+        "Define the engagement through outputs: a reviewed owner report, a budget challenge paper, a capital decision memo or a commitment register. Specify source access, review frequency, expected response times and the route for unresolved issues. An appointment described only as maximizing value leaves the owner unable to assess what work is included.",
+        "Check who pays the adviser, what other appointments or referral relationships exist and how conflicts will be disclosed. Establish confidentiality and access permissions with the parties responsible for the records. Request relevant work examples only where they can be shared lawfully, and assess the proposed team's capacity to carry out the scope."
+      ]
+    },
+    {
+      "heading": "Keep one operational chain of instruction",
+      "paragraphs": [
+        "Agree how an asset manager raises a concern without creating a competing set of day-to-day instructions for hotel staff. A useful issue log states the evidence, the question, the operator response, the owner decision required and the follow-up date. It gives the operator a clear opportunity to explain or correct the issue.",
+        "For decisions requiring approval, record the authorized instruction and the person responsible for implementation. Do not let a meeting recommendation become an undocumented change to spending, staffing or pricing authority. The governance process should make disagreements easier to resolve, not leave the GM managing contradictory instructions."
+      ]
+    },
+    {
+      "heading": "Choose the level of support from the decision workload",
+      "paragraphs": [
+        "List the owner's upcoming decisions and existing internal capability before choosing a retainer or a project assignment. A defined capital project may need specialist review at milestones; a portfolio with recurring operator reviews may need continuous oversight. Base the scope on the missing work rather than assuming every owner needs the same service.",
+        "Evaluate the engagement through the quality and timeliness of its outputs, the resolution of documented issues and the usefulness of decision evidence. Investment outcomes have several influences, so avoid attributing all changes in revenue or profit to the adviser. Review the scope when the property stage or owner team changes."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Inventory the owner decisions", "detail": "List recurring and upcoming decisions, existing internal capability and the points where independent review is missing." },
+    { "title": "Confirm decision rights", "detail": "Map proposal, review, approval and execution roles to the agreements and current delegations." },
+    { "title": "Specify the appointment", "detail": "Agree deliverables, data access, team capacity, conflicts disclosure, fees and an escalation route." },
+    { "title": "Review the working relationship", "detail": "Check whether the agreed outputs arrive, issues receive documented responses and operational instructions remain clear." }
+  ],
+  "checklist": [
+    "The owner can name the decisions for which support is needed.",
+    "Existing contractual rights are distinguished from proposed governance changes.",
+    "Each material decision has a proposal author, approver and implementer.",
+    "The advisory scope names tangible deliverables and required information.",
+    "Potential conflicts and information-access arrangements are documented.",
+    "The GM and operator have a clear route for receiving approved instructions.",
+    "The owner has a practical method for reviewing the engagement."
+  ],
+  "limitations": "Roles differ by ownership structure, operating model, agreements and delegated authority. This proposed governance method does not amend a management agreement or establish legal duties. Specialists may still be required for legal, tax, technical or financing decisions.",
+  "relatedIds": ["OWN-BS-02", "OWN-AM-02", "OWN-AM-04", "OWN-AM-07"],
+  "reviewStatus": "editorial-draft"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "OWN-BS-08",
+  "slug": "hotel-hma-renewal-review-pack",
+  "title": "Before renewing a hotel management agreement: an owner’s review pack",
+  "description": "Assemble an HMA renewal decision around the actual contract calendar, operator delivery, future capital obligations and credible alternatives.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel owner approaching an HMA renewal or extension",
+  "answer": "Start an HMA renewal review by establishing the agreement's decision calendar and who controls each option. Then assess the operator's documented delivery and proposed future commitments against the cost and practicality of available alternatives. The resulting pack should recommend a course of action, identify unresolved conditions and give the owner enough time to act within the actual contractual process.",
+  "sections": [
+    {
+      "heading": "Establish the calendar before negotiating the offer",
+      "paragraphs": [
+        "Give counsel the signed HMA, amendments, side letters and relevant notices. Ask for a dated schedule of expiry, options, conditions, notice requirements and decision authority. Do not infer that the owner can simply decline renewal from the fact that a term is approaching its end.",
+        "Work backwards from the confirmed decision points to allow for document review, operator responses, capital planning and owner approvals. Keep the contract deadline separate from the internal target date. Assign someone to maintain the calendar and have counsel review formal correspondence before it is issued."
+      ]
+    },
+    {
+      "heading": "Assess historic delivery on a comparable basis",
+      "paragraphs": [
+        "Build an evidence file from closed financial reports, operating plans, capital approvals, brand support commitments and meeting action records. Separate what was promised, what was delivered and what is still unresolved. A general statement that the relationship has worked well or poorly is too vague to support renewal terms.",
+        "Compare results with relevant market conditions and the hotel's available inventory. Identify disruption, owner-funded investment and changes in accounting or service scope that affect the comparison. Distinguish operator-controllable issues from assumptions that need further investigation; do not attribute every improvement to the brand or every shortfall to the operator."
+      ]
+    },
+    {
+      "heading": "Price the next term as a complete package",
+      "paragraphs": [
+        "Ask for a written proposal covering fees, central charges, required systems, standards, planned capital work, support and reporting. Reconcile the proposed scope with the existing agreement so unchanged language does not conceal a changed financial obligation. Keep owner-funded commitments and any proposed operator contribution in separate, traceable lines.",
+        "Prepare a capital schedule showing the purpose, timing, disruption and funding requirement of each major project. Have technical and finance reviewers challenge the scope and cost evidence. A lower headline fee should not end the review if the extension also brings significant refurbishment or operating commitments."
+      ]
+    },
+    {
+      "heading": "Compare viable alternatives and record the decision",
+      "paragraphs": [
+        "Only compare alternatives that can fit the owner's legal position, property and timeline. For a potential transition, investigate reservations, distribution access, technology migration, employee arrangements, working capital and required consents with the relevant specialists. Mark assumptions and missing quotations instead of assigning a convenient zero to uncertain transition costs.",
+        "The owner decision paper should state the preferred course, negotiation priorities, conditions that must be resolved and who can approve the final package. Attach the evidence and record the accepted trade-offs. If renewal is selected, transfer the new commitments into an ongoing tracking register so the review produces obligations that can be followed after signature."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Confirm rights and deadlines", "detail": "Obtain counsel's agreement-specific calendar and establish internal approvals ahead of the contractual decision points." },
+    { "title": "Reconcile the delivery record", "detail": "Link commitments to performance and action evidence, recording market effects and disputed explanations separately." },
+    { "title": "Assess the future package", "detail": "Model proposed recurring obligations and capital work with documented scope, timing and finance review." },
+    { "title": "Decide and transfer commitments", "detail": "Compare feasible alternatives, record the owner decision and carry agreed obligations into an accountable tracking register." }
+  ],
+  "checklist": [
+    "All executed documents and relevant notices have been assembled.",
+    "Counsel has confirmed option holders, conditions and decision deadlines.",
+    "Historic commitments have evidence of delivery or an unresolved status.",
+    "The next-term proposal includes recurring charges and capital obligations.",
+    "Transition assumptions have been reviewed by the relevant specialists.",
+    "The decision paper names approval authority and outstanding conditions.",
+    "Agreed future commitments have owners, due dates and verification evidence."
+  ],
+  "limitations": "A renewal, extension, renegotiation or operator change may require rights, consent and procedures specific to the agreement. This is a preparation framework, not a legal conclusion, valuation or promise of improved terms. Financial comparisons remain provisional until their assumptions and costs are reviewed.",
+  "relatedIds": ["OWN-BS-03", "OWN-BS-05", "OWN-AM-07", "OWN-PT-07"],
+  "reviewStatus": "editorial-draft"
+}

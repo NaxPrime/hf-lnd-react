@@ -1,0 +1,82 @@
+{
+  "id": "OWN-PT-02",
+  "slug": "hotel-performance-diagnostic-scope",
+  "title": "What should a hotel performance diagnostic examine before a turnaround?",
+  "description": "Scope a hotel performance diagnostic around decisions, evidence and competing explanations before committing to a recovery program.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Owner or investor commissioning a review of an underperforming hotel",
+  "answer": "A useful hotel performance diagnostic tests why the asset is underperforming before prescribing a turnaround. Define the performance gap, assemble consistent market and property records, and test commercial, operating, product and leadership explanations against one another. Require findings to separate observed facts, plausible causes, missing evidence and decisions that can be taken now.",
+  "sections": [
+    {
+      "heading": "Write the decision brief before the data request",
+      "paragraphs": [
+        "State the owner’s actual concern: deteriorating operating contribution, weaker relative market performance, repeated service failures, a product mismatch or pressure on available cash. Specify the period, comparison and business constraint. A broad request to improve the hotel gives the reviewer no way to distinguish urgent decisions from optional analysis.",
+        "Record what the initial engagement must decide. It may be whether a focused operating intervention is justified, whether a market study is needed, or whether the owner should investigate a management transition. A diagnostic should not silently commit the hotel to a particular implementation supplier or brand choice."
+      ]
+    },
+    {
+      "heading": "Build an evidence pack with clear definitions",
+      "paragraphs": [
+        "Request the reports needed for the decision rather than a large unstructured document dump. Align monthly accounts with property-management reports, segment and channel data, staffing, maintenance records and relevant guest-experience evidence. Record who produced each item, its period and any known data gaps.",
+        "Include the current business plan, material operating constraints and the agreement provisions relevant to approvals and reporting. For market comparisons, document the source and comparable-property selection. Publicly advertised prices alone do not establish competitors’ achieved performance."
+      ],
+      "bullets": [
+        "Closed accounts and variance explanations for comparable periods.",
+        "Room inventory, rate, occupancy, segment and channel records.",
+        "Department workloads, staffing patterns and service evidence.",
+        "Asset-condition, capital and product constraints.",
+        "Approved plans, decision rights and relevant contractual commitments."
+      ]
+    },
+    {
+      "heading": "Test competing explanations",
+      "paragraphs": [
+        "Translate symptoms into testable hypotheses. Weak room revenue could reflect market demand, inventory loss, product fit, rate decisions or booking mix. Excess labor cost could reflect workload, scheduling, vacancies covered by temporary staff or an accounting change. Each hypothesis needs an observable test and a reason it might be wrong.",
+        "Use interviews to locate issues, then corroborate material claims with records or observation. Record contradictions instead of choosing the most confident interviewee’s explanation. Where evidence is insufficient, state what can still be decided and what needs a targeted follow-up."
+      ]
+    },
+    {
+      "heading": "Specify the diagnostic deliverable",
+      "paragraphs": [
+        "Ask for a findings register linking each issue to evidence, likely mechanism, commercial relevance, confidence and the next decision. Distinguish a quick operational correction from a structural option requiring capital, legal review or a revised market proposition.",
+        "The closing discussion should identify priorities, ownership and prerequisites for implementation. A long list of opportunities without sequencing or accountability is not yet a recovery plan. Price and authorize any subsequent implementation scope separately from the assessment."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Define the performance question",
+      "detail": "Set the measure, comparison period and decision the owner needs to make."
+    },
+    {
+      "title": "Reconcile the evidence",
+      "detail": "Assemble relevant records with consistent definitions and a visible gap register."
+    },
+    {
+      "title": "Test root-cause hypotheses",
+      "detail": "Compare competing explanations using data, interviews and observation."
+    },
+    {
+      "title": "Agree the next mandate",
+      "detail": "Prioritize supported actions and identify further diligence before implementation is commissioned."
+    }
+  ],
+  "checklist": [
+    "The performance gap is defined against a meaningful comparison.",
+    "The data request is connected to explicit decisions.",
+    "Report definitions and periods reconcile.",
+    "Market evidence has a documented source and coverage.",
+    "Interview claims are checked against evidence.",
+    "Findings distinguish facts, hypotheses and unknowns.",
+    "Capital and contractual dependencies are identified.",
+    "Implementation is a separately defined scope with accountable roles."
+  ],
+  "limitations": "A diagnostic provides a structured assessment, not assurance that every issue will be found or that recovery will occur within a fixed period. Its reliability depends on access, record quality and scope. Legal, engineering, accounting and investment conclusions may require separate qualified reviews.",
+  "relatedIds": [
+    "OWN-PT-01",
+    "OWN-MA-02",
+    "OWN-PT-08"
+  ],
+  "reviewStatus": "editorial-draft"
+}

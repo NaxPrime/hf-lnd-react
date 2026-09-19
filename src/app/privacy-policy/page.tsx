@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
       <article id="privacy-policy" className="prose max-w-none">
         <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
         <p className="mb-6">
-          <strong>Effective Date:</strong> 01/09/2025
+          <strong>Effective Date:</strong> 20/09/2026
         </p>
 
         <p className="mb-6">
@@ -29,12 +29,13 @@ export default function PrivacyPolicy() {
         </h2>
         <ul className="list-disc pl-6 marker:text-orange-500">
           <li>
-            <strong>Personal Information:</strong> name, email address, phone
-            number, company name, billing information.
+            <strong>Inquiry Information:</strong> name, email address, phone
+            number and the message you choose to send through our contact form.
           </li>
           <li>
-            <strong>Usage Data:</strong> IP address, browser type, device
-            information, pages visited, date/time of visits.
+            <strong>Technical and Usage Data:</strong> IP address, browser and
+            device information, pages visited, referrer and visit time. The
+            exact data available depends on the enabled service and your consent.
           </li>
           <li>
             <strong>Communications:</strong> messages sent to us via email,
@@ -48,6 +49,8 @@ export default function PrivacyPolicy() {
         <ul className="list-disc pl-6 marker:text-orange-500">
           <li>To provide and manage our services.</li>
           <li>To respond to your inquiries and requests.</li>
+          <li>To protect the inquiry form from duplicate submissions and abuse.</li>
+          <li>To understand aggregated website traffic and improve the Website.</li>
           <li>
             To send important updates, service notices and marketing materials
             (where permitted).
@@ -69,20 +72,27 @@ export default function PrivacyPolicy() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">
           4. Data Sharing &amp; Disclosure
         </h2>
-        <p>We do not sell your personal data. We may share it with:</p>
+        <p>We do not sell your personal data. Website providers may process limited information for us:</p>
         <ul className="list-disc pl-6 marker:text-orange-500">
           <li>
-            Service providers assisting in operations (e.g., hosting, payment
-            processing, analytics).
+            Vercel provides website hosting and privacy-focused, aggregated Web
+            Analytics. Vercel Web Analytics does not use third-party cookies or
+            report an identifiable browsing history to HotelFirst.
           </li>
+          <li>Formspree receives the contact details and message you submit so the inquiry can be delivered to HotelFirst.</li>
+          <li>Upstash may process keyed technical digests and short-lived delivery receipts used for rate limiting and duplicate prevention. The application does not place the plain email address or IP address in those rate-limit keys.</li>
+          <li>Meta receives a Lead event only when you select the separate optional advertising-measurement checkbox and the inquiry is accepted. That event may include hashed email and phone, IP address and browser information. Your name and message are not sent to Meta by this flow.</li>
+          <li>Google Analytics is configured to remain disabled until explicit analytics consent is provided. It does not receive inquiry contact fields from this Website implementation.</li>
           <li>Legal authorities when required by law.</li>
-          <li>Business partners only with your explicit consent.</li>
         </ul>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">5. Data Retention</h2>
         <p>
-          We retain your personal data only as long as necessary for the
-          purposes described in this policy or as required by law.
+          We retain inquiry data only as long as necessary to respond, manage
+          the business relationship and meet applicable legal requirements.
+          The duplicate-prevention receipt in the Website application expires
+          after 24 hours; service providers may apply their own configured
+          retention periods.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">6. Your Rights</h2>
@@ -115,9 +125,11 @@ export default function PrivacyPolicy() {
           9. Cookies &amp; Tracking Technologies
         </h2>
         <p>
-          We use cookies and similar technologies to enhance user experience,
-          analyse usage and deliver relevant content. You can manage cookie
-          preferences in your browser settings.
+          Vercel Web Analytics records aggregated page-view information without
+          third-party cookies. Google Analytics remains off until explicit
+          analytics consent is provided. Meta advertising measurement is
+          separate and optional on the contact form. You can send an inquiry
+          without agreeing to advertising measurement.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -137,10 +149,10 @@ export default function PrivacyPolicy() {
           <br />
           Email:{" "}
           <a
-            href="mailto:privacy@hotelfirst.one"
+            href="mailto:begin@hotelfirst.one"
             className="text-blue-600 underline hover:text-blue-800"
           >
-            privacy@hotelfirst.one
+            begin@hotelfirst.one
           </a>
           <br />
           Website:{" "}

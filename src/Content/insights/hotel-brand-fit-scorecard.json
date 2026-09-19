@@ -1,0 +1,64 @@
+{
+  "id": "OWN-BS-01",
+  "slug": "hotel-brand-fit-scorecard",
+  "title": "How to choose a hotel brand: an owner’s fit scorecard",
+  "description": "Build a hotel brand shortlist using owner priorities, product requirements, evidence quality and capital constraints, then test whether the preferred option remains suitable when assumptions change.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel owner or developer shortlisting brands before operator outreach",
+  "answer": "Choose a hotel brand by testing its fit with the guests your property can serve, the product you can fund and the operating responsibilities you want to retain. Start with non-negotiable requirements, then compare eligible brands using the same weighted criteria and documented evidence. A high score should earn further investigation; it should not override an unaffordable product requirement, an unacceptable contract position or an unsupported demand assumption.",
+  "sections": [
+    {
+      "heading": "Define the asset and the owner’s limits before naming brands",
+      "paragraphs": [
+        "Prepare a one-page brief covering the site, intended room inventory, facilities, target guest segments, development status, opening dependencies and available capital. Distinguish committed facts from proposed features. A ballroom shown on a concept drawing is not funded capacity, and a planned demand generator is not evidence of occupied room nights.",
+        "Record the owner’s operating involvement, decision rights to investigate and intended ownership horizon. Turn critical requirements into pass, fail or unresolved gates. If a brand needs a product configuration that the site or funding plan cannot support, resolve that question before assigning a score. Keep an unresolved gate visible rather than treating it as a pass."
+      ],
+      "bullets": [
+        "Asset brief: site constraints, room mix, meeting and dining capacity, access and opening dependencies.",
+        "Owner brief: capital ceiling, funding timing, management capacity and approval priorities.",
+        "Brand evidence: dated product requirements, offered support scope and preliminary commercial conditions."
+      ]
+    },
+    {
+      "heading": "Use a scorecard that separates fit from confidence",
+      "paragraphs": [
+        "Choose criteria before reviewing proposals: demand alignment, product compatibility, commercial support, owner capability requirements, capital burden and contractual flexibility. Set weights that add to 100 according to this asset’s priorities. Define the scoring anchors in words so different reviewers know what evidence earns a stronger score.",
+        "For each criterion, record the score, supporting document, date, reviewer and confidence level. Keep unknowns marked as unknown; a blank should neither silently become zero nor receive an optimistic midpoint. Report the weighted score alongside the share of criteria still unresolved. Do not compare a well-evidenced candidate with an incomplete candidate as if the information quality were equal."
+      ]
+    },
+    {
+      "heading": "Challenge the proposed route from brand support to owner value",
+      "paragraphs": [
+        "Ask how the offered reservation, sales, loyalty and revenue-management services would address the property’s actual demand gaps. Request the scope, access conditions, staffing responsibilities and charges for each service. Brand recognition alone does not explain which business the hotel could win or the cost of serving it.",
+        "Translate product requirements into a costed gap list with the design and project teams. Separate initial works, recurring requirements and matters awaiting an exception decision. Compare these costs with the owner’s available funding and opening sequence; avoid assuming a requested exception has been approved. Any performance material used in the shortlist needs a comparable property context and permission for its use."
+      ]
+    },
+    {
+      "heading": "Test the shortlist before selecting a negotiation partner",
+      "paragraphs": [
+        "Re-run the scorecard with a plausible change in the owner’s priorities, such as a tighter initial capital limit or greater need for operating support. Then remove unsupported claims and check whether the ordering changes. A candidate that leads only under one optimistic assumption needs more evidence before exclusivity or material design commitments are considered.",
+        "Finish with a shortlist memo stating why each candidate remains eligible, its unresolved gates and the next evidence request. Keep commercial proposal comparison as the next decision: this scorecard determines fit, while a normalized proposal review determines how competing offers perform under common assumptions."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Approve the property brief", "detail": "Confirm the asset facts, owner objectives and funding constraints that all candidates will be assessed against." },
+    { "title": "Apply eligibility gates", "detail": "Record pass, fail or unresolved for the requirements that a high overall score cannot offset." },
+    { "title": "Score documented fit", "detail": "Use agreed weights and scoring anchors, attaching dated evidence and confidence to every assessment." },
+    { "title": "Challenge the ranking", "detail": "Change priority weights and remove unverified benefits to identify which conclusions depend on fragile assumptions." },
+    { "title": "Issue a shortlist decision", "detail": "Name the candidates suitable for detailed proposals and list the evidence or exceptions needed before advancing each one." }
+  ],
+  "checklist": [
+    "The owner and project teams have approved the same asset brief.",
+    "Non-negotiable requirements are separate from weighted preferences.",
+    "Scoring anchors and weights were agreed before proposals were scored.",
+    "Each material support claim has a dated source and an identified cost or open question.",
+    "Product gaps and requested exceptions have funding and approval statuses.",
+    "The shortlist remains understandable when uncertain benefits are removed.",
+    "The final memo records both selection reasons and unresolved risks."
+  ],
+  "limitations": "Editorial draft for structuring an owner’s selection process. No brand has been assessed or recommended here. Weights, capital requirements and support assumptions need property-specific evidence and subject-matter review; a score does not establish contractual suitability or predict returns.",
+  "relatedIds": ["OWN-BS-02", "OWN-BS-03", "OWN-BI-02"],
+  "reviewStatus": "editorial-draft"
+}

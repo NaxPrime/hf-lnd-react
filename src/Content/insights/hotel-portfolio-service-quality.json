@@ -1,0 +1,65 @@
+{
+  "id": "OWN-MA-08",
+  "slug": "hotel-portfolio-service-quality",
+  "title": "Compare service quality across a hotel portfolio without false rankings",
+  "description": "Compare hotel service evidence through common guest outcomes, property-specific requirements, reviewer calibration and visible coverage gaps rather than an unsupported league table.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Ownership group or asset manager overseeing multiple hotel service programs",
+  "answer": "Compare like-for-like guest outcomes across the portfolio and keep each property's own brand and product requirements in a separate view. Before combining results, check that scenarios, scoring anchors, observation coverage and reviewer judgments are sufficiently comparable. Show missing evidence, operating context and material failures alongside any score. The purpose is to decide where support or investigation is needed, not to rank unlike properties from incompatible audits.",
+  "sections": [
+    {
+      "heading": "Separate shared outcomes from property-specific promises",
+      "paragraphs": [
+        "Define a common set of observable guest outcomes that makes sense across the included hotels. Examples for an agreed protocol could include accurate reservation information, clear acknowledgment of a request and delivery of what was promised. These are proposed comparison categories, not a universal standard. Each property should confirm their applicability and the evidence needed before assessment.",
+        "Place brand-specific features, service rituals and product commitments in a second view tied to the applicable authorized requirements. A property should not lose points for a service it does not promise, and a premium property should not escape review of its additional commitments because another hotel does not offer them. This two-part structure supports shared learning while preserving the actual obligations of each operation."
+      ]
+    },
+    {
+      "heading": "Calibrate judgments before combining scores",
+      "paragraphs": [
+        "Create scoring anchors that describe observable complete, partial and failed delivery for the common criteria. Ask reviewers to assess the same permission-cleared sample evidence, compare their judgments and resolve interpretation differences before using the results across properties. Retain the calibration decisions and protocol version. Similar labels are insufficient if one reviewer assesses courtesy and another assesses whether the request was fulfilled.",
+        "Review actual scenarios and observation conditions as well as the rubric. A booking inquiry cannot stand in for a completed stay, and a quiet service period may reveal different constraints from a busy one. Record product, guest scenario, shift, relevant workload and scope deviations. When criteria or weights change, identify the break in the series and only compare measures that can be reconciled defensibly."
+      ]
+    },
+    {
+      "heading": "Expose coverage and uncertainty beside the result",
+      "paragraphs": [
+        "For every property, show applicable items, observed items, unobserved items and excluded items. Use only the agreed observed and applicable basis for a calculated score, and display that basis with the score. Do not count a closed outlet as a pass, or treat a service that was never requested as a failure. A result drawn from narrow coverage should remain visibly narrower than one covering a broader set of relevant encounters.",
+        "Keep significant findings visible at item level even when an average looks favorable. Report whether an issue appeared in one encounter or recurred within the observed sample, without generalizing its frequency to every guest. Where the evidence is too different, label the properties as not comparable for that measure and choose a targeted observation to close the gap. Avoid fine numerical ranks that imply more certainty than the sample supports."
+      ],
+      "bullets": [
+        "Common-outcome view: comparable criteria, observed evidence and material exceptions.",
+        "Property-requirement view: performance against the hotel's own applicable promises.",
+        "Coverage view: sample scope, missing items, visit context and protocol version.",
+        "Action view: supported causes, accountable actions, retest status and owner decisions."
+      ]
+    },
+    {
+      "heading": "Use the comparison to allocate support and test shared fixes",
+      "paragraphs": [
+        "Look for the same failure mechanism across properties before choosing a portfolio-wide response. Similar symptoms may have different causes: an unfulfilled request could arise from missing information at one property and unclear team ownership at another. Ask local teams to trace the evidence, then decide whether the remedy belongs in a shared system, a common procedure or a property-specific action.",
+        "Prioritize support using the consequence of the gap, confidence in the evidence, recurrence and the practical barrier to correction. A property with candid reporting should not appear worse simply because another has missing data. Review movement within each property's stable measures as well as cross-property comparisons, and carry verified closure evidence forward. Sharing a practice is useful when the receiving hotel can test whether the mechanism works in its own setting."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Define the comparison boundary", "detail": "Agree common guest outcomes and keep each hotel's additional brand and product requirements in a separate, applicable view." },
+    { "title": "Check method and sample comparability", "detail": "Calibrate reviewers, align observable scoring anchors and record the scenarios, conditions and protocol versions behind each result." },
+    { "title": "Present evidence with its limits", "detail": "Show observed coverage, missing items and material findings beside any score, withholding comparisons that the evidence cannot support." },
+    { "title": "Allocate and verify support", "detail": "Investigate shared versus local causes, direct resources to the supported mechanism and compare follow-up outcomes using stable criteria." }
+  ],
+  "checklist": [
+    "Common criteria concern outcomes that apply to every included property.",
+    "Brand-specific and product-specific requirements have a separate view.",
+    "Reviewer calibration and protocol versions are documented.",
+    "Scenarios and operating conditions are sufficiently comparable for each reported measure.",
+    "Applicable, observed, unobserved and excluded items are distinguishable.",
+    "Material findings are visible outside the overall average.",
+    "Missing data does not improve a property's apparent performance.",
+    "Portfolio actions distinguish shared mechanisms from similar-looking local symptoms."
+  ],
+  "limitations": "Editorial draft proposing a portfolio comparison framework. No property scores, rankings or HotelFirst portfolio outcomes are presented. Comparability depends on actual protocols, reviewer calibration and observation coverage; a common score does not establish equivalent products or predict guest satisfaction across an entire portfolio.",
+  "relatedIds": ["OWN-MA-02", "OWN-MA-03", "OWN-MA-06", "OWN-MA-07"],
+  "reviewStatus": "editorial-draft"
+}

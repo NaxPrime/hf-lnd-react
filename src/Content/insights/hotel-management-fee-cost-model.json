@@ -1,0 +1,65 @@
+{
+  "id": "OWN-BS-05",
+  "slug": "hotel-management-fee-cost-model",
+  "title": "Hotel management fees: model the full cost to ownership",
+  "description": "Compare operator proposals through a reproducible fee schedule, operating-profit bridge and cash calendar using the actual proposed fee bases and conditions.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel owner comparing fee structures before signing",
+  "answer": "Compare the total contractual cost of each operator proposal on the same operating assumptions. Build a line-by-line fee register, reproduce the calculation of every charge, and show when cash would leave the hotel or ownership account. Then test weaker trading, delayed opening and stronger trading. A lower headline percentage is insufficient to choose a proposal when fee bases, incentive conditions, separately billed services and capital obligations differ.",
+  "sections": [
+    {
+      "heading": "Turn each proposal into a traceable charge register",
+      "paragraphs": [
+        "Request the current agreement draft, fee schedules, system and programme charges, technical-services terms, reimbursable-cost policy and any side letters. Give every proposed charge its own row: document reference, recipient, service provided, calculation base, rate or fixed amount, escalation, start date, payment frequency and tax-treatment question. Keep an unresolved entry visible instead of treating a missing price as zero.",
+        "Ask whether each service is included elsewhere, mandatory, usage-based or optional under the proposed arrangement. For shared services, request the proposed allocation method and supporting records. A charge called a reimbursement still needs a defined scope, approval process and evidence of the underlying cost. Counsel should confirm the wording; the commercial model should show the requested interpretation as an assumption until confirmed."
+      ],
+      "bullets": [
+        "Separate recurring operating charges, pre-opening charges and one-off implementation costs.",
+        "Identify charges billed directly to ownership as well as those appearing in the hotel accounts.",
+        "Record minimum payments, caps, escalations, exchange-rate assumptions and pass-through charges only where the proposal includes them.",
+        "Flag excluded or unpriced services and assign a person to obtain written clarification."
+      ]
+    },
+    {
+      "heading": "Reproduce the fee waterfall without counting a cost twice",
+      "paragraphs": [
+        "Start all proposals from the same rooms, segment mix, rate, other revenue and operating-cost assumptions. For a percentage charge, connect its rate to the precise defined base rather than a convenient total in the model. For an incentive charge, have the reviewers translate the proposed threshold, deductions, tiers and any carry-forward provisions into explicit calculation steps. Confirm the order of calculation where one fee affects another fee's base.",
+        "Show operating contribution before the compared charges, the charges themselves and the remaining amount on a clearly stated accounting basis. Tag every charge already included in departmental or overhead costs so it is not deducted again. Keep a separate cash calendar for payment timing, owner funding and capital requirements; an operating-profit comparison alone does not answer how much cash ownership must provide."
+      ]
+    },
+    {
+      "heading": "Stress the terms that change the owner's decision",
+      "paragraphs": [
+        "Run a common downside, base and upside case without giving one bidder a more generous revenue forecast. Then isolate contract sensitivities: opening delay, slower ramp-up, higher system usage or a change in the mix of revenue to which fees apply. For each case, ask which charges move with performance, which remain payable under the proposed wording and when any incentive begins. Do not assume a fee pauses because trading is weak.",
+        "If a proposal claims additional brand contribution, assess that as a separate evidence case after the common-assumption comparison. Ask for the mechanism, incremental business expected, acquisition costs and potential displacement of existing business. Keep unsupported contribution out of the core case. Otherwise an optimistic revenue assumption can conceal an expensive fee structure."
+      ]
+    },
+    {
+      "heading": "Make the commercial trade-off explicit",
+      "paragraphs": [
+        "Present total charges by year, cash required in weaker periods, unresolved prices and the services ownership receives. Compare the cost difference with the specific support promised, such as reporting access, commercial resources or operating assistance. Specify deliverables and review arrangements instead of treating a service description as evidence of delivery.",
+        "Use the model to prepare a short negotiation list: clarify a fee base, require charge detail, address duplicated services or review an unbounded allocation. Ask the finance reviewer to reproduce the calculations independently and counsel to reconcile the model with the final wording. Retain the final version as the opening reference for subsequent invoice reviews."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Inventory every proposed charge", "detail": "Build a dated register from the complete document set, including owner-billed items and unresolved prices." },
+    { "title": "Calculate on one operating case", "detail": "Apply each proposal's actual definitions to identical trading assumptions and mark costs already included in the P&L." },
+    { "title": "Test performance and timing", "detail": "Run weaker and stronger trading plus relevant timing sensitivities, showing both charges and cash requirements." },
+    { "title": "Resolve material differences", "detail": "Compare the evidenced service scope with its cost and obtain commercial, finance and legal checks before relying on the model." }
+  ],
+  "checklist": [
+    "Every charge has a document reference, calculation base and payment date.",
+    "Unpriced services are shown as unresolved rather than zero.",
+    "The same trading assumptions are used across operator proposals.",
+    "Incentive calculations show thresholds, deductions and calculation order explicitly.",
+    "The model identifies charges already included in operating expenses.",
+    "Owner-billed payments, pre-opening costs and capital funding are visible separately.",
+    "Brand contribution assumptions have an evidence status and are not embedded silently.",
+    "An independent reviewer can reproduce the final calculations from the agreed wording."
+  ],
+  "limitations": "Editorial draft offering a commercial modelling method, not standard fee benchmarks, investment advice or contract interpretation. No fee rate, market norm or projected saving is asserted. Actual definitions, tax treatment, accounting presentation and payment obligations require property-specific finance and legal review. An unresolved price or term prevents a complete comparison.",
+  "relatedIds": ["OWN-BS-03", "OWN-BS-04", "OWN-AM-05"],
+  "reviewStatus": "editorial-draft"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BS-07",
+  "slug": "hotel-brand-territorial-protection",
+  "title": "Hotel brand territorial protection: evaluate competitive overlap",
+  "description": "Review a proposed hotel brand territory using a coverage matrix, dated property map and demand-overlap assessment, without assuming that geography alone creates protection.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Developer negotiating a brand’s area of protection",
+  "answer": "Evaluate territorial protection across five dimensions: the mapped area, covered brands and entities, property types, duration and exceptions. Compare that contractual scope with where your hotel's guests and accounts could realistically choose another property. A large boundary is of limited commercial value if the competing brand, development type or opening date falls outside the protection being negotiated.",
+  "sections": [
+    {
+      "heading": "Create a contract map and a demand map",
+      "paragraphs": [
+        "The contract map should reproduce the proposed boundary and its measurement method. Ask counsel to resolve any conflict between a radius, written boundary and attached drawing. Record the point from which distance is measured and which document controls; a sales presentation map is not a substitute for the agreement's exhibit.",
+        "The demand map answers a different question: which properties could compete for the same corporate accounts, leisure itineraries, groups or events? Consider access routes and demand generators rather than distance alone. A property outside the proposed boundary may still compete for an important account, while a nearby hotel may serve a different buying need. Label these as commercial assessments, not contractual conclusions."
+      ]
+    },
+    {
+      "heading": "Read across the coverage matrix",
+      "paragraphs": [
+        "Create a row for each relevant brand or product and columns for development, conversion, acquisition, expansion and replacement. Mark each intersection covered, excluded or unresolved, citing the draft wording. Have counsel check the named entities and the treatment of affiliates rather than assuming all hotels in one brand family are covered.",
+        "Add a time axis. Compare the proposed restriction's start and end dates with construction, opening and ramp-up milestones. Ask how delays, extensions or a future renewal affect the scope. A restriction that ends during a delayed opening needs a different commercial assessment from one covering the planned operating period."
+      ],
+      "bullets": [
+        "Separate protection against an opening from any restriction on signing or developing a hotel.",
+        "Record existing-property and previously approved pipeline exceptions individually.",
+        "Check whether notice or impact-review rights exist separately from a restriction."
+      ]
+    },
+    {
+      "heading": "Keep pipeline evidence dated and qualified",
+      "paragraphs": [
+        "Maintain a property register with location, proposed positioning, known status, source date and unresolved questions. Distinguish an operating hotel, construction in progress, an announced project and an unverified report. Do not put speculative openings into the base case as if their timing were established.",
+        "Ask the brand to clarify relevant exceptions and known pipeline entries in writing through the agreed negotiation process. Compare the response with the contract schedule. Record uncertainty as a scenario to investigate, rather than converting a press mention or verbal assurance into a protected right."
+      ]
+    },
+    {
+      "heading": "Negotiate against the commercial exposure",
+      "paragraphs": [
+        "For each material overlap, state the exposure in operational terms: shared account demand, meeting capacity, price positioning or a common reservation audience. Use this to prioritize a clearer definition, longer relevant period, narrower exception or documented review procedure. Treat these as negotiation requests until accepted in the agreement.",
+        "Compare the complete brand proposition after any territory revision. Broader protection does not compensate automatically for unsuitable standards, weak distribution fit or costly obligations. Record the owner decision and residual competitive risk, with counsel assessing enforceability and remedies under the final wording."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Map the two boundaries", "detail": "Draw the contractual area from the draft and separately identify the demand catchment and commercially relevant competitors." },
+    { "title": "Build the coverage matrix", "detail": "Check brands, entities, hotel types, permitted activities, dates and exceptions against clause references." },
+    { "title": "Verify the competing pipeline", "detail": "Date each source and distinguish established facts from uncertain projects or opening schedules." },
+    { "title": "Resolve the material gaps", "detail": "Prioritize negotiation requests by commercial exposure and obtain counsel's review of the final scope and available remedies." }
+  ],
+  "checklist": [
+    "The map, written boundary and measurement method agree.",
+    "Covered brands, entities and hotel formats are named.",
+    "The protection period has been compared with the project schedule.",
+    "Existing and pipeline exceptions are individually understood.",
+    "Notice, review and restriction rights are treated as separate questions.",
+    "Relevant demand overlap is supported by a documented commercial rationale.",
+    "Unresolved legal interpretation and unverified pipeline status remain visible."
+  ],
+  "limitations": "This framework does not establish a right to exclude a competitor or predict the effect of a new hotel. The final agreement and applicable law control legal protection. Pipeline timing, future brand ownership and market demand may change and require fresh review.",
+  "relatedIds": ["OWN-BS-01", "OWN-BS-04", "OWN-BI-03"],
+  "reviewStatus": "editorial-draft"
+}

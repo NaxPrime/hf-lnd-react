@@ -1,0 +1,67 @@
+{
+  "id": "OWN-MA-07",
+  "slug": "hotel-mystery-audit-action-closure",
+  "title": "Close mystery-audit findings with evidence and a retest",
+  "description": "Use a corrective-action register that distinguishes containment, implementation and verified closure, with comparable retests and escalation for recurring hotel service failures.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Hotel owner following up on unresolved guest-experience findings",
+  "answer": "Close a mystery-audit finding when the agreed correction is supported by evidence and the relevant guest outcome passes an appropriate retest. A manager's completion report, new procedure or training attendance sheet may show implementation, but each answers a different question from whether service now works. Keep the original observation, investigation, accountable action and closure decision linked under one reference. Reopen the finding if the same failure recurs or the evidence does not support closure.",
+  "sections": [
+    {
+      "heading": "Preserve the finding while checking its facts",
+      "paragraphs": [
+        "Start with the original observation, applicable requirement, visit context and supporting evidence. Give management a defined opportunity to correct factual errors and add relevant records. Keep an audit trail of substantive revisions. If an observation and a system record conflict, identify the exact disagreement and investigate it; neither a guest narrative nor a completion flag should silently erase the other.",
+        "Agree the guest outcome that needs to be restored before discussing remedies. A delayed request may require immediate containment for current guests while management investigates why the handoff failed. Record containment separately from a lasting correction. A supervisor manually chasing each request can help temporarily without proving that the routine process has been repaired."
+      ]
+    },
+    {
+      "heading": "Use statuses that distinguish activity from assurance",
+      "paragraphs": [
+        "Define the action-register statuses so everyone uses them consistently. An accepted finding can move through investigation, action agreed, implementation reported, verification pending and verified closed. Include a clear disputed or awaiting-evidence status where necessary, and a reopened status for recurrence. A target date is an accountability tool; passing the date must not automatically change the finding to complete.",
+        "Assign an accountable manager with the authority to coordinate dependencies and identify who will verify closure. Record the proposed cause, supporting evidence and corrective action separately. If the cause is still unknown, mark it as a hypothesis and specify the next investigation. Training, a new checklist or a system change should be connected to the mechanism it is intended to correct."
+      ],
+      "bullets": [
+        "Finding reference, original outcome and applicable requirement.",
+        "Containment, suspected or supported cause, and corrective action.",
+        "Accountable role, dependencies, due date and escalation route.",
+        "Implementation evidence and the date it became available.",
+        "Retest scenario, pass criterion, verifier and result.",
+        "Closure decision, remaining uncertainty and any recurrence history."
+      ]
+    },
+    {
+      "heading": "Choose evidence that tests the correction's purpose",
+      "paragraphs": [
+        "Match implementation evidence to the action. A configuration record can show that a routing rule changed; a revised procedure can show what staff are now instructed to do; a repair record can show work performed. Then test the outcome the action was meant to restore. Where the failure crossed teams, follow the handoff through to delivery rather than stopping when the receiving team acknowledges the request.",
+        "Design a retest comparable to the original scenario while recording material differences in workload, shift, product or staffing. Avoid coaching the tested team through the exact encounter if the purpose is to assess routine delivery. Mark an unavailable or interrupted scenario as not tested. A favorable result under easier conditions may justify partial confidence, but the report should state the remaining exposure instead of issuing an unqualified closure."
+      ]
+    },
+    {
+      "heading": "Escalate recurrence and close with a defensible record",
+      "paragraphs": [
+        "If the same outcome fails again, reopen the original reference or link the new finding explicitly to it. Check whether the action was implemented, whether the proposed cause was wrong or whether the fix worked only in one setting. Repeated reminders without a change in mechanism are a reason for owner attention. Ask for a concrete decision on authority, resources, process design or further investigation.",
+        "When closing, record who verified the result, the evidence reviewed, the conditions tested and the scope of the conclusion. Some actions may need later monitoring because one successful encounter cannot establish durability. Preserve that follow-up in the program even when the immediate finding is closed. Report aged material findings and pending owner decisions individually so a high overall closure rate cannot conceal an important unresolved gap."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Confirm the finding and desired outcome", "detail": "Check factual disputes, retain the original evidence and define what successful guest delivery would look like." },
+    { "title": "Agree an accountable correction", "detail": "Separate containment from the lasting action, document the supported cause or open hypothesis, and assign dependencies and decision authority." },
+    { "title": "Verify implementation and retest delivery", "detail": "Review evidence that the action occurred, then observe the relevant guest outcome under a comparable scenario with clear pass criteria." },
+    { "title": "Close, monitor or reopen", "detail": "Record a scoped closure decision when evidence supports it; retain monitoring needs and escalate recurring or unverified material findings." }
+  ],
+  "checklist": [
+    "The original observation remains traceable through every action and retest.",
+    "Factual corrections have an evidence trail.",
+    "Temporary containment is not recorded as a lasting correction.",
+    "Status labels distinguish reported implementation from verified closure.",
+    "The action addresses a supported cause or an explicit hypothesis.",
+    "Retest criteria and the verifier are agreed before closure.",
+    "Untested scenarios and changed conditions remain visible.",
+    "Recurring and aged material findings receive specific owner decisions."
+  ],
+  "limitations": "Editorial draft defining a proposed closure workflow, not evidence of completed HotelFirst corrective actions. Closure criteria and escalation arrangements need property-specific agreement. A successful retest supports a conclusion about the observed scenario and does not certify permanent improvement across all guests, teams or operating conditions.",
+  "relatedIds": ["OWN-MA-02", "OWN-MA-04", "OWN-MA-05", "OWN-MA-06"],
+  "reviewStatus": "editorial-draft"
+}

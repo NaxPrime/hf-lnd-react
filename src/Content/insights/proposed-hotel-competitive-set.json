@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-03",
+  "slug": "proposed-hotel-competitive-set",
+  "title": "Build a defensible competitive set for a proposed hotel",
+  "description": "Select hotel comparables by guest choice, product and operating context, with documented exclusions and separate treatment of future supply and advertised rates.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Developer or investment team reviewing feasibility benchmarks",
+  "answer": "A defensible competitive set contains hotels a target guest could realistically choose instead of the proposed property. Start with trip purpose, access, product, service level and price positioning, then document why each hotel is included or excluded. Keep direct competitors separate from partial substitutes and planned supply. A set chosen only for proximity, brand prestige or high published rates can make a weak concept appear better supported than it is.",
+  "sections": [
+    {
+      "heading": "Define the guest choice before selecting properties",
+      "paragraphs": [
+        "Write the proposed hotel's main demand segments and the conditions each needs. A corporate guest visiting a particular business district, a destination wedding buyer and a long-stay project team may consider different alternatives. Travel time, room configuration, meeting capacity, service availability and booking restrictions can matter more than a property's distance from the site.",
+        "Build the property inventory before selecting the final set. For each candidate, record location, room count, relevant facilities, positioning, operating status and observation date. Note uncertainty rather than filling gaps from assumption. This makes the selection reviewable and reduces the temptation to choose only hotels that support the desired forecast."
+      ]
+    },
+    {
+      "heading": "Separate direct competition from useful context",
+      "paragraphs": [
+        "Use a primary group for properties competing for the core business, a secondary group for substitutes relevant to some segments, and a separate register for future supply. A hotel with a large convention venue may be a useful event competitor but an unsuitable room-rate benchmark for a small limited-facility concept. Explain the role of each comparator rather than averaging unlike properties together.",
+        "If the market has no close equivalent, state that limitation. A reference property in another market can help frame a product question, but transferring its performance requires an explanation of differences in demand, location, costs and maturity. Lack of a comparable is a research issue; it is not proof of an uncontested opportunity."
+      ],
+      "bullets": [
+        "Primary: competes for the proposed hotel's central guest use case.",
+        "Secondary: substitutes for selected segments, dates or facilities.",
+        "Future: could alter choice after opening, subject to delivery uncertainty."
+      ]
+    },
+    {
+      "heading": "Keep price observations distinct from realized results",
+      "paragraphs": [
+        "Record advertised rates with the stay date, search date, room type, occupancy, inclusions, taxes and cancellation terms. A nonrefundable room without breakfast is not directly comparable with a flexible package. A sold-out message on one channel also does not establish that every room is occupied; availability can depend on channel allocation and restrictions.",
+        "Realized average daily rate uses room revenue divided by rooms sold. It cannot be derived from a small collection of public price quotes. Where licensed aggregated performance data is available, record the period, sample coverage and metric definitions. Do not seek or circulate confidential competitor account terms as a substitute for legitimate market research."
+      ]
+    },
+    {
+      "heading": "Test whether the selected set changes the conclusion",
+      "paragraphs": [
+        "Review how the benchmark changes if a borderline property is removed or a credible substitute is added. Large changes are a reason to investigate selection bias or insufficient coverage, not to choose whichever set produces the most attractive forecast. Also distinguish established hotels from properties still opening, renovating or changing positioning.",
+        "Maintain a dated supply register with source, development status, expected opening assumptions and relevance to the proposed concept. Test credible timing alternatives rather than treating every announced project as completed or ignoring future competition. Freeze the set used in a report version and document later changes so readers can distinguish a market movement from a changed comparison group."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "State the choice criteria", "detail": "Describe the core guest segments and the access, product and booking features that make another hotel a realistic substitute." },
+    { "title": "Build and classify the inventory", "detail": "Document candidate properties and assign primary, secondary or future relevance with explicit inclusion and exclusion reasons." },
+    { "title": "Align the observations", "detail": "Normalize public price comparisons and keep them distinct from licensed realized-performance measures." },
+    { "title": "Challenge the selection", "detail": "Test borderline inclusions, supply timing and data gaps, then retain the set and source dates with the report version." }
+  ],
+  "checklist": [
+    "Each comparator relates to a named target segment.",
+    "Inclusions and exclusions have written reasons.",
+    "Partial substitutes are not blended indiscriminately with direct competitors.",
+    "Rate observations retain booking conditions and dates.",
+    "Advertised prices are not labeled as achieved ADR.",
+    "Future supply has a source and a separate timing assumption.",
+    "The conclusion has been checked against reasonable changes to the set."
+  ],
+  "limitations": "This is a selection method, not a verified competitive set or market benchmark. No property performance has been measured here. Data-provider confidentiality and sample rules apply to any licensed benchmark, and public availability or rate observations cannot establish a competitor's actual occupancy or realized revenue.",
+  "relatedIds": ["OWN-BI-02", "OWN-BI-05", "OWN-AM-03"],
+  "reviewStatus": "editorial-draft"
+}

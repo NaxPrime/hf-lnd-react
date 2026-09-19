@@ -1,0 +1,88 @@
+{
+  "id": "OWN-PT-08",
+  "slug": "hotel-turnaround-implementation-plan",
+  "title": "Turn hotel turnaround findings into an accountable implementation plan",
+  "description": "Convert hotel diagnostic findings into sequenced actions with accountable roles, dependencies, decision gates and evidence of completion.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner or investor moving from diagnosis to an improvement mandate",
+  "answer": "A hotel turnaround plan should translate supported findings into a small set of actions with clear responsibility, prerequisites and measures. Sequence the work so dependent actions do not start before their inputs are ready. Track delivery separately from business results, and use owner review points to decide whether to continue, adjust or stop an intervention.",
+  "sections": [
+    {
+      "heading": "Turn each finding into a testable action",
+      "paragraphs": [
+        "Write the finding, supporting evidence, proposed action and expected mechanism together. If the issue is slow response to group enquiries, a vague instruction to improve sales is not sufficient. The action needs to identify the handoff, responsible role, required information and observable process change.",
+        "Separate confirmed corrective work from actions that test a hypothesis. For the latter, state what would support or weaken the explanation. A project list should not imply that every diagnostic suggestion has already been approved or that all effects can be predicted."
+      ]
+    },
+    {
+      "heading": "Sequence around dependencies and capacity",
+      "paragraphs": [
+        "Map the inputs needed before each action can start: an approved budget, a reconciled report, a staffing decision, system access, technical work or a revised commercial agreement. Identify the decision-maker for each prerequisite and the consequence of delay.",
+        "Limit concurrent work to what the hotel can deliver while operating. Group actions into practical stages such as establishing reliable information, fixing a specific process and assessing whether a structural change is needed. These stages are examples of sequence, not a standard recovery timetable."
+      ],
+      "bullets": [
+        "Action and the finding it addresses.",
+        "Accountable role, contributors and approving authority.",
+        "Prerequisites, resource requirement and intended sequence.",
+        "Completion evidence and the person who verifies it.",
+        "Expected business effect, observation period and review decision."
+      ]
+    },
+    {
+      "heading": "Separate action completion from performance improvement",
+      "paragraphs": [
+        "A new report, revised roster or implemented pricing rule can be verified as delivered. Improved contribution, guest experience or relative market performance requires subsequent observation and may be influenced by other changes. Keep these two sets of measures separate so activity is not reported as an outcome.",
+        "Agree the baseline and reporting definition before implementation. For each action, add a relevant countermeasure: for example, a cost initiative should monitor the affected service, while a commercial initiative should monitor contribution as well as volume. State how uncertainty and concurrent changes will be recorded."
+      ]
+    },
+    {
+      "heading": "Use owner reviews to make decisions",
+      "paragraphs": [
+        "At each review, show completed actions, blocked dependencies, emerging effects and the specific decisions required from ownership. Escalate a missing approval or resource with its consequence rather than marking every delayed item as a team failure.",
+        "Document changes to scope, budget and assumptions. Close an action only when delivery evidence is accepted; close the improvement review only when the observation supports a conclusion or explicitly remains inconclusive. Carry unresolved effects into ordinary owner reporting rather than declaring the turnaround finished because a presentation was delivered."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Convert findings into actions",
+      "detail": "Tie each action to evidence and a specific mechanism it is intended to change."
+    },
+    {
+      "title": "Assign and sequence",
+      "detail": "Set accountable roles, resources, prerequisites and owner approval points."
+    },
+    {
+      "title": "Define verification",
+      "detail": "Agree delivery evidence, performance baselines and service or risk countermeasures."
+    },
+    {
+      "title": "Review and adapt",
+      "detail": "Use results and blocked dependencies to continue, adjust or stop actions with a recorded decision."
+    },
+    {
+      "title": "Hand over sustained oversight",
+      "detail": "Move ongoing measures and unresolved effects into the recurring owner reporting process."
+    }
+  ],
+  "checklist": [
+    "Actions trace back to diagnostic findings.",
+    "Hypothesis tests are distinguished from confirmed corrective work.",
+    "Every action has one accountable role.",
+    "Dependencies and owner decisions are visible.",
+    "Resource capacity has been considered.",
+    "Delivery evidence and performance measures are separate.",
+    "Countermeasures detect harmful side effects.",
+    "Scope changes are recorded.",
+    "Ongoing monitoring has an agreed owner after the intervention."
+  ],
+  "limitations": "The sequence, resources and observation periods must be set for the specific property. This is an implementation framework, not a guaranteed recovery timetable or performance forecast. Completion of an action does not establish that it caused a financial or service improvement.",
+  "relatedIds": [
+    "OWN-PT-02",
+    "OWN-PT-05",
+    "OWN-AM-02",
+    "OWN-MA-07"
+  ],
+  "reviewStatus": "editorial-draft"
+}

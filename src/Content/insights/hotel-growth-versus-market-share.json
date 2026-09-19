@@ -1,0 +1,66 @@
+{
+  "id": "OWN-AM-03",
+  "slug": "hotel-growth-versus-market-share",
+  "title": "Revenue is growing: is your hotel keeping pace with the market?",
+  "description": "Separate hotel revenue growth, RevPAR index and actual room-revenue share using matched periods and explicit room-inventory and market denominators.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Owner or asset manager challenging year-on-year growth claims",
+  "answer": "Revenue growth shows how your hotel changed against its own past. RevPAR index compares room revenue per available room with an aggregated hotel group. Actual room-revenue share compares your room revenue with the total for a defined market. Keep those three calculations separate: a hotel can grow while its relative performance weakens, and an index alone does not reveal its percentage of total market revenue.",
+  "sections": [
+    {
+      "heading": "Write the three calculations before discussing success",
+      "paragraphs": [
+        "For room-revenue growth, divide current-period room revenue by the comparable prior-period amount, subtract one and express the result as a percentage. A zero prior-period amount makes this growth calculation undefined. Do not compare total hotel revenue growth, including food and beverage, directly with a rooms-only benchmark.",
+        "RevPAR is room revenue divided by available room nights. RevPAR index, also called revenue generating index or RGI, is hotel RevPAR divided by the comparison group's aggregate RevPAR, multiplied by 100. An index of 100 indicates equal RevPAR to that group; it does not mean the hotel receives all market revenue or has achieved an owner's investment objective.",
+        "Actual room-revenue share is hotel room revenue divided by total room revenue for a defined market that includes the hotel, multiplied by 100. Name that market and its coverage. Without the total-revenue denominator, report share as unavailable rather than relabelling the index."
+      ]
+    },
+    {
+      "heading": "Validate periods, inventory and market coverage",
+      "paragraphs": [
+        "Use matching dates, consistent revenue treatment and compatible room-availability definitions. Record closures, phased openings, added rooms and reporting gaps. Compare the hotel's current and prior inventory before deciding whether greater revenue came from stronger performance per room or simply more room nights available for sale.",
+        "Retain the benchmark provider's aggregate and methodology rather than taking a simple average of individual hotel percentages. Document the competitive set, whether it includes the subject hotel and any membership changes. A selected peer group and the whole destination are different comparison universes; conclusions should name the one actually measured."
+      ],
+      "bullets": [
+        "Are the same calendar periods being compared?",
+        "Does each revenue figure cover rooms on the same reporting basis?",
+        "How did available room nights change in each period?",
+        "Is the benchmark complete, estimated or limited to participating hotels?"
+      ]
+    },
+    {
+      "heading": "Interpret the pattern without inventing a cause",
+      "paragraphs": [
+        "If hotel revenue rises while its RevPAR index falls, inspect hotel capacity and the separate hotel and group RevPAR movements. The hotel may have grown but failed to keep pace per available room. If its index rises while revenue falls, relative resilience may coexist with a weaker absolute result. Neither pattern alone establishes whether a particular commercial decision was right.",
+        "Actual revenue share can move differently from the RevPAR index when the hotel's share of room supply changes. New market supply, hotel closures or a changed market definition also affect the share denominator. Maintain separate commentary for hotel growth, per-room competitiveness and revenue share so one measure does not substitute for another."
+      ]
+    },
+    {
+      "heading": "Choose the next investigation from the evidence",
+      "paragraphs": [
+        "Where the data supports further analysis, examine relative occupancy and average rate, then the relevant segments, channels and day types. Ask which demand the hotel pursued, what it declined and what contribution it earned after the associated costs. Stronger relative room revenue is not sufficient evidence of stronger profit or owner cash flow.",
+        "Record the operator's explanation as a hypothesis with supporting data and a follow-up action. If the comparison set or inventory data is unreliable, resolve that problem first. Avoid setting a blanket index target without examining the hotel's product, positioning, cost structure and owner objectives."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Name each measure and denominator", "detail": "Separate hotel growth, RevPAR index and actual room-revenue share, marking unavailable calculations explicitly." },
+    { "title": "Check comparability", "detail": "Align dates, revenue definitions, room availability and the benchmark group's coverage across periods." },
+    { "title": "Explain the combined movement", "detail": "Examine absolute revenue, revenue per available room and supply changes before assigning a cause." },
+    { "title": "Investigate an actionable driver", "detail": "Use segment, rate, occupancy and contribution evidence to test the operator's explanation and agree follow-up work." }
+  ],
+  "checklist": [
+    "Room revenue is not mixed with total hotel revenue in the benchmark.",
+    "Each period's room-revenue and available-room-night inputs are recorded.",
+    "The RevPAR comparison uses the group's aggregate measure.",
+    "The competitive set and its changes are documented.",
+    "Any actual-share claim has a defined total-market revenue denominator.",
+    "A RevPAR index is not presented as a percentage of market revenue.",
+    "Profitability and owner cash implications are assessed separately.",
+    "Causal explanations have evidence or remain labelled hypotheses."
+  ],
+  "limitations": "A benchmark describes the participating or defined comparison group, not necessarily the full market. Data licensing, coverage, methodology and revisions may restrict the analysis. These calculations do not establish operator causation, contractual performance failure, profitability or investment value.",
+  "relatedIds": ["OWN-AM-02", "OWN-AM-08", "OWN-BI-03", "OWN-BS-06"],
+  "reviewStatus": "editorial-draft"
+}

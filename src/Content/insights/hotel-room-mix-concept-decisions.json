@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-04",
+  "slug": "hotel-room-mix-concept-decisions",
+  "title": "Choose hotel room mix and facilities from demand evidence",
+  "description": "Translate guest requirements into hotel room types and facilities, comparing space, operating demands, peak-use conflicts and reversible concept options before design approval.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Hotel promoter deciding concept, segment and space allocation",
+  "answer": "Choose the room mix and facilities by connecting each proposed feature to a documented guest use case, likely frequency of use and the space and operating resources it consumes. Test the combination on ordinary and peak dates. The decision is not simply which amenities guests like: it is whether the concept can serve its intended business without creating unused capacity, operational bottlenecks or a capital burden unsupported by demand.",
+  "sections": [
+    {
+      "heading": "Create a demand-to-product matrix",
+      "paragraphs": [
+        "For each target segment, record party size, length of stay, bed configuration, accessibility needs, work or storage requirements, meal patterns and event use. Link those requirements to the source evidence. Distinguish a feature necessary to win the stay from a stated preference and an idea that has not been tested with buyers.",
+        "Map each proposed room type and facility to the segments it serves. An unsupported row is a prompt to investigate or remove an assumption. Avoid inferring that a higher-priced room will attract sufficient buyers simply because the design is larger or more elaborate; the demand case needs to address frequency and willingness to choose that product."
+      ]
+    },
+    {
+      "heading": "Size for the pattern of demand, not only the average",
+      "paragraphs": [
+        "Plot room-type requirements across representative dates and stay patterns. Check whether twin-bed, family, connecting-room or longer-stay requests coincide, and whether one configuration can reasonably serve more than one use. A room mix that matches an annual average may still turn away relevant business on important dates and leave specialized rooms unused at other times.",
+        "Model substitution explicitly. If the preferred type sells out, can the guest accept another type, at what rate and with what service implications? Do not assume every unsold premium room can be filled at the forecast premium or that complimentary upgrades create the same revenue as paid demand. Have the design team test any proposed flexibility before assigning it a commercial benefit."
+      ]
+    },
+    {
+      "heading": "Test facilities as connected operating systems",
+      "paragraphs": [
+        "A meeting or banquet facility creates requirements beyond its rentable floor area. Ask how arrivals, parking, circulation, kitchens, service access, storage, washrooms and staffing would handle the same peak period. Test whether resident guests and event guests compete for breakfast seating, lifts or other constrained services. Demand for an event venue does not automatically justify the rooms forecast, or vice versa.",
+        "Compare the facility's incremental contribution and full support requirements with the space and capital it displaces. Include ongoing maintenance and the staffing needed when use is low. The trade-off may be fewer keys, a simpler outlet, a smaller initial phase or a facility designed for several uses; each option requires its own demand and cost assumptions."
+      ],
+      "bullets": [
+        "Identify shared capacity that several uses need at the same time.",
+        "Include back-of-house and service space in concept comparisons.",
+        "Assign no revenue benefit to a facility without a stated use case."
+      ]
+    },
+    {
+      "heading": "Protect options before locking the design",
+      "paragraphs": [
+        "Compare a small number of coherent concepts using the same site envelope, evidence period and cost basis. Show room counts, room-type mix, facility areas, operating model and major constraints side by side. Ask the architect, operator and cost specialist to reconcile the preferred option rather than allowing each discipline to work from a different schedule.",
+        "Where demand is uncertain, identify changes that can be delayed without undermining the hotel and changes that become expensive once construction proceeds. A future phase is useful only if access, services, structure and permissions can support it. Record the evidence needed to release deferred investment and who will review it; do not count future facilities as operating in the initial forecast."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Translate guest requirements", "detail": "Connect each segment's stay pattern and non-negotiable needs to proposed room types and facilities, retaining the supporting evidence." },
+    { "title": "Test date-level fit", "detail": "Check peak overlaps, room-type substitution and low-use periods instead of relying on the annual demand mix alone." },
+    { "title": "Price the full concept", "detail": "Include support space, staffing, maintenance and displaced alternatives in each facility and room-mix option." },
+    { "title": "Agree design commitments", "detail": "Reconcile the concept across design, operations and cost inputs, recording deferred decisions and the evidence needed to release them." }
+  ],
+  "checklist": [
+    "Each room type and facility serves a documented use case.",
+    "Necessary features are separated from untested preferences.",
+    "Peak-date room-type shortages and substitution assumptions are shown.",
+    "Event and resident-guest flows have been considered together.",
+    "Support areas and ongoing operating obligations are costed.",
+    "All disciplines use the same room and facility schedule.",
+    "Phased options have defined constraints and release conditions."
+  ],
+  "limitations": "This is a commercial concept-review method, not a design specification, room-mix recommendation or compliance assessment. Actual capacity, accessibility, services, permissions and construction implications require the relevant design and technical specialists. No demand, space standard or cost estimate is supplied here.",
+  "relatedIds": ["OWN-BI-02", "OWN-BI-05", "OWN-BS-01", "OWN-PT-04"],
+  "reviewStatus": "editorial-draft"
+}

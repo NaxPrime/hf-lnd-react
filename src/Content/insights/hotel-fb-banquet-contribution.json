@@ -1,0 +1,81 @@
+{
+  "id": "OWN-PT-06",
+  "slug": "hotel-fb-banquet-contribution",
+  "title": "Hotel F&B and banquets: find the source of weak contribution",
+  "description": "Trace hotel food, beverage and banquet sales into department and event contribution before changing prices, menus, opening hours or operating formats.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Hotel owner whose non-room departments generate sales but limited profit",
+  "answer": "Review hotel food, beverage and banquet profitability at the level where a decision can be made: outlet, meal period, event or offer. Reconcile sales and package allocations, identify the costs of delivery, then separate activity, price, consumption and labor effects. Department sales alone cannot show whether a particular event or operating format contributes enough to justify the capacity it uses.",
+  "sections": [
+    {
+      "heading": "Reconcile the revenue before assessing the outlet",
+      "paragraphs": [
+        "Connect point-of-sale or event records to the department accounts. Check package breakfast allocations, bundled meeting offers, discounts, complimentary items and transfers between departments. State how taxes or service-related charges are treated under the applicable reporting basis before comparing offers.",
+        "For banquets, reconcile the contracted offer, final attendance, actual services delivered and final billing. For an outlet, connect covers, realized spending per cover and operating hours. An apparent drop in yield may reflect mix or recoding rather than a price problem."
+      ]
+    },
+    {
+      "heading": "Trace the costs to delivery",
+      "paragraphs": [
+        "Compare ingredients or beverages purchased, issued and consumed under the hotel’s control process. Investigate portioning, wastage, stock movement and menu mix before assuming a purchasing-price problem. Records need to support the conclusion; a food-cost ratio does not explain whether the cause is specification, usage, recording or sales mix.",
+        "Separate recurring resources from additional costs triggered by the service or event. Event setup, temporary staffing, equipment hire, utilities and cleanup may fall outside the visible meal period. Shared kitchen and management allocations should be shown with their method, not treated as costs that disappear immediately if one offer is removed."
+      ]
+    },
+    {
+      "heading": "Create a decision worksheet for the offer",
+      "paragraphs": [
+        "Use columns for the offer or event, recognized revenue, direct consumption, additional labor and other relevant costs, resulting contribution and shared allocations. State whether the worksheet supports an incremental acceptance decision or a longer-term operating-format review.",
+        "If space or kitchen capacity is constrained, consider what another event or service could contribute during the same period. An event can have positive incremental contribution and still be less attractive than a credible alternative. Conversely, removing a positive contributor may leave fixed resources unused without removing their costs."
+      ],
+      "bullets": [
+        "For an event: include setup, breakdown and exclusive use of space.",
+        "For a meal period: include the hours and resources needed to open.",
+        "For a menu change: include the effect on preparation, waste and guest choice.",
+        "For an outsourced format: compare retained owner costs and service obligations."
+      ]
+    },
+    {
+      "heading": "Test the action and reconcile the result",
+      "paragraphs": [
+        "Choose an action that matches the mechanism: improve inventory control, change an inclusion, adjust scheduling, revise a menu item or reconsider operating hours. Verify who can authorize changes under the relevant brand and operating arrangements.",
+        "After the change, review contribution, demand, service quality and any displaced business. A lower consumption ratio can coexist with declining contribution if sales fall or guests shift to another offer. Retain both absolute and unit measures so the owner can see the full effect."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Define the decision unit",
+      "detail": "Choose the outlet, period, event or offer and reconcile its revenue to the accounts."
+    },
+    {
+      "title": "Map delivery costs",
+      "detail": "Trace consumption and incremental resources, keeping shared allocations transparent."
+    },
+    {
+      "title": "Compare feasible options",
+      "detail": "Review contribution and constrained capacity for the proposal and credible alternatives."
+    },
+    {
+      "title": "Verify the action",
+      "detail": "Track financial and service effects together before extending or closing the change."
+    }
+  ],
+  "checklist": [
+    "Revenue reconciles to billing and the department accounts.",
+    "Package and complimentary treatment is explicit.",
+    "Consumption records support the cost explanation.",
+    "Setup and breakdown resources are included.",
+    "Incremental costs and shared allocations are distinguished.",
+    "The decision considers constrained space or production capacity.",
+    "The proposed action follows the diagnosed mechanism.",
+    "Absolute contribution and guest-service effects are both reviewed."
+  ],
+  "limitations": "Contribution depends on consistent accounting and cost allocation. This guide does not establish standard food-cost, labor or profit targets, and an event-level result is not the same as a fully allocated department profit. Operational, accounting and contractual review is needed before material changes.",
+  "relatedIds": [
+    "OWN-PT-04",
+    "OWN-PT-05",
+    "OWN-AM-05"
+  ],
+  "reviewStatus": "editorial-draft"
+}

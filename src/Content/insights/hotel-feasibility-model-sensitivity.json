@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-05",
+  "slug": "hotel-feasibility-model-sensitivity",
+  "title": "Stress-test a hotel feasibility model before approving capital",
+  "description": "Use an assumption register, isolated sensitivities and combined downside scenarios to identify which hotel development risks change the funding need or investment decision.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Hotel investor or developer evaluating model assumptions",
+  "answer": "Stress-test the hotel model by first reconciling its base assumptions, then changing individual drivers to find the sensitive ones and combining related risks into coherent downside scenarios. Track when additional cash is required and which owner decision threshold fails. A lower annual profit figure alone is insufficient: opening delays, slower ramp-up, cost overruns and financing timing can create different funding problems even when the mature-year forecast looks attractive.",
+  "sections": [
+    {
+      "heading": "Make the base case traceable before changing it",
+      "paragraphs": [
+        "Create an assumption register identifying each material input, unit, period, source, date and reviewer. Separate observations, estimates, contractual amounts and unresolved assumptions. Confirm that the operating model uses the same room inventory, facility schedule and opening date as the project cost plan. Mark values supplied by the owner or operator so readers do not mistake them for independently established facts.",
+        "Check basic mechanics before running scenarios. For a consistent period, available room nights, occupancy and average daily rate must reconcile to forecast room revenue. Closed rooms, taxes, packages and other revenues require explicit treatment so that different definitions are not mixed. Formula errors and inconsistent periods can make a sensitivity table precise but meaningless."
+      ]
+    },
+    {
+      "heading": "Use isolated changes to locate the decision drivers",
+      "paragraphs": [
+        "Change one material assumption at a time while holding the others constant. Candidate drivers include achieved rate, occupied room nights, opening date, ramp-up pace, project cost, payroll and financing terms. Select ranges from evidence and uncertainty in the specific project; do not use an arbitrary percentage change as if it were a measured risk forecast.",
+        "For each change, record the effect on the owner's selected decision measures, including the funding requirement and its timing. This identifies which assumptions deserve more research. It does not predict how the variables will move together: a single-variable sensitivity is a diagnostic of the model, not a complete downside case."
+      ]
+    },
+    {
+      "heading": "Build a downside story with linked consequences",
+      "paragraphs": [
+        "Describe the event first, then change the connected assumptions. An opening delay may shift revenue into a different season while extending project carrying costs and altering recruitment or supplier payment dates. A slower demand ramp-up may affect both room revenue and outlet usage, while some staffing and property costs remain. Do not reduce every expense in the same proportion as revenue unless the operating plan supports that response.",
+        "Separate the downside before intervention from a case with management action. For each action, state implementation time, cost, decision authority and capacity or service consequences. A proposed hiring adjustment, phased facility opening or change in channel mix should not appear as an immediate, cost-free saving. Avoid stacking incompatible assumptions merely to create an extreme result; the scenario should describe a possible sequence."
+      ],
+      "bullets": [
+        "Event: what changes and when it occurs.",
+        "Exposure: which revenue, cost, project and financing inputs move.",
+        "Response: what ownership or management can actually change, with delay and cost."
+      ]
+    },
+    {
+      "heading": "Find the failure point and document the decision",
+      "paragraphs": [
+        "Review the period of greatest funding need, available funding sources and any conditions on access to them. A financing receipt is not certain merely because the model needs cash. Where debt metrics or covenants are tested, use the actual proposed agreement's definitions and have the relevant finance and legal advisers confirm their interpretation. Do not insert a universal lender threshold.",
+        "Ask which assumption change first makes the chosen option unacceptable under the owner's documented criteria, then consider a smaller scheme, phasing, further evidence or deferral. Preserve each scenario version and its changes from the base case. The result should be a decision record explaining exposure and possible responses, not a single return number presented without conditions."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Reconcile the base", "detail": "Check the source register, model definitions and agreement between product, cost and opening assumptions." },
+    { "title": "Rank sensitive inputs", "detail": "Test individual material drivers using project-supported ranges and record their effect on decision measures and funding timing." },
+    { "title": "Construct combined cases", "detail": "Translate plausible adverse events into connected changes, keeping unmitigated exposure separate from feasible management responses." },
+    { "title": "Review the decision boundary", "detail": "Identify the conditions under which capital or funding constraints fail, verify any agreement-based tests and document the owner's next action." }
+  ],
+  "checklist": [
+    "Every material input has a unit, period, source and uncertainty label.",
+    "Revenue and room-inventory mechanics reconcile.",
+    "Sensitivity ranges have a project-specific rationale.",
+    "Combined scenarios include timing and cost dependencies.",
+    "Management responses carry implementation costs and delays.",
+    "Financing availability and any covenant definitions are confirmed separately.",
+    "The decision record identifies funding pressure and the assumptions that change the recommendation."
+  ],
+  "limitations": "This is a model-review framework, not a forecast, financing assessment or recommendation to invest. No numerical scenarios have been calculated. A qualified project-finance reviewer must check the actual model, agreement definitions, tax treatment and assumptions before an owner relies on its conclusions.",
+  "relatedIds": ["OWN-BI-01", "OWN-BI-06", "OWN-BI-08", "OWN-AM-05"],
+  "reviewStatus": "editorial-draft"
+}

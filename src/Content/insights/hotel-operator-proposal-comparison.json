@@ -1,0 +1,65 @@
+{
+  "id": "OWN-BS-03",
+  "slug": "hotel-operator-proposal-comparison",
+  "title": "Compare hotel operator proposals using the same assumptions",
+  "description": "Normalize hotel operator proposals with a common operating case, a separate record of each bidder’s assumptions and a documented owner funding bridge.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel developer or ownership representative evaluating operator bids",
+  "answer": "Compare operator proposals in two views: each proposal as submitted and each commercial offer applied to the same owner-approved assumptions. Reconcile differences in room inventory, opening dates, operating scope, fee definitions and required capital before ranking them. Keep an operator’s demand forecast separate from its commercial terms so that an optimistic forecast does not silently become evidence of a better offer.",
+  "sections": [
+    {
+      "heading": "Freeze a common comparison brief",
+      "paragraphs": [
+        "Give the evaluation team one dated brief covering room inventory, phased openings, facilities, available operating days, price basis, reporting currency and forecast periods. Record how inflation, taxes and foreign-currency charges will be treated, with accounting review where necessary. Distinguish the first partial operating year from a full year; otherwise a timing difference can appear to be a performance difference.",
+        "Build an assumptions register with separate columns for the common case, each bidder’s submission and the source of the difference. Do not overwrite original proposals. If the project brief changes, version the comparison and identify which proposals need to be refreshed."
+      ]
+    },
+    {
+      "heading": "Separate forecast claims from the offered services and terms",
+      "paragraphs": [
+        "In the as-submitted view, preserve each operator’s occupancy, rate, segment mix, staffing and cost assumptions. Ask for the reasoning behind material differences, particularly the proposed ramp-up, demand sources and required facilities. Treat unsupported forecasts as open questions rather than benefits already earned by the offer.",
+        "In the common-case view, apply the offered fee definitions and service scope to the same operating inputs. Keep contractual calculation rules intact. Where a clause is ambiguous, label the result provisional and ask the bidder to confirm the intended calculation; do not quietly substitute a convenient definition. If operating requirements differ materially, show the cost of those differences as a separate adjustment."
+      ]
+    },
+    {
+      "heading": "Build an owner funding bridge and an exclusions schedule",
+      "paragraphs": [
+        "Use a reconciliation that starts from the same operating statement and shows the deductions and funding movements needed to reach the selected owner cash measure. State exactly what that measure includes. Separate fees, owner-level costs, reserve funding, capital expenditure, working-capital movements and any financing or tax items included by the reviewer. Avoid describing an operating profit subtotal as cash available for distribution.",
+        "Create an exclusions schedule for technical services, pre-opening support, technology, mandatory procurement, property upgrades and support supplied by affiliates. For every item, mark included, separately priced, owner-supplied or unresolved. Ask who sets the scope, when the cost becomes firm and whether the opening plan depends on it."
+      ],
+      "bullets": [
+        "Proposal register: bidder, date, version, validity period and outstanding clarification requests.",
+        "Economics register: fee base, calculation order, payment timing and reviewer confirmation.",
+        "Scope register: included services, exclusions, required owner inputs and delivery milestones.",
+        "Capital register: product gaps, supporting estimate, approval status and cash timing."
+      ]
+    },
+    {
+      "heading": "Rank only after testing the differences that matter",
+      "paragraphs": [
+        "Run the same downside, base and upside operating assumptions through every offer. Then test project-specific risks such as a delayed opening or a phased facility launch. Distinguish the effect of changing demand from the effect of each proposal’s fee and cost structure. A useful comparison explains why the ordering changes, not just which number is largest.",
+        "Conclude with a decision memo covering economics, delivery scope, owner control, capital exposure and unresolved evidence. Identify the questions capable of changing the preferred proposal and seek written clarification before selection. A complete proposal can be compared; a proposal with a material unpriced dependency remains conditional."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Approve the comparison basis", "detail": "Fix project scope, timing, currency and operating assumptions in a versioned owner brief." },
+    { "title": "Preserve and normalize proposals", "detail": "Keep original forecasts intact while applying each commercial offer to a separate common-case model." },
+    { "title": "Reconcile exclusions and funding", "detail": "Price or flag missing scope, capital commitments and the adjustments between operating profit and the chosen owner cash measure." },
+    { "title": "Resolve material ambiguities", "detail": "Request written answers to calculation and scope questions that could change the ranking." },
+    { "title": "Record the selection rationale", "detail": "Compare scenario results and delivery risks, naming conditions that must be resolved before advancing the preferred offer." }
+  ],
+  "checklist": [
+    "Original submissions remain available beside the normalized comparison.",
+    "All offers use comparable room inventory, dates and reporting periods.",
+    "Fee bases and calculation order have been checked against proposed documents.",
+    "Every material exclusion is priced, assigned or visibly unresolved.",
+    "Capital and cash timing are shown outside operating profit subtotals.",
+    "Scenario differences are explained by their underlying assumptions.",
+    "The decision memo identifies clarifications that could change the preferred offer."
+  ],
+  "limitations": "Editorial draft for proposal evaluation. It contains no operator forecasts, fee benchmarks or investment recommendation. A property-specific comparison needs complete proposals, cost estimates and qualified commercial and accounting review; counsel should resolve the meaning and effect of proposed contract terms.",
+  "relatedIds": ["OWN-BS-01", "OWN-BS-05", "OWN-BI-01"],
+  "reviewStatus": "editorial-draft"
+}

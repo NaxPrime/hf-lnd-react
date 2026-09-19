@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-01",
+  "slug": "hotel-feasibility-study-scope",
+  "title": "What should a hotel feasibility study include before you invest?",
+  "description": "Commission a hotel feasibility study with defined decisions, traceable market evidence, comparable concept options and clear responsibilities for unresolved project assumptions.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Landowner or developer commissioning a hotel feasibility study",
+  "answer": "A useful hotel feasibility study should connect site constraints and demand evidence to a proposed product, an operating forecast and the capital required to deliver it. Before commissioning it, specify the decision the report must support: acquire, develop, resize, phase, change concept or stop. Require the author to show the sources and unresolved assumptions behind that decision. A market overview alone cannot establish whether a particular hotel can be delivered within the owner's funding and project constraints.",
+  "sections": [
+    {
+      "heading": "Write the decision brief before requesting a proposal",
+      "paragraphs": [
+        "Record the site, ownership stage, intended opening period, preliminary development envelope and decisions already committed. Identify which choices remain open, such as room count, service level, meeting facilities, brand affiliation or development phasing. A study commissioned after those choices are fixed can only test the specified scheme unless its brief allows alternatives.",
+        "Ask each adviser to price the same scope. Compare fieldwork, source access, concept alternatives, financial-model detail, review meetings and update terms. A longer report is not necessarily a broader investigation: the proposal should identify what will be observed, what will be calculated and what the owner must supply."
+      ],
+      "bullets": [
+        "List the owner's decision and the date by which it is needed.",
+        "Separate fixed constraints from preferences that can change.",
+        "Name the intended readers and agree any permitted reliance with the report author."
+      ]
+    },
+    {
+      "heading": "Require a chain from market evidence to hotel demand",
+      "paragraphs": [
+        "The market section should identify demand generators, guest segments, travel patterns, competing supply and planned changes using dated sources. Ask how these observations become a forecast for the proposed hotel's room nights and achievable rates. Regional visitor growth or a list of nearby businesses is context; the study still needs to explain why those visitors would stay at this site and choose this product.",
+        "Require an evidence register with source period, geography, collection method and limitations. Interviews, advertised rates and measured trading data answer different questions and should retain those labels. If a critical assumption rests on an unconfirmed project or a small interview sample, the conclusion should state what must be verified before the owner relies on it."
+      ]
+    },
+    {
+      "heading": "Connect the concept, cost plan and operating forecast",
+      "paragraphs": [
+        "Each concept option should use a consistent room count, facility schedule and opening date across the narrative, drawings, cost estimate and operating model. Require a reconciliation when a design change adds cost, removes keys or changes staffing. A forecast for one scheme paired with the construction budget of another is not a usable investment case.",
+        "Agree who supplies site due diligence, design capacity, project costs, financing assumptions and tax treatment. The study author should identify missing specialist inputs rather than silently filling them with precise-looking estimates. Separate the hotel's operating projection from the owner's capital contributions, financing payments and other project cash movements."
+      ]
+    },
+    {
+      "heading": "Define acceptance by the decisions the report enables",
+      "paragraphs": [
+        "Request a base case, a reasoned downside case and a register of assumptions that could change the recommendation. Include the opening period rather than presenting only a mature trading year. The final discussion should make clear whether the preferred option still works when timing, cost or demand develops differently.",
+        "Before accepting the deliverable, trace several important conclusions back through the model to their source documents. Record remaining questions, their owners and the event that requires an update, such as a revised site plan or a material change in competing supply. An unresolved issue may justify a conditional decision or further investigation rather than an unconditional go-ahead."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Define the decision", "detail": "Write a commissioning brief covering the site, alternatives, timing, fixed constraints and intended use of the study." },
+    { "title": "Assign the evidence", "detail": "Agree the market research, fieldwork, owner documents and specialist inputs, including who resolves missing information." },
+    { "title": "Reconcile the scheme", "detail": "Confirm that the proposed product, development costs, opening schedule and operating forecast describe the same hotel." },
+    { "title": "Accept with conditions recorded", "detail": "Review the downside case and source trail, then document the decision, outstanding evidence and update triggers." }
+  ],
+  "checklist": [
+    "The study answers a named development or acquisition decision.",
+    "Competing concept options use comparable assumptions.",
+    "Demand and supply evidence includes dates and limitations.",
+    "The room count and facilities match across all project documents.",
+    "Specialist cost, site and financing inputs have named providers.",
+    "Opening assumptions and downside conditions are visible.",
+    "Permitted use, update scope and unresolved questions are recorded."
+  ],
+  "limitations": "This is a commissioning framework, not a site assessment, valuation or investment recommendation. No project evidence has been assessed here. A study's actual scope, permitted reliance and conclusions must be agreed with its author and supported by current project-specific specialist inputs.",
+  "relatedIds": ["OWN-BI-02", "OWN-BI-04", "OWN-BI-05", "OWN-BI-08"],
+  "reviewStatus": "editorial-draft"
+}

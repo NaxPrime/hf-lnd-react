@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/next-script-for-ga */
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
 import "./globals.css";
@@ -7,7 +6,9 @@ import Footer from "@/components/Footer/footer";
 import "@fontsource/montaga";
 import GlobalLoader from "@/components/GlobalLoader";
 import AnalyticsProvider from "@/components/Analytics/AnalyticsProvider";
+import { Analytics } from "@vercel/analytics/next";
 import { Suspense } from "react";
+import { organizationGraph, pageMetadata, serializeJsonLd } from "@/lib/search";
 
 const lora = Lora({ 
   variable: "--font-geist-sans",
@@ -15,15 +16,26 @@ const lora = Lora({
   weight: ["400", "700"],
 });
 
+const googleSiteVerification = process.env.GOOGLE_SITE_VERIFICATION;
+const bingSiteVerification = process.env.BING_SITE_VERIFICATION;
+const siteVerification: Metadata["verification"] =
+  googleSiteVerification || bingSiteVerification
+    ? {
+        ...(googleSiteVerification ? { google: googleSiteVerification } : {}),
+        ...(bingSiteVerification
+          ? { other: { "msvalidate.01": bingSiteVerification } }
+          : {}),
+      }
+    : undefined;
+
 export const metadata: Metadata = {
+  ...pageMetadata("/"),
   metadataBase: new URL("https://www.hotelfirst.one"),
-  title: {
-    template: "%s | HotelFirst",
-    default: "HotelFirst | Hotel Revenue Management & Hospitality Solutions",
-  },
-  description: "HotelFirst helps hotels increase revenue, occupancy and profitability through revenue management, OTA optimization and hospitality consulting.",
-  alternates: {
-    canonical: "./",
+  ...(siteVerification ? { verification: siteVerification } : {}),
+  robots: {
+    index: process.env.VERCEL_ENV !== "preview",
+    follow: true,
+    googleBot: { index: process.env.VERCEL_ENV !== "preview", follow: true, "max-image-preview": "large" },
   },
 };
 
@@ -32,43 +44,33 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TXDJ8D50N"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+  const trackingConfig = {
+    isProduction: process.env.VERCEL === "1" && process.env.VERCEL_ENV === "production",
+    analyticsEnabled: process.env.ANALYTICS_ENABLED === "true",
+    gaMeasurementId: process.env.GA_MEASUREMENT_ID || "",
+    metaEnabled: process.env.META_CAPI_ENABLED === "true" && process.env.META_BROWSER_ENABLED === "true",
+    metaPixelId: process.env.META_PIXEL_ID || "",
+  };
 
-              gtag('config', 'G-4TXDJ8D50N');
-            `
-          }}
-        />
-        
+  return (
+    <html lang="en-IN">
+      <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "HotelFirst",
-              "url": "https://www.hotelfirst.one"
-            })
+            __html: serializeJsonLd(organizationGraph)
           }}
         />
       </head>
       <body className={`${lora.variable} antialiased`}>
         <Suspense fallback={null}>
-          <AnalyticsProvider />
+          <AnalyticsProvider config={trackingConfig} />
         </Suspense>
         <GlobalLoader /> <Navbar />
         {children}
         <Footer />
+        {trackingConfig.isProduction ? <Analytics /> : null}
       </body>
     </html>
   );

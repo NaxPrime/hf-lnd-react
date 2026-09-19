@@ -1,19 +1,34 @@
 "use client";
 
-import { useState } from "react";
-import { trackFormSubmit, trackCustomEvent } from "@/lib/analytics";
+import { useEffect, useRef, useState } from "react";
+import { trackFormSubmit, trackCustomEvent, trackLead } from "@/lib/analytics";
 
 export default function ContactPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hasStarted, setHasStarted] = useState(false);
+  const [submissionError, setSubmissionError] = useState("");
+  const submittingRef = useRef(false);
+  const submissionIdRef = useRef<string | null>(null);
+  const measuredSubmissionIdRef = useRef<string | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     message: "",
     agree: false,
+    advertisingConsent: false,
   });
+
+  useEffect(() => {
+    try {
+      const savedEmail = sessionStorage.getItem("hotelfirst_contact_email") || "";
+      sessionStorage.removeItem("hotelfirst_contact_email");
+      if (savedEmail.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(savedEmail)) {
+        setFormData((current) => ({ ...current, email: savedEmail }));
+      }
+    } catch { /* The contact form remains usable when browser storage is unavailable. */ }
+  }, []);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -32,20 +47,22 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (submittingRef.current) return;
+    submittingRef.current = true;
     setIsSubmitting(true);
+    setSubmissionError("");
 
     try {
-      const response = await fetch("https://formspree.io/f/xnnzpeoy", {
+      submissionIdRef.current ||= crypto.randomUUID();
+      const response = await fetch("/api/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, submissionId: submissionIdRef.current }),
       });
-
-      if (response.ok) {
-        trackFormSubmit("contact_form");
-        trackCustomEvent("contact_form_submitted");
+      const result = await response.json();
+      if (response.ok && result?.ok === true && result.accepted === true && result.eventId === submissionIdRef.current) {
         setIsSubmitted(true);
         setFormData({
           name: "",
@@ -53,13 +70,38 @@ export default function ContactPage() {
           phone: "",
           message: "",
           agree: false,
+          advertisingConsent: false,
         });
+        // Measurement must never invalidate an already accepted inquiry.
+        // A replay may be the first confirmation this browser receives after a
+        // lost response. Deduplicate by measurement here, not by server receipt.
+        if (measuredSubmissionIdRef.current !== result.eventId) {
+          measuredSubmissionIdRef.current = result.eventId;
+          try {
+            trackFormSubmit("contact_form");
+            trackCustomEvent("contact_form_submitted", { form_name: "contact_form" });
+            trackLead({ form_name: "contact_form" }, result.eventId, result.advertisingEligible === true);
+          } catch { /* Submission succeeded independently of analytics. */ }
+        }
       } else {
-        alert("There was an error submitting the form. Please try again.");
+        const messages: Record<string, string> = {
+          delivery_disabled: "Online inquiry delivery is unavailable here. No message was sent. Please contact begin@hotelfirst.one.",
+          delivery_unconfigured: "Online inquiries are temporarily unavailable. Please contact begin@hotelfirst.one.",
+          abuse_control_unavailable: "Online inquiries are temporarily unavailable. Please try again later.",
+          rate_limited: "Too many attempts. Please wait before trying again.",
+          delivery_pending: "An earlier attempt is still unconfirmed. Please contact begin@hotelfirst.one before sending it again.",
+          delivery_unconfirmed: "We could not confirm delivery. Please contact begin@hotelfirst.one before sending it again.",
+          invalid_fields: "Please check your name, email, Indian mobile number and message.",
+          consent_required: "Please accept the Privacy Policy before sending your inquiry.",
+          body_too_large: "Your message is too long. Please shorten it and try again.",
+        };
+        const code = typeof result?.code === "string" ? result.code : "";
+        setSubmissionError(Object.prototype.hasOwnProperty.call(messages, code) ? messages[code] : "We could not submit your inquiry. Please check the form and try again.");
       }
     } catch {
-      alert("There was an error submitting the form. Please try again.");
+      setSubmissionError("Delivery could not be confirmed. Please contact begin@hotelfirst.one if you are unsure before sending again.");
     } finally {
+      submittingRef.current = false;
       setIsSubmitting(false);
     }
   };
@@ -88,16 +130,22 @@ export default function ContactPage() {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">
+              <h1 className="text-3xl font-bold text-gray-800 mb-4">
                 Thank You!
-              </h2>
+              </h1>
               <p className="text-gray-600 mb-6">
                 Your message has been sent successfully. We&apos;ll get back to
                 you as soon as possible.
               </p>
             </div>
             <button
-              onClick={() => setIsSubmitted(false)}
+              onClick={() => {
+                submissionIdRef.current = null;
+                measuredSubmissionIdRef.current = null;
+                setHasStarted(false);
+                setSubmissionError("");
+                setIsSubmitted(false);
+              }}
               className="bg-orange-500 text-white px-6 py-2 rounded font-semibold hover:bg-orange-600 transition"
             >
               Send Another Message
@@ -116,12 +164,12 @@ export default function ContactPage() {
       <div className="w-full max-w-7xl px-4 py-12 flex flex-col md:flex-row items-start justify-between gap-10">
         {/* Left side */}
         <div className="text-white max-w-md">
-          <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-8">
+          <h1 className="text-3xl md:text-4xl font-serif font-semibold mb-8">
             Contact us
-          </h2>
+          </h1>
 
           <div className="mb-6">
-            <h3 className="font-semibold text-lg mb-1">Email Address</h3>
+            <h2 className="font-semibold text-lg mb-1">Email Address</h2>
             <div className="border-t w-10 border-white mb-2" />
             <p className="text-xl font-bold">
               <a href="mailto:begin@hotelfirst.one" onClick={() => trackCustomEvent("email_clicked")}>
@@ -136,7 +184,7 @@ export default function ContactPage() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-1">Number</h3>
+            <h2 className="font-semibold text-lg mb-1">Number</h2>
             <div className="border-t w-10 border-white mb-2" />
             <p className="text-xl font-bold">
               <a href="tel:+919052888789" onClick={() => trackCustomEvent("phone_clicked")}>
@@ -153,9 +201,9 @@ export default function ContactPage() {
 
         {/* Right side - form */}
         <div className="bg-white shadow-lg rounded-xl w-full md:w-1/2 p-8">
-          <h3 className="text-2xl font-bold mb-6 text-center">
+          <h2 className="text-2xl font-bold mb-6 text-center">
             Let&apos;s Get In Touch.
-          </h3>
+          </h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
@@ -165,6 +213,8 @@ export default function ContactPage() {
               <input
                 type="text"
                 name="name"
+                maxLength={120}
+                disabled={isSubmitting}
                 value={formData.name}
                 onChange={handleInputChange}
                 required
@@ -178,6 +228,8 @@ export default function ContactPage() {
               <input
                 type="email"
                 name="email"
+                maxLength={254}
+                disabled={isSubmitting}
                 value={formData.email}
                 onChange={handleInputChange}
                 required
@@ -195,6 +247,8 @@ export default function ContactPage() {
                 <input
                   type="tel"
                   name="phone"
+                  maxLength={30}
+                  disabled={isSubmitting}
                   value={formData.phone}
                   onChange={handleInputChange}
                   required
@@ -208,6 +262,8 @@ export default function ContactPage() {
               <label className="block text-sm font-medium mb-1">Message</label>
               <textarea
                 name="message"
+                maxLength={5000}
+                disabled={isSubmitting}
                 value={formData.message}
                 onChange={handleInputChange}
                 required
@@ -222,14 +278,34 @@ export default function ContactPage() {
                 type="checkbox"
                 id="agree"
                 name="agree"
+                disabled={isSubmitting}
                 checked={formData.agree}
                 onChange={handleInputChange}
                 required
               />
               <label htmlFor="agree" className="text-sm">
-                I hereby agree to our Privacy Policy terms.
+                I agree to the{" "}
+                <a
+                  href="/privacy-policy"
+                  className="underline hover:text-orange-600"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Privacy Policy
+                </a>
+                .
               </label>
             </div>
+
+            <div className="flex items-start space-x-2">
+              <input type="checkbox" id="advertisingConsent" name="advertisingConsent"
+                checked={formData.advertisingConsent} onChange={handleInputChange} disabled={isSubmitting} />
+              <label htmlFor="advertisingConsent" className="text-sm">
+                Optional: allow HotelFirst to share my email and phone in hashed form, IP address and browser information with Meta to measure advertising results. My message will not be shared with Meta. I can send this inquiry without agreeing.
+              </label>
+            </div>
+
+            {submissionError && <p role="alert" className="text-sm text-red-700">{submissionError}</p>}
 
             <button
               type="submit"

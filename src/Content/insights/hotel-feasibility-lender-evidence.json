@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-08",
+  "slug": "hotel-feasibility-lender-evidence",
+  "title": "Prepare hotel feasibility evidence for a lender’s review",
+  "description": "Organize hotel project evidence around financing questions, reconcile report and model versions, and confirm the specific lender's requirements without implying loan approval.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Developer or investor preparing project diligence for financing",
+  "answer": "Prepare a lender review pack by first obtaining the specific lender's current information request, then mapping each question to a dated document, model assumption and responsible person. Reconcile the feasibility report with the scheme, cost plan, opening programme and proposed funding structure. Mark gaps clearly. A well-organized feasibility report can support diligence, but it does not establish that the lender accepts its assumptions, permits reliance on it or will approve financing.",
+  "sections": [
+    {
+      "heading": "Start with the lender's actual request",
+      "paragraphs": [
+        "Ask the lender or authorized financing adviser to identify required documents, acceptable providers, report dates, model format and intended reliance. Record requests in a register with owner, due date, status and the specific issue each item addresses. Keep the lender's confirmed request distinct from documents the project team believes may be useful.",
+        "Clarify whether an existing study can be used, requires an update or needs an agreed reliance arrangement with its author. Do not label a document lender-approved or bankable because it is professionally presented or was used for another project. Requirements and acceptance decisions belong to the lender and the relevant report providers."
+      ]
+    },
+    {
+      "heading": "Map evidence to the question it supports",
+      "paragraphs": [
+        "Group available evidence around concrete questions: what is being built, who may use it, what it costs, when it opens, how it operates and what funds each phase. For each answer, point to the relevant dated plan, market evidence, cost estimate, programme, operating assumptions or funding document. Separate source evidence from the interpretation made in the feasibility report.",
+        "Record provenance and limitations. An operator's expression of interest differs from an executed agreement; an indicative cost estimate differs from a contracted price; a project announcement differs from operating demand. Keep these distinctions visible in the index and model register so a reviewer can see which conclusions depend on unfinished diligence."
+      ],
+      "bullets": [
+        "Question: what the reviewer needs to establish.",
+        "Evidence: the current document and relevant section or model input.",
+        "Gap: what remains unresolved, who owns it and the next action."
+      ]
+    },
+    {
+      "heading": "Reconcile the pack before circulating a version",
+      "paragraphs": [
+        "Check that the feasibility report, cost plan, design schedule and financial model use the same room count, facilities, opening programme and currency basis. Reconcile total project uses with the proposed sources of funds, showing timing rather than only matching totals. Identify which funding is confirmed, conditional or merely assumed in the model.",
+        "Include the assumptions register, downside cases and model change log. If a coverage measure or other financing test is requested, obtain the lender's exact definitions and calculation basis rather than copying a generic threshold. Have the relevant financial reviewer check formulas, period alignment and the treatment of financing and ownership cash flows. Keep an unresolved definition visibly open."
+      ]
+    },
+    {
+      "heading": "Manage questions without creating conflicting versions",
+      "paragraphs": [
+        "Create a dated index with one current version of each document, its preparer and any use or confidentiality restriction. Give reviewers only the material needed for the agreed diligence purpose through the authorized process. Track questions and answers against that version; if an answer changes a material assumption, update affected documents and explain the change rather than sending an isolated revised number.",
+        "Before the pack is used, separate complete responses from outstanding specialist work and lender decisions. A missing item should have an owner and resolution plan, not an invented placeholder presented as fact. Retain the superseded version for traceability while making the current version unambiguous. The useful completion state is a consistent, reviewable pack with transparent gaps, not a claim of approval."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Confirm the request", "detail": "Obtain the lender's current checklist and clarify report acceptance, provider, format and reliance requirements through authorized contacts." },
+    { "title": "Build the evidence index", "detail": "Map each financing question to its dated source, model assumption, preparer and unresolved gap." },
+    { "title": "Reconcile the project case", "detail": "Align the scheme, costs, timing and funding across all documents and have requested calculations checked using the agreed definitions." },
+    { "title": "Control the review version", "detail": "Track questions, document changes and outstanding work in a dated pack without implying financing acceptance or approval." }
+  ],
+  "checklist": [
+    "The lender's current request is recorded separately from internal suggestions.",
+    "Report use and any reliance arrangements are confirmed with the relevant parties.",
+    "Each material assertion has a dated source and an uncertainty label.",
+    "Room counts, facilities, timing and costs agree across the pack.",
+    "Funding sources and conditions reconcile to uses over time.",
+    "Requested finance tests use confirmed definitions and reviewed formulas.",
+    "The current version, outstanding gaps and responsible people are unambiguous."
+  ],
+  "limitations": "This is a document-organization framework, not a lender checklist, credit opinion or financing assurance. No lender's requirements or project documents have been verified for this guide. The specific lender and relevant legal, financial and technical advisers must confirm required diligence, report acceptance and any proposed financing terms.",
+  "relatedIds": ["OWN-BI-01", "OWN-BI-05", "OWN-BI-06", "OWN-AM-05"],
+  "reviewStatus": "editorial-draft"
+}

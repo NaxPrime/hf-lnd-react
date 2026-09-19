@@ -1,0 +1,83 @@
+{
+  "id": "OWN-PT-07",
+  "slug": "hotel-rebrand-versus-operational-turnaround",
+  "title": "Rebrand the hotel or fix the current operation first?",
+  "description": "Compare operating fixes, repositioning and brand or management changes using a common diagnosis, transition costs and evidence about what each option can solve.",
+  "pillar": "Performance Optimization & Turnarounds",
+  "servicePath": "https://www.hotelfirst.one/services/AdhocConsultation",
+  "audience": "Owner of an underperforming hotel weighing rebranding or management change",
+  "answer": "A rebrand is worth evaluating when there is evidence that the current market proposition or brand arrangement constrains the asset, but it will not automatically fix weak execution. Diagnose the problem first, then compare a focused operating plan, product repositioning and brand or management change against the same owner objectives. Include the cost and disruption of transition before preferring the most visible option.",
+  "sections": [
+    {
+      "heading": "Identify the constraint the change must remove",
+      "paragraphs": [
+        "Separate demand, product, commercial execution, service delivery and agreement issues. Weak conversion may reflect the offer or booking process; low repeat business may require service evidence; a dated product may need capital regardless of brand. A new name does not by itself remove any of these constraints.",
+        "Review market positioning and operating evidence together. Ask what the current team could reasonably improve within the present product and agreement, and what it could not. Keep untested explanations in a separate column so dissatisfaction does not become a substitute for diagnosis."
+      ]
+    },
+    {
+      "heading": "Define genuinely different options",
+      "paragraphs": [
+        "Describe the operating intervention, product change and brand or operator option in terms of what would actually change. An operating plan might revise commercial decisions and processes. Repositioning might change target demand and facilities. A brand or management transition may alter distribution, standards, responsibilities and obligations, subject to the actual agreements.",
+        "Compare feasible combinations where the diagnosis supports them. Rebranding can still require operational work and capital; retaining the existing arrangement may still require a revised commercial plan. Avoid presenting one option with all its costs and another as a frictionless forecast."
+      ],
+      "bullets": [
+        "The diagnosed constraint each option addresses.",
+        "Required product, process, people and commercial changes.",
+        "Dependencies controlled by the owner, operator or other parties.",
+        "Evidence that the option can reach the intended demand.",
+        "Consequences if the central assumption is wrong."
+      ]
+    },
+    {
+      "heading": "Account for transition and contractual constraints",
+      "paragraphs": [
+        "Request a complete transition scope: any required property work, systems and distribution migration, training, signage, reopening effort, trading disruption and working-capital needs. Identify which costs are estimates, quotations or unresolved exclusions. Model the same trading period for every option.",
+        "Have counsel review the existing agreement and proposed terms before treating a change as available or affordable. Do not assume an owner can terminate, transfer guest information or change branding merely because performance is disappointing. The commercial options paper should expose these dependencies rather than settle legal questions."
+      ]
+    },
+    {
+      "heading": "Use decision gates instead of a leap of faith",
+      "paragraphs": [
+        "Specify what evidence would justify proceeding to the next stage: a validated market proposition, costed product scope, satisfactory terms or a credible operating trial. Where feasible, test improvements that remain useful across options before committing to a major transition.",
+        "Write a decision record explaining the preferred route, rejected alternatives, unresolved assumptions and conditions that would trigger reconsideration. Compare later results with that record, allowing for market movement and the combined effect of multiple changes. Do not attribute every gain after reopening to the new brand."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Establish the constraint",
+      "detail": "Combine market, product, commercial and operating evidence to define what must change."
+    },
+    {
+      "title": "Build comparable options",
+      "detail": "Describe feasible operating, positioning and transition routes on a common scope and period."
+    },
+    {
+      "title": "Resolve major dependencies",
+      "detail": "Obtain technical costs and contract-specific legal review before treating an option as executable."
+    },
+    {
+      "title": "Commit through evidence gates",
+      "detail": "Approve the next stage only when its assumptions, resources and acceptance conditions are documented."
+    }
+  ],
+  "checklist": [
+    "The problem is supported by evidence beyond general dissatisfaction.",
+    "The current operation’s feasible improvements are considered.",
+    "Each option states what changes and what remains dependent on other work.",
+    "Capital, downtime, systems and working-capital effects are included.",
+    "Contractual constraints are reviewed by counsel.",
+    "Forecasts use comparable periods and scope.",
+    "Decision gates and reconsideration triggers are explicit.",
+    "The final record distinguishes expected benefits from verified outcomes."
+  ],
+  "limitations": "This guide does not recommend a particular brand, operator or termination action. Feasibility depends on the asset, market, agreements, transition requirements and available capital. Contractual rights and financial projections require specialist review; a change of brand does not establish a recovery outcome.",
+  "relatedIds": [
+    "OWN-BI-07",
+    "OWN-BS-01",
+    "OWN-PT-02",
+    "OWN-AM-06"
+  ],
+  "reviewStatus": "editorial-draft"
+}

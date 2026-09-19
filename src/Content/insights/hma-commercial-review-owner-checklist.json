@@ -1,0 +1,64 @@
+{
+  "id": "OWN-BS-04",
+  "slug": "hma-commercial-review-owner-checklist",
+  "title": "Commercial HMA review: what owners should check alongside legal advice",
+  "description": "Organize an HMA review around owner cash, approvals, performance measurement and transition exposure, with specific questions for commercial advisers and counsel.",
+  "pillar": "Brand Selection & Contract Negotiation",
+  "servicePath": "https://www.hotelfirst.one/services/BrandSelection",
+  "audience": "Hotel owner approaching HMA signature",
+  "answer": "Before signing a hotel management agreement, ask the commercial team to explain how the proposed terms would affect owner cash, funding duties, decision-making and operating oversight under several plausible scenarios. Ask counsel to confirm the contractual meaning, dependencies and available procedures. Use a single issue register linking each owner concern to the relevant wording, quantified exposure where possible, proposed response and responsible reviewer.",
+  "sections": [
+    {
+      "heading": "Assemble the complete agreement set and an owner issue register",
+      "paragraphs": [
+        "Collect the current HMA draft, term sheet, schedules, technical-services terms, related licences, guarantees and proposed side letters. Keep the clean version and redline together with their dates. Ask counsel which documents form part of the proposed arrangement and how inconsistencies or missing schedules should be addressed.",
+        "For each issue, record the clause reference, owner objective, commercial question, legal question, requested change and unresolved dependency. A term sheet comparison is useful for spotting movement, but it does not replace review of the actual agreement set. Do not close an issue merely because a preferred phrase appears in one document if its operation depends on definitions elsewhere."
+      ]
+    },
+    {
+      "heading": "Ask how the economics and funding duties work together",
+      "paragraphs": [
+        "Can the finance team reproduce the proposed fees from defined inputs? Which services are included, which charges require separate payment and which costs remain uncertain? Ask the commercial reviewer to connect fee timing, owner funding requests, reserve requirements and capital plans in a cash schedule, with the accounting treatment checked separately.",
+        "Test questions that expose dependencies: what happens in the model if the opening is delayed, a facility is phased or a budget is disputed? Which costs continue and what additional funding might be requested under the proposed wording? Record the estimated exposure and the assumption supporting it; ask counsel to assess the provisions rather than treating the model as a legal interpretation."
+      ]
+    },
+    {
+      "heading": "Make proposed control and performance arrangements observable",
+      "paragraphs": [
+        "For budgets, capital work, senior appointments and material contracts, ask who proposes, reviews, approves and implements the decision. What information must accompany an approval request, how much review time is provided and what happens if agreement is not reached? Ask counsel about any exceptions, deemed approvals, emergency spending provisions or dispute procedures appearing in the draft.",
+        "For performance accountability, ask which measures apply, when they begin and which documents establish the result. Can the owner obtain the information needed to review them? Identify questions about benchmark changes, exclusions, cure provisions and notice timing. Keep routine performance reporting separate from any contractual test; management concern and satisfaction of a legal condition are different determinations."
+      ],
+      "bullets": [
+        "Budget review pack: assumptions, prior-period comparison, staffing plan and capital dependencies.",
+        "Approval log: decision, required information, proposed reviewer, response date and unresolved point.",
+        "Performance file: definitions, source data, calculation, exceptions claimed and review status.",
+        "Access schedule: reports, systems, underlying records and proposed verification rights for counsel to review."
+      ]
+    },
+    {
+      "heading": "Review change and transition before the signature decision",
+      "paragraphs": [
+        "Ask advisers to examine sale, financing, ownership change, renewal and possible termination scenarios using the actual draft. Which consents, payments, notices or operational dependencies would need to be considered? What questions remain about systems, reservations, employees, records, brand removal and supplier contracts during a transition? The purpose is to identify exposure and required advice, not to assume an exit route exists.",
+        "Close the review with an owner decision record separating accepted commercial trade-offs from unresolved legal or factual questions. Link the final negotiated wording back to the issue register and have the relevant reviewers confirm their assigned areas. An unresolved material schedule or cost should remain explicit in the signing decision."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Confirm the document set", "detail": "Ask counsel to identify the relevant agreement versions, schedules and related documents before substantive issues are closed." },
+    { "title": "Model the owner exposure", "detail": "Have the commercial and finance reviewers test fees, funding and capital dependencies using documented scenarios." },
+    { "title": "Review control and accountability", "detail": "Translate proposed approvals and performance provisions into information, timing and process questions for the relevant advisers." },
+    { "title": "Resolve or record the trade-offs", "detail": "Track requested changes through the final wording and present remaining material questions explicitly to the owner before signature." }
+  ],
+  "checklist": [
+    "The review uses one identified current agreement set.",
+    "Each material issue has both a commercial question and any required legal question.",
+    "Fee and funding calculations can be reproduced from their stated assumptions.",
+    "Approval processes identify information needs, timing and disputed-decision questions.",
+    "Performance reporting and contractual tests have been reviewed separately.",
+    "Change, renewal and transition questions cover operational as well as contractual dependencies.",
+    "Accepted trade-offs and unresolved issues are visible in the signing record."
+  ],
+  "limitations": "Editorial draft containing educational review questions, not legal advice or a conclusion about any HMA. The actual clauses, complete agreement set, facts and applicable jurisdiction govern. Hospitality counsel must assess interpretation, enforceability, notices and remedies; qualified commercial and accounting reviewers must check property-specific models. No approval to sign is implied.",
+  "relatedIds": ["OWN-BS-05", "OWN-BS-06", "OWN-BS-08"],
+  "reviewStatus": "editorial-draft"
+}

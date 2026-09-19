@@ -1,0 +1,63 @@
+{
+  "id": "OWN-BI-07",
+  "slug": "hotel-repositioning-market-study",
+  "title": "When does an existing hotel need a new positioning study?",
+  "description": "Distinguish changes in hotel demand and product fit from execution problems, then commission a focused positioning study before committing to renovation or rebranding.",
+  "pillar": "Business Intelligence & Market Studies",
+  "servicePath": "https://www.hotelfirst.one/services/BusinessIntelligence",
+  "audience": "Hotel owner testing whether demand has moved beyond the current concept",
+  "answer": "Commission a new positioning study when there is credible evidence that the hotel's intended guests, their requirements or their alternatives have changed enough to challenge the current concept. First separate that possibility from sales, distribution, maintenance or service failures. The study should compare the present product with specific alternatives and the cost of transition. A weak trading period by itself is not evidence that the hotel needs a different brand or a major renovation.",
+  "sections": [
+    {
+      "heading": "Look for a changed buying decision",
+      "paragraphs": [
+        "Collect evidence of what guests and buyers now choose, including business-mix trends, lost-account explanations, length-of-stay changes, relevant guest feedback and competitor developments. Check whether a demand generator has moved, a new product has entered the market or a previously important segment uses the destination differently. Date each change so it can be compared with the property's performance history.",
+        "Distinguish a recurring shift from an event, disrupted period or reporting change. A lower share of corporate business could reflect lost demand, a temporary group block, a sales gap or a revised segment code. Reconcile the records and ask buyers about their actual choice criteria before interpreting every movement as evidence of a changed market."
+      ]
+    },
+    {
+      "heading": "Separate market, product and execution hypotheses",
+      "paragraphs": [
+        "Write competing explanations for the gap. A market hypothesis asks whether the target demand remains available. A product hypothesis asks whether room configurations, facilities, location or positioning meet that demand. An execution hypothesis asks whether pricing, distribution, sales response, maintenance or service delivery prevents the existing product from winning business it could serve.",
+        "Assign evidence that could disprove each explanation. If relevant buyers still seek the current product but cannot book the needed room type online, correcting inventory setup is a different intervention from rebuilding the hotel. If buyers consistently need a facility the site cannot support, improving sales activity may not close that gap. Avoid selecting the explanation that happens to justify a preferred capital project."
+      ],
+      "bullets": [
+        "Market: has the source or pattern of demand changed?",
+        "Product: does the property meet the buyer's necessary requirements?",
+        "Execution: can the existing proposition be sold and delivered reliably?"
+      ]
+    },
+    {
+      "heading": "Compare coherent options with the cost of transition",
+      "paragraphs": [
+        "Use the current concept with targeted operational correction as one explicit option, then compare any proposed product change, segment shift or rebranding on the same evidence and time horizon. Describe who would choose each option and why. An alternative should have a demand case beyond the assumption that a renovated or newly named hotel can charge more.",
+        "Include capital needs, room or facility downtime, staff capability, distribution changes and existing agreement constraints. Identify which current customers might be displaced by the new proposition and whether the anticipated new business replaces their contribution. Have technical specialists check physical feasibility and the relevant advisers examine contractual implications before treating an option as deliverable."
+      ]
+    },
+    {
+      "heading": "Test reversible changes before irreversible commitments",
+      "paragraphs": [
+        "Where practical, use a bounded test to investigate an uncertain assumption: a revised offer to a defined buyer group, a corrected booking path or a limited product trial. State the hypothesis, eligible audience, timing and evidence that would support or reject it. Check whether the test merely discounts existing demand or shifts bookings from another channel instead of reaching the intended segment.",
+        "A trial does not prove the economics of a full conversion. Use it to improve the study's assumptions, then document the next decision, unresolved risks and the trigger for a larger commitment. If the evidence points to execution, create an accountable operating action plan; if it points to structural product mismatch, commission the concept and cost work needed to compare alternatives."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Document the changed pattern", "detail": "Collect dated buyer, segment and competitor evidence and reconcile reporting changes or one-off disruptions." },
+    { "title": "Challenge the diagnosis", "detail": "Test market, product and execution explanations using evidence that could disprove each one." },
+    { "title": "Compare deliverable options", "detail": "Set the current concept with operating corrections alongside alternatives, including transition cost, disruption and displaced business." },
+    { "title": "Set the next commitment", "detail": "Use bounded tests where helpful, then choose operational action, further concept work or deferral with explicit review conditions." }
+  ],
+  "checklist": [
+    "The suspected demand change is dated and supported by buyer evidence.",
+    "Segment coding and exceptional trading periods have been reconciled.",
+    "Market, product and execution explanations are tested separately.",
+    "The current concept with targeted correction remains a comparison option.",
+    "Transition costs, downtime and displaced customers are included.",
+    "Physical and contractual constraints have named reviewers.",
+    "Any test has a hypothesis, defined audience and a decision criterion."
+  ],
+  "limitations": "This is a diagnostic commissioning guide, not a recommendation to renovate, rebrand or change operator. No property or market evidence has been reviewed here. A test or interview sample may be unrepresentative, and physical, contractual and investment conclusions require project-specific specialist review.",
+  "relatedIds": ["OWN-BI-02", "OWN-AM-06", "OWN-PT-02", "OWN-PT-07"],
+  "reviewStatus": "editorial-draft"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "OWN-MA-03",
+  "slug": "hotel-silent-service-gaps",
+  "title": "Few complaints, weak repeat stays: investigate the guest journey",
+  "description": "Investigate suspected guest-experience gaps using booking promises, observed handoffs and repeat-stay definitions without assuming why guests did not return.",
+  "pillar": "Mystery Audits & Quality Assurance",
+  "servicePath": "https://www.hotelfirst.one/services/MysteryAudit",
+  "audience": "Hotel owner seeing limited guest feedback despite service concerns",
+  "answer": "Low complaint counts cannot establish that service is working, and weak repeat stays cannot establish that service is the cause. Start by defining which guests had a realistic opportunity to return, then map promises and handoffs along their journey. Test suspected gaps through ordinary guest scenarios and compare the observations with relevant operating records. The useful result is an evidence-backed list of failures and unanswered questions, rather than a claim to know what silent guests were thinking.",
+  "sections": [
+    {
+      "heading": "Check what the repeat-stay measure actually counts",
+      "paragraphs": [
+        "Ask for the definition behind the repeat-stay report: guest or booker identity, eligible stay types, observation window and treatment of group bookings or reservations made through intermediaries. A returning company booking may contain different guests; the same guest may appear under several profiles. Keep known repeat visits separate from unidentified records instead of treating every unmatched profile as a lost guest.",
+        "Compare groups with similar reasons to visit. A guest attending a one-off event does not have the same return opportunity as a frequent business traveler. Changes in account contracts, local demand, room availability or price can also change the mix. Record these alternative explanations before using the repeat measure as a signal for service investigation. If identity quality is inadequate, describe the measure as incomplete and proceed with direct observations rather than inventing a retention conclusion."
+      ]
+    },
+    {
+      "heading": "Map the gap between a promise and its delivered outcome",
+      "paragraphs": [
+        "Use one row for each material guest promise or handoff. Record where the promise originated, what the guest could reasonably expect, which team accepted responsibility and how delivery can be checked. Include inquiry responses, booking details, arrival arrangements, room readiness, service requests, dining and departure. A cheerful interaction can coexist with a failed outcome, so record both the response and whether the promised action occurred.",
+        "Choose ordinary scenarios that expose an unresolved question. For a room request, observe whether it was acknowledged, assigned, fulfilled and confirmed with the guest. Avoid creating an artificial crisis simply to produce a finding. Record unavailable services, interrupted scenarios and possible assessor identification so an untested step does not become a silent pass."
+      ],
+      "bullets": [
+        "Promise source: reservation message, property description or an agreed service standard.",
+        "Guest action: the normal request or touchpoint being observed.",
+        "Handoff evidence: who accepted the request and what completion was communicated.",
+        "Delivered outcome: what the guest actually received, with sequence and context.",
+        "Open question: what internal record or follow-up would help explain a mismatch."
+      ]
+    },
+    {
+      "heading": "Look for feedback blind spots without treating silence as sentiment",
+      "paragraphs": [
+        "Review how feedback reaches management. A guest may mention a problem at an outlet, decline a survey, receive a late survey or leave a comment that is stored outside the main complaint log. Check whether channels use compatible categories and whether a resolved issue disappears from reporting. These are weaknesses in evidence collection; they do not prove that a particular silent guest was dissatisfied.",
+        "Compare observed failures with complaint themes, service-request records and authorized feedback summaries. Agreement across these sources strengthens the reason to investigate a handoff. Disagreement should remain visible: the visit may have encountered an unusual condition, records may omit informal requests or the scenario may not match the usual guest mix. Use only the personal information needed for the review and report patterns without unnecessary guest identifiers."
+      ]
+    },
+    {
+      "heading": "Choose a correction that the evidence can support",
+      "paragraphs": [
+        "Separate a confirmed service failure from an explanation for it. An unfulfilled request is an observed outcome; inadequate training, poor staffing or a faulty system are hypotheses until checked. Ask the responsible manager to trace the failed handoff and identify whether the barrier was information, authority, capacity or execution. A narrow correction may be appropriate before committing to a broad training or technology project.",
+        "Specify a repeatable follow-up scenario and the outcome that would demonstrate improvement. Continue tracking repeat-stay evidence with the same definition, but do not attribute a later increase to the correction without examining other changes. The owner can decide that a guest promise deserves fixing even when its financial or retention effect has not been established."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    { "title": "Validate the signal", "detail": "Document repeat-stay definitions, identity gaps, guest mix and return opportunities before interpreting a decline." },
+    { "title": "Select testable journey gaps", "detail": "Choose specific promises or handoffs with an observable guest outcome and a relevant evidence source." },
+    { "title": "Triangulate the observations", "detail": "Compare normal guest scenarios with feedback and operating records, retaining conflicting evidence and alternative explanations." },
+    { "title": "Correct and retest the mechanism", "detail": "Assign the confirmed failure for investigation, agree a proportionate correction and retest the delivered outcome without claiming an unmeasured retention effect." }
+  ],
+  "checklist": [
+    "Repeat visits are defined consistently and unmatched profiles are visible.",
+    "Guest groups have comparable reasons and opportunities to return.",
+    "Each scenario tests a documented promise or a clearly agreed expectation.",
+    "Acknowledgment of a request is distinguished from successful delivery.",
+    "Feedback-channel gaps and missing records remain visible.",
+    "Observed failures are separated from suspected operational causes.",
+    "Each correction has an accountable role and a guest-outcome retest.",
+    "No statement attributes a guest's nonreturn to service without supporting evidence."
+  ],
+  "limitations": "Editorial draft proposing an investigation method. No guest records, repeat-stay trends or HotelFirst audit findings were analyzed for this guide. A mystery visit cannot establish the views of silent guests or the cause of a retention change; property-specific evidence and subject-matter review are required.",
+  "relatedIds": ["OWN-MA-02", "OWN-MA-04", "OWN-MA-07"],
+  "reviewStatus": "editorial-draft"
+}

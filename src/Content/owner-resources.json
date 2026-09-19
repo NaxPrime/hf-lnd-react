@@ -1,0 +1,413 @@
+[
+  {
+    "id": "turnaround-decision-register",
+    "title": "Repair the operation, reposition the hotel or invest?",
+    "route": "/resources/hotel-turnaround-decision-register",
+    "service": "/services/AdhocConsultation",
+    "purpose": "A diagnostic and alternatives worksheet for underperforming hotel owners. Intended citation audience: hospitality investment editors, operating advisors and owner forums.",
+    "answer": "Start a hotel turnaround by locating the source of underperformance. Separate market pressure, positioning, distribution, operating execution and cost structure before choosing an intervention. Compare an operational fix, repositioning and capital work on the same assumptions, with explicit dependencies and milestones.",
+    "sections": [
+      [
+        "Establish the baseline",
+        "Reconcile the operating data before diagnosing the business. Use consistent periods, room availability, revenues and expense categories. Record the current forecast, unresolved service issues and contractual constraints. A change in reporting can resemble a change in performance."
+      ],
+      [
+        "Identify the mechanism",
+        "A weak room rate, a costly distribution mix and excess operating expense call for different investigations. High occupancy can coexist with poor contribution. Ask which segments, departments and processes explain the gap and what evidence would disprove the initial diagnosis."
+      ],
+      [
+        "Compare alternatives before committing",
+        "Define the expected change, cost, disruption and dependencies for each option. Test slower recovery and implementation delays. A rebrand may address positioning, but it also introduces obligations; refurbishment may help the guest experience without resolving a weak demand proposition. Avoid assuming the most visible intervention is the most valuable one."
+      ],
+      [
+        "Set milestones that can change the plan",
+        "Assign actions and review dates. State what will be measured and when the owner should reconsider an intervention. Preserve a record of assumptions so results can be evaluated honestly. The roadmap should adapt to evidence rather than promise a standard payback or a guaranteed recovery period."
+      ]
+    ],
+    "columns": [
+      "Option",
+      "Evidence required",
+      "Checkpoint"
+    ],
+    "rows": [
+      [
+        "Operating-process fix",
+        "Observed failure and validated cause",
+        "Repeat the observation after implementation"
+      ],
+      [
+        "Commercial strategy change",
+        "Segment, channel and contribution analysis",
+        "Compare contribution on consistent periods"
+      ],
+      [
+        "Cost intervention",
+        "Department cost drivers and service implications",
+        "Track savings alongside service evidence"
+      ],
+      [
+        "Repositioning or rebrand",
+        "Market fit, obligations and transition scope",
+        "Review the changed demand proposition"
+      ],
+      [
+        "Capital work",
+        "Costed alternatives and disruption assumptions",
+        "Reassess against scope and operating evidence"
+      ],
+      [
+        "Governance",
+        "Action owner, due date and escalation rule",
+        "Close or revise each action with evidence"
+      ]
+    ],
+    "review": "Private methodology draft for Akshay and the operating team. No universal payback, asset valuation or recovery outcome is asserted.",
+    "slug": "hotel-turnaround-decision-register",
+    "reviewStatus": "editorial-draft"
+  },
+  {
+    "id": "brand-fit-scorecard",
+    "title": "Choose the hotel brand that fits the asset",
+    "route": "/resources/hotel-brand-fit-scorecard",
+    "service": "/services/BrandSelection",
+    "purpose": "A decision worksheet an owner can use before an operator shortlist. Intended citation audience: hotel development editors, project advisors and ownership groups.",
+    "answer": "Start brand selection with the asset and its market. Compare the demand each brand can realistically attract, the operating and capital obligations it introduces, and the owner rights in the proposed agreement. Familiarity is one input; it is not a substitute for a comparable commercial assessment.",
+    "sections": [
+      [
+        "Define the owner brief first",
+        "Record the location, development stage, proposed room count, land and building constraints, target demand segments, capital envelope and intended hold period. Write down what success means for this particular owner. An operator cannot respond usefully to a brief that alternates between a premium resort and a price-led business hotel."
+      ],
+      [
+        "Ask each operator for the same information",
+        "Normalize the forecast period, room inventory, opening assumptions, ramp-up, gross revenues, operating costs and owner-funded items. Separate base fees, incentive fees, system charges and pre-opening obligations. A projection supplied in a different format may be informative, but it is not yet comparable."
+      ],
+      [
+        "Make the evidence visible",
+        "For each criterion, record the source document and what remains unknown. Request relevant operating examples and the assumptions behind projected demand. Do not score a proposal higher simply because it contains a polished presentation or an aggressive revenue forecast."
+      ],
+      [
+        "Resolve trade-offs before selection",
+        "A stronger distribution proposition can still come with technical requirements that exceed the asset budget. A lower fee can coexist with weaker exit flexibility. Discuss these trade-offs with the development team and legal counsel before turning a preference into a long-term commitment. This worksheet organizes the conversation; it does not rank operators or endorse a brand."
+      ]
+    ],
+    "columns": [
+      "Decision criterion",
+      "Evidence to request",
+      "Owner question"
+    ],
+    "rows": [
+      [
+        "Demand fit",
+        "Segment and source-market assumptions",
+        "Which guests can this brand plausibly bring to this location?"
+      ],
+      [
+        "Distribution contribution",
+        "Relevant channel and source-market evidence",
+        "What is incremental after fees and channel costs?"
+      ],
+      [
+        "Technical obligations",
+        "Brand standards and costed scope",
+        "What capex does the affiliation require?"
+      ],
+      [
+        "Commercial terms",
+        "Normalized fee schedule and owner obligations",
+        "What changes under the downside scenario?"
+      ],
+      [
+        "Governance",
+        "Budget rights and reporting scope",
+        "What can the owner review or challenge?"
+      ],
+      [
+        "Performance and exit",
+        "Proposed tests, cure provisions and termination framework",
+        "How is underperformance evaluated?"
+      ],
+      [
+        "Implementation",
+        "Pre-opening team, timeline and deliverables",
+        "Who owns each dependency?"
+      ]
+    ],
+    "review": "Akshay to approve the method; project-specific figures require source documents. Commercial contract questions require counsel review. No ranking or success claim is asserted.",
+    "slug": "hotel-brand-fit-scorecard",
+    "reviewStatus": "editorial-draft"
+  },
+  {
+    "id": "hma-review-register",
+    "title": "Review the commercial decision inside the HMA",
+    "route": "/resources/hma-commercial-review-register",
+    "service": "/services/BrandSelection",
+    "purpose": "An issue register for owners approaching signature or renewal. Intended citation audience: hospitality legal practices, owner associations and hotel investment publications.",
+    "answer": "A commercial HMA review connects contract provisions to the economics and governance of the asset. Review how fees, budgets, owner obligations, brand standards, reporting and performance mechanisms operate together. Legal counsel assesses legal drafting and enforceability; the owner also needs to understand the commercial consequences.",
+    "sections": [
+      [
+        "Work from the complete document set",
+        "Collect the term sheet, draft management agreement, technical-services agreement, brand standards, proposed fee schedules and supporting forecasts. Check version dates. A reassuring term-sheet headline may be qualified by definitions, exceptions or obligations in another document."
+      ],
+      [
+        "Record the consequence, not just the clause",
+        "For each issue, describe the owner decision it affects. A reporting provision matters because an owner needs timely, consistent information. A budget approval provision matters because the owner needs to understand control and funding responsibilities. The useful question is what the provision means in an operating scenario."
+      ],
+      [
+        "Compare scenarios consistently",
+        "Discuss base, slower-ramp-up and cost-pressure scenarios using the same assumptions. Record unresolved definitions and which specialist must review them. Avoid copying a clause from another hotel as though location, brand, financing and asset strategy are interchangeable."
+      ],
+      [
+        "Close the loop before signature",
+        "Assign each open issue to the owner representative, operator, commercial advisor or counsel. Record the agreed action, document version and remaining dependency. Do not present a generic checklist as a replacement for review of the actual agreement. The output should be an informed set of decisions and a clear record of what remains unresolved."
+      ]
+    ],
+    "columns": [
+      "Issue category",
+      "Commercial question",
+      "Evidence / next reviewer"
+    ],
+    "rows": [
+      [
+        "Fees and definitions",
+        "What is charged, on what base, and under which scenario?",
+        "Complete schedule; financial model; commercial advisor"
+      ],
+      [
+        "Budget and funding",
+        "Who approves, who funds, and what happens in disagreement?",
+        "Budget provisions; owner and counsel"
+      ],
+      [
+        "Performance",
+        "What is measured and which qualifications apply?",
+        "Test definitions and underlying data; counsel"
+      ],
+      [
+        "Territorial protection",
+        "Which assets, brands, geography and exceptions are covered?",
+        "Exact provision; development advisor and counsel"
+      ],
+      [
+        "Brand obligations",
+        "What future capital work may be required?",
+        "Standards and technical scope; project team"
+      ],
+      [
+        "Information rights",
+        "Can the owner obtain consistent operating evidence?",
+        "Reporting specification; owner representative"
+      ],
+      [
+        "Transition and exit",
+        "What dependencies affect a change of operator?",
+        "Transition terms; counsel and operating team"
+      ]
+    ],
+    "review": "Draft commercial issue framework, not legal advice or approved contractual wording. Counsel review required before publication of clause interpretations.",
+    "slug": "hma-commercial-review-register",
+    "reviewStatus": "editorial-draft"
+  },
+  {
+    "id": "feasibility-assumption-register",
+    "title": "Test the hotel forecast before committing capital",
+    "route": "/resources/hotel-feasibility-assumption-register",
+    "service": "/services/BusinessIntelligence",
+    "purpose": "An assumptions register for developers, lenders and investment teams. Intended citation audience: development advisors, destination planners and hospitality finance editors.",
+    "answer": "A useful hotel feasibility study makes its assumptions inspectable. Demand, comparable supply, room mix, pricing, seasonality, ramp-up, capex and operating costs should connect to traceable evidence. The owner needs to see how the decision changes when these assumptions move, not only a single forecast outcome.",
+    "sections": [
+      [
+        "Separate what is known from what is assumed",
+        "Use one row per assumption. Record its source, date, geographic relevance and confidence limits. A planned infrastructure project and an operating demand generator should not be treated as equivalent evidence. Keep uncertainty explicit until it can be resolved."
+      ],
+      [
+        "Build a relevant competitive view",
+        "Identify why each comparable belongs in the set: location, product, segment, scale, demand sources and operating period. A well-known hotel can still be a poor comparable. Distinguish existing competitors from announced supply and explain the evidence behind expected opening dates."
+      ],
+      [
+        "Stress the assumptions that can change the decision",
+        "Test slower ramp-up, weaker achieved room rates, cost pressure and delayed opening. Explain the interaction between them. Avoid an attractive headline IRR without the cash-flow periods, capex scope, financing treatment and terminal assumptions needed to interpret it."
+      ],
+      [
+        "Translate the study into choices",
+        "The output should clarify which concept is credible, what needs further investigation and which commitments should wait. A go/no-go recommendation should be tied to explicit conditions rather than presented as certainty. Revisit the model when market evidence or project scope changes."
+      ]
+    ],
+    "columns": [
+      "Assumption",
+      "Minimum evidence",
+      "Decision at risk"
+    ],
+    "rows": [
+      [
+        "Demand segments",
+        "Dated local evidence and stakeholder validation",
+        "Room and facility mix"
+      ],
+      [
+        "Competitive supply",
+        "Operating inventory and pipeline status",
+        "Positioning and market-share assumptions"
+      ],
+      [
+        "Achieved pricing",
+        "Comparable periods, segments and inclusions",
+        "Revenue forecast"
+      ],
+      [
+        "Seasonality",
+        "Monthly demand pattern and evidence period",
+        "Working capital and staffing"
+      ],
+      [
+        "Ramp-up",
+        "Documented assumptions and sensitivities",
+        "Funding requirements"
+      ],
+      [
+        "Capex and opening",
+        "Costed scope, dependencies and contingency basis",
+        "Capital commitment"
+      ],
+      [
+        "Operating costs",
+        "Department assumptions and explicit definitions",
+        "Profit conversion"
+      ]
+    ],
+    "review": "Methodology draft. Any actual project forecasts require a reviewed model and permission to publish. No current market rates or investment returns are asserted.",
+    "slug": "hotel-feasibility-assumption-register",
+    "reviewStatus": "editorial-draft"
+  },
+  {
+    "id": "owner-performance-pack",
+    "title": "Your hotel grew. Did the asset improve?",
+    "route": "/resources/hotel-owner-performance-pack",
+    "service": "/services/AssetManagement",
+    "purpose": "A monthly reporting checklist for owners, family offices and asset representatives. Intended citation audience: owner associations, hotel finance communities and performance editors.",
+    "answer": "Review hotel performance across revenue, market context, profit conversion and cash requirements. Occupancy or growth against last year cannot answer all four questions. Ask for consistent definitions, comparable periods and explanations of variance, then turn each material gap into an action with an accountable owner.",
+    "sections": [
+      [
+        "Read the operating metrics together",
+        "Occupancy shows rooms sold relative to availability. ADR describes average room revenue per room sold. RevPAR combines room revenue with available inventory. These measures describe different aspects of room performance; none on its own is a complete measure of owner return."
+      ],
+      [
+        "Compare growth against the relevant market",
+        "Illustrative only: a hotel moving from 100 to 110 in revenue has grown 10%. If a like-for-like benchmark moves from 100 to 115, the hotel has not kept pace with that benchmark. This is a reason to investigate business mix, pricing and supply changes, not proof that the operator performed badly."
+      ],
+      [
+        "Trace revenue to profit and cash",
+        "Request a consistent P&L, budget variance, forecast and commentary. Separate operating profit from financing, taxes, capital expenditure and owner distributions. A revenue improvement may coexist with cost pressure or additional cash requirements. Align definitions before comparing hotels."
+      ],
+      [
+        "End with decisions and follow-through",
+        "Limit the review to material issues. For each one, specify the action, responsible person, date and next evidence point. Reconcile the next report to the previous actions. An owner report that changes definitions or omits unresolved issues cannot support reliable oversight."
+      ]
+    ],
+    "columns": [
+      "Review area",
+      "Comparison",
+      "Action question"
+    ],
+    "rows": [
+      [
+        "Room performance",
+        "Actual versus budget, prior period and relevant market",
+        "Which demand or mix change explains the gap?"
+      ],
+      [
+        "Distribution",
+        "Revenue contribution and associated costs",
+        "Which channel changes improve contribution?"
+      ],
+      [
+        "Department P&L",
+        "Consistent cost and revenue categories",
+        "Which variance is structural or temporary?"
+      ],
+      [
+        "Operator forecast",
+        "Prior forecast versus actual result",
+        "What changed and what follows?"
+      ],
+      [
+        "Capital requests",
+        "Business case, timing and operating impact",
+        "What evidence supports this priority?"
+      ],
+      [
+        "Owner actions",
+        "Open items and due dates",
+        "Who is accountable for the next step?"
+      ]
+    ],
+    "review": "Definitions and the illustrative arithmetic should be reviewed by Akshay. No client performance or benchmark dataset is represented by the example.",
+    "slug": "hotel-owner-performance-pack",
+    "reviewStatus": "editorial-draft"
+  },
+  {
+    "id": "mystery-audit-action-register",
+    "title": "Turn a mystery audit into an operating decision",
+    "route": "/resources/hotel-mystery-audit-action-register",
+    "service": "/services/MysteryAudit",
+    "purpose": "A corrective-action worksheet for hotel owners and leadership teams. Intended citation audience: hospitality operations publications and training partners.",
+    "answer": "A mystery audit is useful when it records the ordinary guest journey and connects observed gaps to corrective action. Define the scope, separate observation from interpretation, prioritize the issues and assign follow-up. A score without evidence, ownership or a retest can become another report that changes little.",
+    "sections": [
+      [
+        "Agree the journey and standard",
+        "Specify which touchpoints are included: discovery, reservation, arrival, room experience, food and beverage, service recovery and departure. Identify whether assessment is against the hotel SOP, a brand standard or an agreed framework. Different standards should not be blended into a single unexplained score."
+      ],
+      [
+        "Keep observations precise",
+        "Record what happened, where and under which conditions. Distinguish an isolated observation from a recurring pattern. Protect guest and employee privacy; publish only anonymized evidence with appropriate permission. An audit should help the operating team investigate a process, not provide public blame."
+      ],
+      [
+        "Prioritize by impact and repeatability",
+        "Consider guest friction, consistency, commercial implications and how often the failure could recur. Let the operating team validate the cause. A weak handoff can reflect process design, information gaps or staffing, and its remedy depends on which mechanism is actually present."
+      ],
+      [
+        "Specify how success will be checked",
+        "Assign a person and completion date to each action. State what evidence closes the action and which observations require another audit. Avoid claiming that one mystery visit proves sustained service quality or guarantees repeat business. The useful outcome is a prioritized, testable improvement cycle."
+      ]
+    ],
+    "columns": [
+      "Touchpoint",
+      "Observation to capture",
+      "Follow-up evidence"
+    ],
+    "rows": [
+      [
+        "Reservation",
+        "Accuracy and consistency of the information supplied",
+        "Revised script or process and a retest"
+      ],
+      [
+        "Arrival",
+        "Queue, handoff and information gaps",
+        "Observed improvement under comparable conditions"
+      ],
+      [
+        "Room experience",
+        "Documented deviation from the agreed standard",
+        "Corrective action and verification"
+      ],
+      [
+        "Food and beverage",
+        "Service sequence and recovery handling",
+        "Team validation and follow-up observation"
+      ],
+      [
+        "Departure",
+        "Bill clarity and unresolved requests",
+        "Reconciled process and retest"
+      ],
+      [
+        "Action governance",
+        "Owner, date and closure criteria",
+        "Evidence of closure, not only a completed checkbox"
+      ]
+    ],
+    "review": "Akshay and an operations reviewer to approve the framework. No client observations, photographs or private guest data are included.",
+    "slug": "hotel-mystery-audit-action-register",
+    "reviewStatus": "editorial-draft"
+  }
+]

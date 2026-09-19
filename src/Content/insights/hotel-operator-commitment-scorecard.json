@@ -1,0 +1,82 @@
+{
+  "id": "OWN-AM-07",
+  "slug": "hotel-operator-commitment-scorecard",
+  "title": "Track operator commitments after the hotel agreement is signed",
+  "description": "Convert hotel operator commitments into a recurring evidence register with clear obligations, due dates, responses and proportionate follow-up.",
+  "pillar": "Asset Management Solutions",
+  "servicePath": "https://www.hotelfirst.one/services/AssetManagement",
+  "audience": "Owner representative managing recurring operator accountability",
+  "answer": "Track an operator’s commitments by connecting each relevant obligation in the executed agreement to a responsible party, due date and evidence of delivery. Keep owner obligations in the same register so dependencies are visible. Review exceptions with the operator, distinguish missing evidence from confirmed non-delivery, and have counsel interpret disputed rights or remedies before acting on them.",
+  "sections": [
+    {
+      "heading": "Start with the executed documents",
+      "paragraphs": [
+        "Use the signed agreement, schedules, amendments and approved side documents. A promise in an early presentation may not have the same status as a negotiated obligation. Record the document, clause reference and effective version for each item, retaining the actual wording separately from the working summary.",
+        "Build the register around recurring decisions: operating reports, budgets, approvals, agreed commercial support, asset standards and any applicable performance review. Do not invent approval rights from a customary industry process. Where the wording or relationship between documents is unclear, flag it for counsel."
+      ]
+    },
+    {
+      "heading": "Make each row testable",
+      "paragraphs": [
+        "For each commitment, record who must act, what must be delivered, when it is due and which evidence would demonstrate delivery. Add dependencies and the owner’s required contribution. An operator’s submission may be delayed by missing owner information; a fair review records both sides of that sequence.",
+        "Use precise states such as evidence received, clarification requested, overdue under the working calendar or under legal review. Keep an observation date and the latest response. A missed internal target does not automatically establish a contractual breach."
+      ],
+      "bullets": [
+        "Source document and obligation reference.",
+        "Responsible party and required owner input.",
+        "Due date or triggering event.",
+        "Expected evidence and review owner.",
+        "Current status, response and next follow-up."
+      ]
+    },
+    {
+      "heading": "Review delivery and commercial usefulness",
+      "paragraphs": [
+        "A report can arrive on time while failing to explain a material variance. Record timeliness, completeness and usefulness separately. Ask whether the evidence supports the decision the report was intended to enable, then agree the clarification needed.",
+        "Keep negotiation topics outside the delivery score. An owner may want more detailed reporting than the agreement requires; that can be a proposed process improvement without being labelled non-compliance. This distinction helps maintain a workable relationship and a credible record."
+      ]
+    },
+    {
+      "heading": "Escalate with a complete chronology",
+      "paragraphs": [
+        "Before escalating, assemble the original obligation, relevant dates, evidence supplied, requests for clarification, responses and unresolved issue. Use the agreed governance channels for operational follow-up. Ask counsel to confirm any required notices, timing or remedies before legal steps are considered.",
+        "Close an item only when the agreed evidence has been reviewed. If the same issue recurs, carry forward the pattern and its commercial effect while retaining each individual event. The register should support decisions, not become a list of unsupported accusations."
+      ]
+    }
+  ],
+  "decisionSteps": [
+    {
+      "title": "Extract commitments",
+      "detail": "Use the executed document set and record the source for every obligation."
+    },
+    {
+      "title": "Assign evidence and dates",
+      "detail": "Define deliverables, responsibilities, owner dependencies and the working review calendar."
+    },
+    {
+      "title": "Review exceptions together",
+      "detail": "Separate late delivery, insufficient detail, missing evidence and disputed interpretation."
+    },
+    {
+      "title": "Follow the right escalation path",
+      "detail": "Document the chronology and obtain contract-specific advice before relying on rights or remedies."
+    }
+  ],
+  "checklist": [
+    "The agreement and amendments are current.",
+    "Every row has a document reference.",
+    "Owner duties and dependencies are recorded.",
+    "Delivery criteria are observable.",
+    "Requested improvements are separated from existing obligations.",
+    "Operator responses are preserved.",
+    "Disputed interpretation is routed to counsel.",
+    "Closed items have reviewed evidence rather than a completion claim alone."
+  ],
+  "limitations": "The register is a governance tool, not a legal determination of compliance or breach. Actual obligations, notice procedures and remedies depend on the executed documents and applicable law. Commercial summaries need legal review where rights are disputed.",
+  "relatedIds": [
+    "OWN-BS-06",
+    "OWN-BS-08",
+    "OWN-AM-02"
+  ],
+  "reviewStatus": "editorial-draft"
+}
