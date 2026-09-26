@@ -27,6 +27,7 @@ Language: English (India)
 - [About HotelFirst Advisory](https://www.hotelfirst.one/Aboutus)
 - [Contact HotelFirst](https://www.hotelfirst.one/Contact)
 - [Privacy policy](https://www.hotelfirst.one/privacy-policy)
+- [Data deletion instructions](https://www.hotelfirst.one/data-deletion)
 - [Terms and conditions](https://www.hotelfirst.one/terms-and-conditions)
 
 ## Verified public identity

@@ -112,6 +112,12 @@ export const searchPages = [
     "keywords": ["HotelFirst privacy policy"]
   },
   {
+    "path": "/data-deletion",
+    "title": "Data Deletion Instructions",
+    "description": "Learn how to ask HotelFirst to delete eligible personal data from website inquiries, communications and connected social-platform interactions.",
+    "keywords": ["HotelFirst data deletion instructions"]
+  },
+  {
     "path": "/terms-and-conditions",
     "title": "Terms and Conditions",
     "description": "Read the terms governing use of the HotelFirst website and its hospitality advisory information.",

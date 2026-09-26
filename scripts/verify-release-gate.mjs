@@ -13,7 +13,7 @@ const approvedResources = resources.filter(approved);
 const authoredPaths = [
   "/", "/Aboutus", "/Contact", "/services/BrandSelection", "/services/BusinessIntelligence",
   "/services/AssetManagement", "/services/MysteryAudit", "/services/AdhocConsultation",
-  "/privacy-policy", "/terms-and-conditions",
+  "/privacy-policy", "/data-deletion", "/terms-and-conditions",
 ];
 const failures = [];
 let passed = 0;

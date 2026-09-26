@@ -85,6 +85,7 @@ const authoredPages = [
   ["/services/MysteryAudit", "Hotel Mystery Audits & Quality Assurance | HotelFirst"],
   ["/services/AdhocConsultation", "Hotel Performance Optimization & Turnarounds | HotelFirst"],
   ["/privacy-policy", "Privacy Policy | HotelFirst"],
+  ["/data-deletion", "Data Deletion Instructions | HotelFirst"],
   ["/terms-and-conditions", "Terms and Conditions | HotelFirst"],
 ];
 const legacyServices = [

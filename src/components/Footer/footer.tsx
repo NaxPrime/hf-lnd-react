@@ -124,13 +124,13 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-between border-t border-gray-700 text-center mt-8 pt-8  ">
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-gray-700 pt-8 text-center sm:flex-row">
           <div className="">
             <p className="text-gray-300">
               © 2025 HotelFirst. All rights reserved.
             </p>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
             {/* <a
               href="#"
               className="text-gray-300 hover:text-white transition-colors"
@@ -148,6 +148,12 @@ export default function Footer() {
               className="text-gray-300 hover:text-white transition-colors"
             >
               Terms of Use
+            </Link>
+            <Link
+              href="/data-deletion"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Data Deletion
             </Link>
           </div>
         </div>

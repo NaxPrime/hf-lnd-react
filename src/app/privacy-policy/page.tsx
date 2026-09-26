@@ -1,5 +1,6 @@
 // ./src/app/privacy-policy/page.tsx
 import React from "react";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
@@ -104,6 +105,16 @@ export default function PrivacyPolicy() {
           <li>Object to or restrict certain types of data processing.</li>
           <li>Request data portability.</li>
         </ul>
+        <p className="mt-4">
+          To request deletion, follow our{" "}
+          <Link
+            href="/data-deletion"
+            className="text-blue-600 underline hover:text-blue-800"
+          >
+            Data Deletion Instructions
+          </Link>
+          .
+        </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">7. Data Security</h2>
         <p>
