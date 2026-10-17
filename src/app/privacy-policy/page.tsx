@@ -25,6 +25,10 @@ export default function PrivacyPolicy() {
           or engage our services.
         </p>
 
+        <p className="mb-6">
+          HotelFirst is a brand owned and operated by NAXPRIME VENTURE LLP.
+        </p>
+
         <h2 className="text-2xl font-semibold mt-8 mb-4">
           1. Information We Collect
         </h2>

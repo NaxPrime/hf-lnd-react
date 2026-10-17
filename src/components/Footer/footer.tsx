@@ -157,6 +157,9 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <p className="mt-4 text-center text-sm text-gray-300 sm:text-left">
+          HotelFirst is a brand owned and operated by NAXPRIME VENTURE LLP.
+        </p>
       </div>
     </footer>
   );
