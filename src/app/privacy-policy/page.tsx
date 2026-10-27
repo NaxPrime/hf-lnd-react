@@ -84,8 +84,8 @@ export default function PrivacyPolicy() {
             Analytics. Vercel Web Analytics does not use third-party cookies or
             report an identifiable browsing history to HotelFirst.
           </li>
-          <li>Formspree receives the contact details and message you submit so the inquiry can be delivered to HotelFirst.</li>
-          <li>Upstash may process keyed technical digests and short-lived delivery receipts used for rate limiting and duplicate prevention. The application does not place the plain email address or IP address in those rate-limit keys.</li>
+          <li>Google Sheets stores the contact details, message, submission time, page and campaign attribution that you provide through the inquiry form, so HotelFirst can respond and manage follow-up.</li>
+          <li>The lead register also stores a keyed hash of the submitting IP address and a submission fingerprint for duplicate and abuse checks. The plain IP address is not stored in the lead register.</li>
           <li>Meta receives a Lead event only when you select the separate optional advertising-measurement checkbox and the inquiry is accepted. That event may include hashed email and phone, IP address and browser information. Your name and message are not sent to Meta by this flow.</li>
           <li>Google Analytics is configured to remain disabled until explicit analytics consent is provided. It does not receive inquiry contact fields from this Website implementation.</li>
           <li>Legal authorities when required by law.</li>
@@ -95,9 +95,10 @@ export default function PrivacyPolicy() {
         <p>
           We retain inquiry data only as long as necessary to respond, manage
           the business relationship and meet applicable legal requirements.
-          The duplicate-prevention receipt in the Website application expires
-          after 24 hours; service providers may apply their own configured
-          retention periods.
+          Inquiry and related technical records remain in HotelFirst&apos;s
+          access-controlled lead register until they are reviewed or deleted
+          under our retention practices. Service providers may apply their own
+          configured retention periods.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">6. Your Rights</h2>

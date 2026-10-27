@@ -1,23 +1,11 @@
 import { createHash, createHmac } from "node:crypto";
 import { isIP } from "node:net";
+import schema from "@/Content/contact-sheet-schema.json";
+import { getGoogleAccessToken } from "@/lib/google-sheets-auth";
 
-/**
- * Production prerequisites (never read or provisioned by isolated tests):
- * VERCEL=1, VERCEL_ENV=production, ENQUIRY_OUTBOUND_ENABLED=true,
- * FORMSPREE_FORM_ID, ENQUIRY_REDIS_REST_URL / ENQUIRY_REDIS_REST_TOKEN,
- * and a random ENQUIRY_RATE_LIMIT_SALT of at least 32 characters.
- * The Upstash database must support EVAL and retain receipts for 24 hours.
- * Confirm trusted Vercel forwarding headers and edge/bot protection before release;
- * Origin checks and this shared IP/email quota do not eliminate distributed abuse.
- * Optional CAPI: META_CAPI_ENABLED=true, META_PIXEL_ID, META_GRAPH_API_VERSION,
- * META_CONVERSIONS_API_TOKEN, and no META_CONVERSIONS_API_TEST_EVENT_CODE.
- * Customer advertisingConsent must also be true. No names/messages go to Meta.
- * Provider acceptance is not proof of inbox delivery. Ambiguous attempts require
- * provider-side reconciliation; there is no automatic delivery or CAPI retry.
- */
 export const ENQUIRY_ORIGIN = "https://www.hotelfirst.one";
 export const MAX_ENQUIRY_BYTES = 8192;
-const RECEIPT_TTL_SECONDS = 86400;
+const SHEETS_API = "https://sheets.googleapis.com/v4/spreadsheets";
 type Environment = Record<string, string | undefined>;
 type Send = typeof fetch;
 type Enquiry = {
@@ -28,22 +16,13 @@ type Enquiry = {
   message: string;
   agree: true;
   advertisingConsent: boolean;
+  website: string;
+  pageUrl: string;
+  referrer: string;
+  utmSource: string;
+  utmMedium: string;
+  utmCampaign: string;
 };
-
-// A shared Redis transaction, not a per-process counter. Keys contain keyed
-// digests, not contact details. Pending receipts survive ambiguous provider errors
-// for 24 hours so a retry cannot automatically send a second real inquiry.
-export const RESERVE_ENQUIRY_LUA = `
-local existing = redis.call('GET', KEYS[1])
-if existing then return existing end
-local ipCount = redis.call('INCR', KEYS[2])
-if ipCount == 1 then redis.call('EXPIRE', KEYS[2], 900) end
-local emailCount = redis.call('INCR', KEYS[3])
-if emailCount == 1 then redis.call('EXPIRE', KEYS[3], 3600) end
-if ipCount > 5 or emailCount > 3 then return 'rate_limited' end
-redis.call('SET', KEYS[1], 'pending:' .. ARGV[1], 'EX', ARGV[2])
-return 'reserved'
-`;
 
 function reply(status: number, body: Record<string, unknown>) {
   return Response.json(body, {
@@ -94,12 +73,21 @@ async function readBody(request: Request): Promise<unknown> {
 export function validateEnquiry(value: unknown): Enquiry {
   if (!value || typeof value !== "object" || Array.isArray(value)) throw new InvalidRequest(400, "invalid_body");
   const body = value as Record<string, unknown>;
-  const fields = ["submissionId", "name", "email", "phone", "message", "agree", "advertisingConsent"];
+  const fields = ["submissionId", "name", "email", "phone", "message", "agree", "advertisingConsent",
+    "website", "pageUrl", "referrer", "utmSource", "utmMedium", "utmCampaign"];
   if (Object.keys(body).some((key) => !fields.includes(key))) throw new InvalidRequest(400, "invalid_fields");
   const text = (key: string, max: number, multiline = false) => {
     const item = body[key];
     const controls = multiline ? /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/ : /[\u0000-\u001f\u007f]/;
     if (typeof item !== "string" || !item.trim() || item.length > max || controls.test(item)) {
+      throw new InvalidRequest(400, "invalid_fields");
+    }
+    return item.trim();
+  };
+  const optional = (key: string, max: number) => {
+    const item = body[key];
+    if (item === undefined) return "";
+    if (typeof item !== "string" || item.length > max || /[\u0000-\u001f\u007f]/.test(item)) {
       throw new InvalidRequest(400, "invalid_fields");
     }
     return item.trim();
@@ -121,7 +109,20 @@ export function validateEnquiry(value: unknown): Enquiry {
   if (body.agree !== true || typeof body.advertisingConsent !== "boolean") {
     throw new InvalidRequest(400, "consent_required");
   }
-  return { submissionId, name, email, phone, message, agree: true, advertisingConsent: body.advertisingConsent };
+  const pageUrl = optional("pageUrl", 500);
+  if (pageUrl) {
+    try { if (new URL(pageUrl).origin !== ENQUIRY_ORIGIN) throw new Error(); }
+    catch { throw new InvalidRequest(400, "invalid_fields"); }
+  }
+  const referrer = optional("referrer", 500);
+  if (referrer) {
+    try { if (!/^https?:$/.test(new URL(referrer).protocol)) throw new Error(); }
+    catch { throw new InvalidRequest(400, "invalid_fields"); }
+  }
+  return { submissionId, name, email, phone, message, agree: true,
+    advertisingConsent: body.advertisingConsent, website: optional("website", 200), pageUrl, referrer,
+    utmSource: optional("utmSource", 120), utmMedium: optional("utmMedium", 120),
+    utmCampaign: optional("utmCampaign", 120) };
 }
 
 function productionReady(env: Environment, request: Request) {
@@ -130,28 +131,15 @@ function productionReady(env: Environment, request: Request) {
     env.ENQUIRY_OUTBOUND_ENABLED === "true" && new URL(request.url).origin === ENQUIRY_ORIGIN;
 }
 
-function storeReady(env: Environment) {
-  return /^https:\/\/[a-z0-9-]+\.upstash\.io\/?$/.test(env.ENQUIRY_REDIS_REST_URL || "") &&
-    Boolean(env.ENQUIRY_REDIS_REST_TOKEN) && (env.ENQUIRY_RATE_LIMIT_SALT?.length || 0) >= 32 &&
-    /^[a-zA-Z0-9]{6,64}$/.test(env.FORMSPREE_FORM_ID || "");
+function sheetsReady(env: Environment) {
+  return /^[A-Za-z0-9_-]{20,}$/.test(env.HOTELFIRST_SHEET_ID || "") &&
+    Boolean(env.GOOGLE_SERVICE_ACCOUNT_JSON_BASE64) && (env.ENQUIRY_RATE_LIMIT_SALT?.length || 0) >= 32;
 }
 
 function metaReady(env: Environment) {
   return env.META_CAPI_ENABLED === "true" && /^\d+$/.test(env.META_PIXEL_ID || "") &&
     Boolean(env.META_CONVERSIONS_API_TOKEN) && /^v\d+\.\d+$/.test(env.META_GRAPH_API_VERSION || "") &&
     !env.META_CONVERSIONS_API_TEST_EVENT_CODE;
-}
-
-async function redis(send: Send, env: Environment, command: (string | number)[]) {
-  const response = await send(env.ENQUIRY_REDIS_REST_URL!, {
-    method: "POST", redirect: "error", cache: "no-store",
-    headers: { "Content-Type": "application/json", Authorization: `Bearer ${env.ENQUIRY_REDIS_REST_TOKEN}` },
-    body: JSON.stringify(command), signal: AbortSignal.timeout(3000),
-  });
-  if (!response.ok) throw new Error("store_unavailable");
-  const data = await response.json();
-  if (!data || data.error || typeof data.result !== "string") throw new Error("store_unavailable");
-  return data.result as string;
 }
 
 async function sendMeta(send: Send, env: Environment, enquiry: Enquiry, request: Request, ip: string) {
@@ -175,7 +163,44 @@ async function sendMeta(send: Send, env: Environment, enquiry: Enquiry, request:
   } catch { return "failed"; }
 }
 
-export function createEnquiryHandler({ env, send = fetch }: { env: Environment; send?: Send }) {
+function sheetUrl(env: Environment, suffix: string) {
+  return `${SHEETS_API}/${env.HOTELFIRST_SHEET_ID}/${suffix}`;
+}
+
+async function readExisting(send: Send, env: Environment, token: string) {
+  const query = new URLSearchParams();
+  for (const range of ["A2:A", "C2:C", "E2:E", "S2:S", "T2:T"]) query.append("ranges", `${schema.tab}!${range}`);
+  query.set("valueRenderOption", "UNFORMATTED_VALUE");
+  const response = await send(sheetUrl(env, `values:batchGet?${query}`), {
+    method: "GET", redirect: "error", cache: "no-store", signal: AbortSignal.timeout(5000),
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!response.ok) throw new Error("sheet_read_failed");
+  const result = await response.json() as { valueRanges?: { values?: string[][] }[] };
+  if (!Array.isArray(result.valueRanges) || result.valueRanges.length !== 5 ||
+      result.valueRanges.some((entry) => entry.values !== undefined && !Array.isArray(entry.values))) {
+    throw new Error("sheet_read_invalid");
+  }
+  return result.valueRanges.map((entry) => (entry.values || []).map((row) => String(row?.[0] ?? "")));
+}
+
+async function appendEnquiry(send: Send, env: Environment, token: string, row: string[]) {
+  const range = encodeURIComponent(`${schema.tab}!A:U`);
+  const response = await send(sheetUrl(env, `values/${range}:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`), {
+    method: "POST", redirect: "error", cache: "no-store", signal: AbortSignal.timeout(8000),
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ values: [row] }),
+  });
+  if (!response.ok) throw new Error("sheet_append_failed");
+  const result = await response.json();
+  if (result?.updates?.updatedRows !== 1 || result?.updates?.updatedColumns !== schema.headers.length ||
+      !String(result?.updates?.updatedRange || "").startsWith(`${schema.tab}!A`)) {
+    throw new Error("sheet_append_unconfirmed");
+  }
+}
+
+export function createEnquiryHandler({ env, send = fetch, authorize = getGoogleAccessToken }:
+  { env: Environment; send?: Send; authorize?: (env: Environment) => Promise<string> }) {
   return async function handleEnquiry(request: Request): Promise<Response> {
     const requestOrigin = new URL(request.url).origin;
     const fetchSite = request.headers.get("sec-fetch-site");
@@ -188,51 +213,52 @@ export function createEnquiryHandler({ env, send = fetch }: { env: Environment; 
       const invalid = error instanceof InvalidRequest ? error : new InvalidRequest(400, "invalid_body");
       return reply(invalid.status, { ok: false, code: invalid.code });
     }
+    if (enquiry.website) return reply(200, { ok: false, code: "delivery_unconfirmed" });
     if (!productionReady(env, request)) return reply(503, { ok: false, code: "delivery_disabled" });
-    if (!storeReady(env)) return reply(503, { ok: false, code: "delivery_unconfigured" });
+    if (!sheetsReady(env)) return reply(503, { ok: false, code: "delivery_unconfigured" });
     // Trusted only on Vercel, whose edge sets this header. No body-IP fallback.
     const ip = request.headers.get("x-vercel-forwarded-for")?.trim() || "";
     if (!isIP(ip)) return reply(503, { ok: false, code: "delivery_unconfigured" });
     const digest = (value: string) => createHmac("sha256", env.ENQUIRY_RATE_LIMIT_SALT!).update(value).digest("hex");
     const fingerprint = digest(JSON.stringify(enquiry));
-    const receiptKey = `hf:enquiry:v1:receipt:${enquiry.submissionId}`;
-    let reservation: string;
-    try {
-      reservation = await redis(send, env, ["EVAL", RESERVE_ENQUIRY_LUA, 3, receiptKey,
-        `hf:enquiry:v1:ip:${digest(ip)}`, `hf:enquiry:v1:email:${digest(enquiry.email)}`, fingerprint, RECEIPT_TTL_SECONDS]);
-    } catch { return reply(503, { ok: false, code: "abuse_control_unavailable" }); }
+    const ipHash = digest(ip);
     const advertisingEligible = enquiry.advertisingConsent && metaReady(env);
-    if (reservation === `accepted:${fingerprint}`) {
+    let token: string;
+    let rows: string[][];
+    try {
+      token = await authorize(env);
+      rows = await readExisting(send, env, token);
+    } catch { return reply(503, { ok: false, code: "abuse_control_unavailable" }); }
+    const [ids, dates, emails, ips, hashes] = rows;
+    const existingIndex = ids.findIndex((value) => value === enquiry.submissionId);
+    if (existingIndex >= 0) {
+      if (hashes[existingIndex] !== fingerprint) return reply(409, { ok: false, code: "delivery_pending" });
       return reply(200, { ok: true, accepted: true, eventId: enquiry.submissionId, replay: true,
         advertisingEligible, tracking: "not_repeated" });
     }
-    if (reservation === "rate_limited") return reply(429, { ok: false, code: "rate_limited" });
-    if (reservation !== "reserved") return reply(409, { ok: false, code: "delivery_pending" });
-
-    try {
-      const response = await send(`https://formspree.io/f/${env.FORMSPREE_FORM_ID}`, {
-        method: "POST", redirect: "error", cache: "no-store", signal: AbortSignal.timeout(8000),
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ name: enquiry.name, email: enquiry.email, phone: enquiry.phone,
-          message: enquiry.message, agree: true, advertisingConsent: enquiry.advertisingConsent,
-          submissionId: enquiry.submissionId }),
-      });
-      const result = await response.json();
-      // Formspree's installed SDK recognizes a successful JSON response by its
-      // string `next` field; do not assume an undocumented `ok: true` field.
-      if (!response.ok || !result || typeof result !== "object" || Array.isArray(result) ||
-          typeof result.next !== "string" || !result.next || "errors" in result || "error" in result || result.ok === false) {
-        throw new Error("provider_not_accepted");
-      }
-    } catch { return reply(502, { ok: false, code: "delivery_unconfirmed" }); }
-
-    // Accepted inquiries stay successful even if receipt persistence or optional
-    // measurement fails. A pending receipt prevents automatic duplicate delivery.
-    let receiptSaved = false;
-    try { receiptSaved = await redis(send, env, ["SET", receiptKey, `accepted:${fingerprint}`, "XX", "EX", RECEIPT_TTL_SECONDS]) === "OK"; }
-    catch { /* Do not expose upstream diagnostics or personal information. */ }
-    const tracking = receiptSaved ? await sendMeta(send, env, enquiry, request, ip) : "skipped";
+    const now = new Date();
+    let ipCount = 0;
+    let emailCount = 0;
+    for (let index = 0; index < dates.length; index++) {
+      const created = Date.parse(dates[index]);
+      if (!Number.isFinite(created)) continue;
+      const elapsed = now.getTime() - created;
+      if (elapsed >= 0 && elapsed < 15 * 60_000 && ips[index] === ipHash) ipCount++;
+      if (elapsed >= 0 && elapsed < 60 * 60_000 && emails[index] === enquiry.email) emailCount++;
+    }
+    if (ipCount >= 5 || emailCount >= 3) return reply(429, { ok: false, code: "rate_limited" });
+    const submittedUtc = now.toISOString();
+    const submittedIst = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Kolkata", year: "numeric",
+      month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false }).format(now);
+    const row = [enquiry.submissionId, submittedIst, submittedUtc, enquiry.name, enquiry.email,
+      enquiry.phone, enquiry.message, "New", "", "", "", "Website contact form", enquiry.pageUrl,
+      enquiry.referrer, enquiry.utmSource, enquiry.utmMedium, enquiry.utmCampaign,
+      enquiry.advertisingConsent ? "Yes" : "No", ipHash, fingerprint,
+      (request.headers.get("user-agent") || "").slice(0, 512)];
+    try { await appendEnquiry(send, env, token, row); }
+    catch { return reply(502, { ok: false, code: "delivery_unconfirmed" }); }
+    const tracking = await sendMeta(send, env, enquiry, request, ip);
     return reply(200, { ok: true, accepted: true, eventId: enquiry.submissionId, replay: false,
-      advertisingEligible: receiptSaved && advertisingEligible, tracking });
+      advertisingEligible, tracking });
   };
 }

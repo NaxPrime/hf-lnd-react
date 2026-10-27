@@ -1,0 +1,10 @@
+{
+  "title": "HotelFirst Advisory | Website Enquiries",
+  "tab": "Enquiries",
+  "headers": [
+    "Lead ID", "Submitted (IST)", "Submitted (UTC)", "Name", "Email", "Phone", "Message",
+    "Status", "Owner", "Follow-up (IST)", "Internal Notes", "Lead Source", "Page URL",
+    "Referrer", "UTM Source", "UTM Medium", "UTM Campaign", "Advertising Consent",
+    "IP Hash", "Payload Hash", "Browser / Device"
+  ]
+}

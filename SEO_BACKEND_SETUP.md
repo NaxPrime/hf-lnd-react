@@ -1,6 +1,6 @@
 # HotelFirst search and measurement release handoff
 
-Reviewed: 20 September 2026 IST. Local implementation and acceptance are complete. No commit, push, Vercel deployment, DNS/account change, URL submission, live inquiry, outreach or publication was performed.
+Reviewed: 27 October 2026 IST. Google Sheets inquiry delivery is implemented locally; it is not deployed or live-tested. Earlier SEO acceptance evidence below predates this form change. No commit, push or Vercel deployment was performed for this change.
 
 ## What is implemented
 
@@ -13,13 +13,13 @@ Reviewed: 20 September 2026 IST. Local implementation and acceptance are complet
 - The six resource pages provide real CSV worksheets. Downloads are `noindex`, attachment responses and unavailable before editorial approval.
 - Sixty-six old service/location variants and eleven canned FAQ variants permanently redirect to the closest genuine canonical service instead of remaining doorway pages.
 - Unknown root, FAQ, guide, resource and worksheet routes return real HTTP 404 responses.
-- Browser CTA email fields now route users to the full contact form instead of sending directly to Formspree. The email is transferred once through first-party session storage and removed on contact-page load.
+- Browser CTA email fields route users to the full contact form. The email is transferred once through first-party session storage and removed on contact-page load.
 - `/api/enquiry` validates bounded JSON, same-origin requests, privacy consent, Indian mobile numbers and a UUID event ID. It fails closed outside explicitly enabled canonical Vercel production.
-- Production enquiry delivery requires shared Upstash rate limiting and idempotent receipts. Meta CAPI can run only after Formspree confirms acceptance and the visitor separately opts into advertising measurement.
+- Production enquiry delivery now appends directly to the HotelFirst Google Sheet using a server-side service account. It reads prior rows for best-effort sequential duplicate and IP/email checks; simultaneous requests can still race. Meta CAPI can run only after Google Sheets confirms an append and the visitor separately opts into advertising measurement.
 - The retired browser-trusted `/api/meta/lead` endpoint returns HTTP 410 for POST.
 - GA and Meta browser tracking are disabled in local/preview environments. GA has one manual page-view path and remains off until an explicit analytics-consent call is wired. No inquiry PII is passed to GA.
 - Vercel Web Analytics is restored through its official Next.js component on Vercel production only. It also must be enabled in the Vercel project dashboard.
-- The privacy page now describes the implemented Vercel, Formspree, Upstash, GA and optional Meta flows. Owner/legal review remains a release requirement.
+- The privacy page now describes the implemented Vercel, Google Sheets, GA and optional Meta flows. Owner/legal review remains a release requirement.
 
 ## Acceptance evidence
 
@@ -31,7 +31,7 @@ node scripts/test-enquiry-analytics.mjs
 npx tsc --noEmit --incremental false
 ```
 
-Current results: 18 enquiry/Contact tests passed; 14 isolated analytics tests passed; TypeScript passed.
+The 20 September results were 18 enquiry/Contact tests, 14 analytics tests and TypeScript. Rerun all checks after this Google Sheets change; do not treat old counts as current evidence.
 
 Draft-preview build and full browser acceptance:
 
@@ -92,13 +92,12 @@ Inquiry delivery, configured only in Vercel Production:
 
 ```text
 ENQUIRY_OUTBOUND_ENABLED=true
-FORMSPREE_FORM_ID=
-ENQUIRY_REDIS_REST_URL=https://<database>.upstash.io
-ENQUIRY_REDIS_REST_TOKEN=
+HOTELFIRST_SHEET_ID=<HotelFirst spreadsheet ID>
+GOOGLE_SERVICE_ACCOUNT_JSON_BASE64=<base64 of service-account JSON; server-side only>
 ENQUIRY_RATE_LIMIT_SALT=<random value of at least 32 characters>
 ```
 
-Before activation, execute the exact Redis Lua reservation logic in `src/lib/enquiry.ts` against an isolated Upstash database and confirm expiry/durability. The automated tests mock REST responses; they do not execute Upstash itself. Configure Vercel firewall/bot controls as another layer because same-origin checks and quotas do not stop distributed abuse.
+Before activation, verify the Google Sheet is shared with the service account and run an authorized end-to-end test on a protected deployment. Sheet-based duplicate and quota reads are not atomic; Vercel firewall/bot controls are recommended as another layer. The automated tests mock Sheets responses and do not certify live delivery.
 
 Optional Meta measurement:
 
@@ -128,7 +127,7 @@ Vercel Web Analytics needs no site secret. Enable Web Analytics in the correct V
 1. Review and approve the privacy wording, processing purposes, provider accounts and retention settings.
 2. Review individual guides/resources and add approval fields only to exact approved versions.
 3. Add production secrets in Vercel. Do not place them in Git or client-side variables.
-4. Validate Upstash behavior and Vercel edge protection in an isolated environment.
+4. Validate Google Sheets append behavior and Vercel edge protection in an isolated environment.
 5. Create a Vercel preview deployment, then run the live equivalent of the acceptance scripts against its URL. Keep drafts unavailable unless the preview is access-controlled and intentionally built with the preview flag.
 6. Promote only after live image, canonical, redirect, form-failure, analytics and mobile checks pass.
 7. In Vercel, enable Web Analytics and confirm requests appear in the project Analytics dashboard.

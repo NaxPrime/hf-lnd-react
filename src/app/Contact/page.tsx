@@ -9,6 +9,7 @@ export default function ContactPage() {
   const [hasStarted, setHasStarted] = useState(false);
   const [submissionError, setSubmissionError] = useState("");
   const submittingRef = useRef(false);
+  const websiteRef = useRef<HTMLInputElement | null>(null);
   const submissionIdRef = useRef<string | null>(null);
   const measuredSubmissionIdRef = useRef<string | null>(null);
   const [formData, setFormData] = useState({
@@ -54,12 +55,20 @@ export default function ContactPage() {
 
     try {
       submissionIdRef.current ||= crypto.randomUUID();
+      const currentUrl = typeof window === "undefined" ? null : new URL(window.location.href);
+      const pageUrl = currentUrl ? currentUrl.origin + currentUrl.pathname : "";
+      const referrer = typeof document !== "undefined" && document.referrer
+        ? (() => { const url = new URL(document.referrer); return url.origin + url.pathname; })() : "";
       const response = await fetch("/api/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...formData, submissionId: submissionIdRef.current }),
+        body: JSON.stringify({ ...formData, submissionId: submissionIdRef.current,
+          website: websiteRef.current?.value || "", pageUrl, referrer,
+          utmSource: currentUrl?.searchParams.get("utm_source")?.slice(0, 120) || "",
+          utmMedium: currentUrl?.searchParams.get("utm_medium")?.slice(0, 120) || "",
+          utmCampaign: currentUrl?.searchParams.get("utm_campaign")?.slice(0, 120) || "" }),
       });
       const result = await response.json();
       if (response.ok && result?.ok === true && result.accepted === true && result.eventId === submissionIdRef.current) {
@@ -72,6 +81,7 @@ export default function ContactPage() {
           agree: false,
           advertisingConsent: false,
         });
+        if (websiteRef.current) websiteRef.current.value = "";
         // Measurement must never invalidate an already accepted inquiry.
         // A replay may be the first confirmation this browser receives after a
         // lost response. Deduplicate by measurement here, not by server receipt.
@@ -134,7 +144,7 @@ export default function ContactPage() {
                 Thank You!
               </h1>
               <p className="text-gray-600 mb-6">
-                Your message has been sent successfully. We&apos;ll get back to
+                Your inquiry has been received. We&apos;ll get back to
                 you as soon as possible.
               </p>
             </div>
@@ -206,6 +216,10 @@ export default function ContactPage() {
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="absolute -left-[10000px] h-px w-px overflow-hidden" aria-hidden="true">
+              <label htmlFor="website">Website</label>
+              <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" ref={websiteRef} />
+            </div>
             <div>
               <label className="block text-sm font-medium mb-1">
                 First Name
