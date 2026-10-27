@@ -2,6 +2,14 @@
 
 Updated: 27 October 2026 IST. This document records implementation and release checks; confirm live delivery separately on the production domain. The four Production variables below were added to the verified `hf-lnd-react` Vercel project as sensitive values. Vercel applies them to deployments created after configuration.
 
+## Production verification, 27 October 2026 IST
+
+- Website commit `66e14b5` was pushed to `NaxPrime/hf-lnd-react` main and deployed directly to Vercel Production as `dpl_FzBkGS8smU1G8CxmBGy3YvXnFfRW`. Both `hotelfirst.one` and `www.hotelfirst.one` resolve to that Ready deployment.
+- The live Contact page returned HTTP 200. A malformed inquiry was rejected with HTTP 400.
+- One clearly marked synthetic inquiry returned `accepted: true` and created a 21-column row with IST, UTC and campaign attribution. A repeat with the same UUID returned `replay: true` and did not create another row. Advertising consent was false, so no Meta event was requested.
+- The synthetic row was deleted after verification; the `Enquiries` tab had zero data rows afterward. No real customer enquiry was submitted by this test.
+- The live release-gate verifier passed 68 checks with zero failures.
+
 ## Sheet and access
 
 - Workbook: `HotelFirst Advisory | Website Enquiries`.
@@ -29,15 +37,13 @@ The credential must be the JSON object only, not the `crea.env` wrapper text. Ke
 
 No separate server, Formspree account or Upstash database is required. This does **not** make the form immune to abuse: Sheets checks are read-then-write and cannot be atomic across concurrent Vercel instances. The same UUID may occasionally duplicate under simultaneous requests or an ambiguous network failure. Enable Vercel edge protections as appropriate, monitor the sheet, and move to a transactional store if volume or abuse warrants it. A Sheet is a lightweight lead register, not a CRM or durable queue.
 
-## Release checklist
+## Operator follow-up
 
-1. The verified Vercel project `hf-lnd-react` owns both `hotelfirst.one` and `www.hotelfirst.one`, but its project record did not show a Git link on 27 October. Connect the `NaxPrime/hf-lnd-react` repository in Vercel or deploy the reviewed commit using Vercel CLI. A GitHub push alone does not prove a production deployment.
-2. Review the privacy wording, Sheet access list and retention policy with the business owner.
-3. The four Production variables above are already present as sensitive values, including `ENQUIRY_OUTBOUND_ENABLED=true`. Confirm they remain present before publishing; the currently deployed code is unaffected until a new deployment.
-4. Run `node --test scripts/test-enquiry.mjs`, `node scripts/test-enquiry-analytics.mjs`, `npx tsc --noEmit --incremental false`, and `npm run build` locally.
-5. Deploy a protected preview with test-only credentials or a separate test sheet. Confirm a legitimate inquiry creates exactly one row, captures UTC/IST and campaign fields, and a failed append never shows success. Do not place fake leads in the production register.
-6. Deploy/promote the reviewed commit. Test one owner-approved real inquiry, then verify the row and any consent-gated Meta event.
-7. Confirm access and handling: assign an owner for daily review, follow-up and retention/deletion. Google Sheets does not send an instant alert to Akshay by itself.
+1. Add a GitHub Login Connection to the Vercel account and connect `NaxPrime/hf-lnd-react` to the `hf-lnd-react` project. Vercel CLI rejected the connection without that account-level step, so a future GitHub push alone will not deploy.
+2. Have the business owner review the privacy wording, Sheet access list, retention/deletion schedule and whether a real customer inquiry reaches the responsible person promptly.
+3. Assign an owner for daily lead review and follow-up. Google Sheets does not itself send an instant WhatsApp/email alert to Akshay.
+4. Before enabling optional Meta CAPI/browser tracking, finish domain/account verification and consent-gated live event testing as described in `META_TRACKING_SETUP.md`.
+5. For future changes, run the form tests, analytics tests, TypeScript check and build; verify a protected preview or separate test sheet before promotion. Do not leave synthetic rows in the production register.
 
 If the endpoint returns `delivery_unconfigured` or `abuse_control_unavailable`, check Vercel variables, spreadsheet sharing, service-account validity, and the Google Sheets API in the service-account project. Do not log tokens, private keys, messages or personal data while diagnosing.
 

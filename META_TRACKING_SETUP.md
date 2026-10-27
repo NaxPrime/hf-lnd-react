@@ -1,6 +1,6 @@
 # HotelFirst Meta measurement handoff
 
-Updated: 27 October 2026 IST. This flow is implemented locally but awaits a new deployment and live acceptance. See `SEO_BACKEND_SETUP.md` for the release sequence.
+Updated: 27 October 2026 IST. The Google Sheets inquiry path is deployed and was verified with advertising consent off. Optional Meta CAPI/browser Lead measurement remains disabled or unverified until its separate account, domain and consent-gated release checks are complete. See `SEO_BACKEND_SETUP.md` for the release sequence.
 
 ## Current event flow
 
@@ -45,4 +45,4 @@ All variables are server-side. Do not create a `NEXT_PUBLIC_` Meta token or use 
 - Confirm no event is emitted after a provider rejection, without optional advertising consent, on a preview/local host, or with a test-event code in production.
 - Remove all test configuration, redeploy, and inspect the final production environment before enabling campaigns.
 
-Historical deployment checks do not certify this revised flow. A fresh deployment and authorized end-to-end test are required. No live inquiry or Meta event was sent during this local implementation.
+The live synthetic inquiry confirmed Sheets delivery but intentionally did not exercise Meta measurement. Do not treat this as CAPI or browser-pixel acceptance; complete the checks above before enabling paid measurement.

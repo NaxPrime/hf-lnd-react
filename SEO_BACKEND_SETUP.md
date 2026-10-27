@@ -1,6 +1,6 @@
 # HotelFirst search and measurement release handoff
 
-Reviewed: 27 October 2026 IST. Google Sheets inquiry delivery is implemented locally; it is not deployed or live-tested. Earlier SEO acceptance evidence below predates this form change. No commit, push or Vercel deployment was performed for this change.
+Reviewed: 27 October 2026 IST. Google Sheets inquiry delivery is deployed to the domain-owning Vercel project and was verified with a synthetic inquiry. The synthetic row was removed. Earlier detailed SEO acceptance evidence below predates this change; a fresh live release-gate run passed 68 checks.
 
 ## What is implemented
 
@@ -46,7 +46,7 @@ $env:SEO_BASE_URL='http://127.0.0.1:3100'
 npm run seo:verify
 ```
 
-Current result: 148 generated routes; 1,128 browser/content/schema/link/image/download/redirect checks passed and zero failed. Evidence is written to `artifacts/seo-acceptance/`.
+Historical 20 September result: 148 generated routes; 1,128 browser/content/schema/link/image/download/redirect checks passed and zero failed. Evidence is written to `artifacts/seo-acceptance/`.
 
 Release-gate build:
 
@@ -61,7 +61,15 @@ $env:SEO_BASE_URL='http://127.0.0.1:3101'
 npm run seo:verify-release
 ```
 
-Current result: 96 generated routes; 67 release-gate checks passed and zero failed. All 40 unapproved guides, six resources, six downloads and both draft hubs returned HTTP 404.
+Historical 20 September result: 96 generated routes; 67 release-gate checks passed and zero failed. All 40 unapproved guides, six resources, six downloads and both draft hubs returned HTTP 404.
+
+## 27 October live release evidence
+
+- Commit `66e14b5` was pushed to `NaxPrime/hf-lnd-react` main and deployed directly as Vercel production deployment `dpl_FzBkGS8smU1G8CxmBGy3YvXnFfRW`.
+- Vercel reported Ready and aliases for both `hotelfirst.one` and `www.hotelfirst.one`.
+- The live `/Contact` route returned HTTP 200; `/api/enquiry` rejected malformed input with HTTP 400. A synthetic, advertising-opted-out inquiry was accepted into the dedicated Sheet, and its exact replay did not create a duplicate row. The test row was deleted afterward.
+- `npm run seo:verify-release` against `https://www.hotelfirst.one` passed 68 checks, zero failed.
+- Vercel has no GitHub Login Connection for this project. The production deployment was performed directly; future GitHub pushes will not auto-deploy until the account connection is completed.
 
 ## Editorial release gate
 
