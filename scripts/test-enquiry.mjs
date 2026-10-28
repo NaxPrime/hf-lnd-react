@@ -67,7 +67,7 @@ function fixture(options = {}) {
       if (init.method === "GET") {
         events.push("read");
         if (options.readFails) return Response.json({ error: "private" }, { status: 500 });
-        const columns = [0, 2, 4, 18, 19];
+        const columns = [5, 4, 1, 15, 16];
         return Response.json({ valueRanges: columns.map((column) => ({ values: rows.map((row) => [row[column]]) })) });
       }
       assert.equal(init.method, "POST");
@@ -77,15 +77,17 @@ function fixture(options = {}) {
       assert.ok(url.includes("insertDataOption=INSERT_ROWS"));
       const row = JSON.parse(init.body).values[0];
       assert.equal(row.length, schema.headers.length);
-      assert.match(row[0], /^[0-9a-f]{8}-33a9-4e0a-98ca-e3136c5c058d$/);
-      assert.match(row[1], /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/);
-      assert.match(row[2], /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
-      assert.equal(row[5], "919000000000");
+      assert.equal(row[0], input.name);
+      assert.equal(row[1], input.email);
+      assert.equal(row[2], "919000000000");
+      assert.equal(row[3], input.message);
+      assert.match(row[4], /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/);
+      assert.match(row[5], /^[0-9a-f]{8}-33a9-4e0a-98ca-e3136c5c058d$/);
       if (options.appendFails) return Response.json({ error: "private" }, { status: 500 });
       if (options.unconfirmed) return Response.json({ updates: { updatedRows: 0, updatedColumns: 0 } });
       rows.push(row);
       return Response.json({ updates: { updatedRows: 1, updatedColumns: schema.headers.length,
-        updatedRange: `${schema.tab}!A${rows.length + 1}:U${rows.length + 1}` } });
+        updatedRange: `${schema.tab}!A${rows.length + 1}:R${rows.length + 1}` } });
     }
     if (url === "https://graph.facebook.com/v25.0/1234567890/events") {
       metaCalls++;

@@ -13,7 +13,7 @@ Updated: 27 October 2026 IST. This document records implementation and release c
 ## Sheet and access
 
 - Workbook: `HotelFirst Advisory | Website Enquiries`.
-- Sheet: `Enquiries`, with 21 columns defined in `src/Content/contact-sheet-schema.json`.
+- Sheet: `Enquiries`, with 18 columns defined in `src/Content/contact-sheet-schema.json`.
 - Service account: `crea99@crea-488211.iam.gserviceaccount.com` needs Editor access to this specific workbook. Do not share the credential itself with anyone.
 - The source credential is kept under `HotelFirst_Workspace/local-private/credentials/google/crea.env`. ConnectMe is read-only and remains separate.
 - Run `node scripts/setup-contact-sheet.mjs <spreadsheet-id>` to verify/reapply the sheet formatting. It refuses to overwrite a different header or workbook structure.

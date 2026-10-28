@@ -39,7 +39,7 @@ if (metadata.sheets.length !== 1 || !["Sheet1", schema.tab].includes(metadata.sh
   throw new Error("Expected one blank Sheet1/Enquiries tab; refusing to overwrite existing workbook structure");
 }
 const oldTab = metadata.sheets[0].properties.title;
-const firstRow = await api(`/values/${encodeURIComponent(`${oldTab}!A1:U1`)}`);
+const firstRow = await api(`/values/${encodeURIComponent(`${oldTab}!A1:R1`)}`);
 const existingHeader = firstRow.values?.[0] || [];
 if (existingHeader.length && JSON.stringify(existingHeader) !== JSON.stringify(schema.headers)) {
   throw new Error("Existing first row differs from HotelFirst schema; refusing to overwrite it");
@@ -55,14 +55,14 @@ const requests = [
   { updateSheetProperties: { properties: { sheetId: sheet, title: schema.tab,
     gridProperties: { frozenRowCount: 1, frozenColumnCount: 3, hideGridlines: true } },
     fields: "title,gridProperties.frozenRowCount,gridProperties.frozenColumnCount,gridProperties.hideGridlines" } },
-  { repeatCell: { range: { sheetId: sheet, startRowIndex: 0, endRowIndex: 1, startColumnIndex: 0, endColumnIndex: 21 },
+  { repeatCell: { range: { sheetId: sheet, startRowIndex: 0, endRowIndex: 1, startColumnIndex: 0, endColumnIndex: 18 },
     cell: { userEnteredFormat: { backgroundColor: charcoal, horizontalAlignment: "LEFT",
       verticalAlignment: "MIDDLE", textFormat: { foregroundColor: white, bold: true, fontSize: 10 } } },
     fields: "userEnteredFormat" } },
-  { repeatCell: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 0, endColumnIndex: 21 },
+  { repeatCell: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 0, endColumnIndex: 18 },
     cell: { userEnteredFormat: { verticalAlignment: "TOP", textFormat: { fontSize: 10 } } },
     fields: "userEnteredFormat.verticalAlignment,userEnteredFormat.textFormat.fontSize" } },
-  { repeatCell: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 7, endColumnIndex: 8 },
+  { repeatCell: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 6, endColumnIndex: 7 },
     cell: { userEnteredFormat: { backgroundColor: pale, textFormat: { foregroundColor: orange, bold: true } } },
     fields: "userEnteredFormat.backgroundColor,userEnteredFormat.textFormat" } },
   { updateDimensionProperties: { range: { sheetId: sheet, dimension: "ROWS", startIndex: 0, endIndex: 1 },
@@ -79,20 +79,20 @@ const requests = [
     properties: { pixelSize: 390 }, fields: "pixelSize" } },
   { updateDimensionProperties: { range: { sheetId: sheet, dimension: "COLUMNS", startIndex: 10, endIndex: 11 },
     properties: { pixelSize: 320 }, fields: "pixelSize" } },
-  { setBasicFilter: { filter: { range: { sheetId: sheet, startRowIndex: 0, startColumnIndex: 0, endColumnIndex: 21 } } } },
-  { setDataValidation: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 7, endColumnIndex: 8 },
+  { setBasicFilter: { filter: { range: { sheetId: sheet, startRowIndex: 0, startColumnIndex: 0, endColumnIndex: 18 } } } },
+  { setDataValidation: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 6, endColumnIndex: 7 },
     rule: { condition: { type: "ONE_OF_LIST", values: ["New", "Contacted", "Qualified", "Proposal", "Won", "Closed"].map((userEnteredValue) => ({ userEnteredValue })) },
       strict: true, showCustomUi: true } } },
 ];
 if (!metadata.sheets[0].bandedRanges?.length) {
-  requests.push({ addBanding: { bandedRange: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 0, endColumnIndex: 21 },
+  requests.push({ addBanding: { bandedRange: { range: { sheetId: sheet, startRowIndex: 1, startColumnIndex: 0, endColumnIndex: 18 },
     rowProperties: { firstBandColor: white, secondBandColor: pale } } } });
 }
 await api(":batchUpdate", "POST", { requests });
 if (!existingHeader.length) {
-  await api(`/values/${encodeURIComponent(`${schema.tab}!A1:U1`)}?valueInputOption=RAW`, "PUT", { values: [schema.headers] });
+  await api(`/values/${encodeURIComponent(`${schema.tab}!A1:R1`)}?valueInputOption=RAW`, "PUT", { values: [schema.headers] });
 }
-const verified = await api(`/values/${encodeURIComponent(`${schema.tab}!A1:U2`)}`);
+const verified = await api(`/values/${encodeURIComponent(`${schema.tab}!A1:R2`)}`);
 if (JSON.stringify(verified.values?.[0]) !== JSON.stringify(schema.headers) || verified.values?.[1]) {
   throw new Error("Post-format verification failed: header mismatch or unexpected data row");
 }

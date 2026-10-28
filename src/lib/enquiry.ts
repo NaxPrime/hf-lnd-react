@@ -169,7 +169,7 @@ function sheetUrl(env: Environment, suffix: string) {
 
 async function readExisting(send: Send, env: Environment, token: string) {
   const query = new URLSearchParams();
-  for (const range of ["A2:A", "C2:C", "E2:E", "S2:S", "T2:T"]) query.append("ranges", `${schema.tab}!${range}`);
+  for (const range of ["F2:F", "E2:E", "B2:B", "P2:P", "Q2:Q"]) query.append("ranges", `${schema.tab}!${range}`);
   query.set("valueRenderOption", "UNFORMATTED_VALUE");
   const response = await send(sheetUrl(env, `values:batchGet?${query}`), {
     method: "GET", redirect: "error", cache: "no-store", signal: AbortSignal.timeout(5000),
@@ -185,7 +185,7 @@ async function readExisting(send: Send, env: Environment, token: string) {
 }
 
 async function appendEnquiry(send: Send, env: Environment, token: string, row: string[]) {
-  const range = encodeURIComponent(`${schema.tab}!A:U`);
+  const range = encodeURIComponent(`${schema.tab}!A:R`);
   const response = await send(sheetUrl(env, `values/${range}:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`), {
     method: "POST", redirect: "error", cache: "no-store", signal: AbortSignal.timeout(8000),
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
@@ -240,18 +240,20 @@ export function createEnquiryHandler({ env, send = fetch, authorize = getGoogleA
     let ipCount = 0;
     let emailCount = 0;
     for (let index = 0; index < dates.length; index++) {
-      const created = Date.parse(dates[index]);
+      const rawDate = dates[index];
+      if (!rawDate) continue;
+      const iso = rawDate.includes("+") || rawDate.endsWith("Z") ? rawDate : rawDate.replace(" ", "T") + "+05:30";
+      const created = Date.parse(iso);
       if (!Number.isFinite(created)) continue;
       const elapsed = now.getTime() - created;
       if (elapsed >= 0 && elapsed < 15 * 60_000 && ips[index] === ipHash) ipCount++;
       if (elapsed >= 0 && elapsed < 60 * 60_000 && emails[index] === enquiry.email) emailCount++;
     }
     if (ipCount >= 5 || emailCount >= 3) return reply(429, { ok: false, code: "rate_limited" });
-    const submittedUtc = now.toISOString();
     const submittedIst = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Kolkata", year: "numeric",
       month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false }).format(now);
-    const row = [enquiry.submissionId, submittedIst, submittedUtc, enquiry.name, enquiry.email,
-      enquiry.phone, enquiry.message, "New", "", "", "", "Website contact form", enquiry.pageUrl,
+    const row = [enquiry.name, enquiry.email, enquiry.phone, enquiry.message, submittedIst,
+      enquiry.submissionId, "New", "", "Website contact form", enquiry.pageUrl,
       enquiry.referrer, enquiry.utmSource, enquiry.utmMedium, enquiry.utmCampaign,
       enquiry.advertisingConsent ? "Yes" : "No", ipHash, fingerprint,
       (request.headers.get("user-agent") || "").slice(0, 512)];
